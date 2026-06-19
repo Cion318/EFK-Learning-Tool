@@ -80,6 +80,11 @@ const BASE_URL = (() => {
   return base;
 })();
 
+// Einmalige Cache-Busting-Version für diesen Seitenaufruf.
+// Verhindert, dass der Browser veraltete JSON-Dateien aus dem HTTP-Cache
+// zurückgibt. Ändert sich nur bei einem echten Seiten-Reload.
+const APP_VERSION = Date.now();
+
 /* =====================================================================
    2. ÜBERSETZUNGEN (i18n)
    ===================================================================== */
@@ -453,10 +458,13 @@ function escHtml(str) {
  * Reihenfolge: labelDe/labelEn (je nach Sprache) → label (Fallback) → key
  */
 function chapterLabel(ch) {
+  if (!ch) return '?';
   const lang = Store.getLang();
   if (lang === 'en' && ch.labelEn) return ch.labelEn;
   if (lang === 'de' && ch.labelDe) return ch.labelDe;
-  return ch.label ?? ch.key;
+  // Fallback für alte index.json ohne labelDe/labelEn
+  if (ch.label) return ch.label;
+  return ch.key ?? '?';
 }
 
 /** Datum lesbar formatieren */
@@ -491,7 +499,7 @@ function clearEl(id) {
  */
 async function loadChapterIndex() {
   if (Store.getChapterIndex()) return Store.getChapterIndex();
-  const resp = await fetch(`${BASE_URL}chapters/index.json`);
+  const resp = await fetch(`${BASE_URL}chapters/index.json?v=${APP_VERSION}`);
   if (!resp.ok) throw new Error(Store.t('err_load_index'));
   const data = await resp.json();
   if (!Array.isArray(data.chapters)) throw new Error(Store.t('err_load_index'));
@@ -508,7 +516,7 @@ async function loadChapter(lang, key) {
   if (cached) return cached;
 
   const path = `${BASE_URL}chapters/${lang}/${key}.json`;
-  const resp = await fetch(path);
+  const resp = await fetch(`${path}?v=${APP_VERSION}`);
   if (!resp.ok) throw new Error(`${Store.t('err_load_chapter')}: ${key} (${lang})`);
 
   let data;
