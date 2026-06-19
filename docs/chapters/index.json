@@ -1,5 +1,14 @@
 {
   "chapters": [
-    { "key": "EFK01", "label": "EFK01 – Grundlagen der Elektrotechnik" }
+    {
+      "key": "EFK01",
+      "labelDe": "EFK01 – Grundlagen der Elektrotechnik",
+      "labelEn": "EFK01 – Fundamentals of Electrical Engineering"
+    },
+    {
+      "key": "EFK02",
+      "labelDe": "EFK02 – Schutzmaßnahmen und Sicherheit",
+      "labelEn": "EFK02 – Protective Measures and Safety"
+    }
   ]
 }

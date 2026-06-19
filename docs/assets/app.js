@@ -440,6 +440,17 @@ function escHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
+/**
+ * Gibt den sprachspezifischen Anzeigetext eines Kapitel-Eintrags zurück.
+ * Reihenfolge: labelDe/labelEn (je nach Sprache) → label (Fallback) → key
+ */
+function chapterLabel(ch) {
+  const lang = Store.getLang();
+  if (lang === 'en' && ch.labelEn) return ch.labelEn;
+  if (lang === 'de' && ch.labelDe) return ch.labelDe;
+  return ch.label ?? ch.key;
+}
+
 /** Datum lesbar formatieren */
 function formatDate(isoString) {
   const d = new Date(isoString);
@@ -707,7 +718,7 @@ async function renderLearnSetup() {
     index.forEach(ch => {
       const opt = document.createElement('option');
       opt.value = ch.key;
-      opt.textContent = ch.label;
+      opt.textContent = chapterLabel(ch);
       sel.appendChild(opt);
     });
   } catch (err) {
@@ -969,7 +980,7 @@ async function renderExamSetup() {
     index.forEach(ch => {
       const opt = document.createElement('option');
       opt.value = ch.key;
-      opt.textContent = ch.label;
+      opt.textContent = chapterLabel(ch);
       sel.appendChild(opt);
     });
   } catch (err) {
@@ -1377,17 +1388,17 @@ function finishExam(timedOut) {
   // Gesamtzeit
   const totalSeconds = state.elapsedSeconds;
 
-  // Kapitel-Label
+  // Kapitel-Label (sprachspezifisch über chapterLabel()-Hilfsfunktion)
   const chapterIndex = Store.getChapterIndex() ?? [];
-  const chapterLabel = state.chapterKey === '__all__'
+  const resolvedChapterLabel = state.chapterKey === '__all__'
     ? Store.t('chapter_all')
-    : (chapterIndex.find(c => c.key === state.chapterKey)?.label ?? state.chapterKey);
+    : chapterLabel(chapterIndex.find(c => c.key === state.chapterKey) ?? { key: state.chapterKey });
 
   // History-Eintrag
   Store.pushHistory({
     date:    new Date().toISOString(),
     lang:    state.lang,
-    chapter: chapterLabel,
+    chapter: resolvedChapterLabel,
     percent,
     correct,
     total,
@@ -1409,7 +1420,7 @@ function finishExam(timedOut) {
     percent,
     passed,
     totalSeconds,
-    chapterLabel,
+    chapterLabel: resolvedChapterLabel,
     timedOut,
   });
 }
