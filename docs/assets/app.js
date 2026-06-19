@@ -62,14 +62,22 @@ const LS_KEYS = {
  * 2. Pfad der aktuellen Seite (window.location)
  */
 const BASE_URL = (() => {
-  // 1. Explizites data-base Attribut aus dem <script>-Tag
-  const tag = document.querySelector('script[data-base]');
-  if (tag) return tag.dataset.base.replace(/\/?$/, '/');
-
-  // 2. Pfad der aktuellen Seite (index.html liegt in docs/)
-  //    window.location.href endet auf /repo-name/ oder /repo-name/index.html
-  const loc = window.location.href;
-  return loc.endsWith('/') ? loc : loc.replace(/\/[^/]*$/, '/');
+  // Berechnet den absoluten Basispfad zur index.html.
+  // Strategie: Pfad von window.location.href ableiten –
+  // das ist immer korrekt, egal ob GitHub Pages, Live Server oder
+  // python3 -m http.server. Der Pfad endet immer auf /docs/ (oder
+  // dem Verzeichnis, in dem index.html liegt).
+  //
+  // Beispiele:
+  //   https://user.github.io/repo/          → https://user.github.io/repo/
+  //   https://user.github.io/repo/index.html→ https://user.github.io/repo/
+  //   http://localhost:8080/                 → http://localhost:8080/
+  //   http://127.0.0.1:5500/docs/           → http://127.0.0.1:5500/docs/
+  //   http://127.0.0.1:5500/docs/index.html → http://127.0.0.1:5500/docs/
+  const loc = window.location.href.split('?')[0].split('#')[0];
+  const base = loc.endsWith('/') ? loc : loc.replace(/\/[^/]*$/, '/');
+  console.debug('[EFK] BASE_URL:', base);
+  return base;
 })();
 
 /* =====================================================================
