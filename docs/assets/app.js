@@ -49,6 +49,29 @@ const LS_KEYS = {
   HISTORY:    'efk_history',
 };
 
+/**
+ * Berechnet den Basis-URL-Pfad der App dynamisch.
+ *
+ * Warum: GitHub Pages liefert die App unter einem Subpfad aus
+ * (https://user.github.io/repo-name/). Alle JSON-Fetches müssen
+ * absolut aufgelöst werden, damit sie unter jedem Deployment-Pfad
+ * funktionieren – auch wenn index.html in docs/ liegt.
+ *
+ * Strategie (Fallback-Kette):
+ * 1. data-base Attribut auf dem <script>-Tag (explizit, zuverlässigste Methode)
+ * 2. Pfad der aktuellen Seite (window.location)
+ */
+const BASE_URL = (() => {
+  // 1. Explizites data-base Attribut aus dem <script>-Tag
+  const tag = document.querySelector('script[data-base]');
+  if (tag) return tag.dataset.base.replace(/\/?$/, '/');
+
+  // 2. Pfad der aktuellen Seite (index.html liegt in docs/)
+  //    window.location.href endet auf /repo-name/ oder /repo-name/index.html
+  const loc = window.location.href;
+  return loc.endsWith('/') ? loc : loc.replace(/\/[^/]*$/, '/');
+})();
+
 /* =====================================================================
    2. ÜBERSETZUNGEN (i18n)
    ===================================================================== */
@@ -449,7 +472,7 @@ function clearEl(id) {
  */
 async function loadChapterIndex() {
   if (Store.getChapterIndex()) return Store.getChapterIndex();
-  const resp = await fetch('./chapters/index.json');
+  const resp = await fetch(`${BASE_URL}chapters/index.json`);
   if (!resp.ok) throw new Error(Store.t('err_load_index'));
   const data = await resp.json();
   if (!Array.isArray(data.chapters)) throw new Error(Store.t('err_load_index'));
@@ -465,7 +488,7 @@ async function loadChapter(lang, key) {
   const cached = Store.getCachedChapter(lang, key);
   if (cached) return cached;
 
-  const path = `./chapters/${lang}/${key}.json`;
+  const path = `${BASE_URL}chapters/${lang}/${key}.json`;
   const resp = await fetch(path);
   if (!resp.ok) throw new Error(`${Store.t('err_load_chapter')}: ${key} (${lang})`);
 

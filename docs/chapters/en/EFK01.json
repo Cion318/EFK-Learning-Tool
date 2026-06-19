@@ -1,0 +1,2107 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Atomic Structure",
+      "question": "What are the electrons in the outermost electron shell called?",
+      "answers": {
+        "A": "Core electrons",
+        "B": "Valence electrons",
+        "C": "Free electrons",
+        "D": "Secondary electrons",
+        "E": "Neutrons"
+      },
+      "correct_answer": "B",
+      "explanation": "The electrons in the outermost shell are called valence electrons. They determine the chemical and electrical behavior of the atom."
+    },
+    {
+      "id": 2,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Atomic Structure",
+      "question": "Which particles are found in the atomic nucleus?",
+      "answers": {
+        "A": "Electrons and protons",
+        "B": "Electrons and neutrons",
+        "C": "Protons and neutrons",
+        "D": "Protons only",
+        "E": "Neutrons only"
+      },
+      "correct_answer": "C",
+      "explanation": "The atomic nucleus contains protons with positive charge and neutrons with no charge."
+    },
+    {
+      "id": 3,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electric Charge",
+      "question": "What charge do electrons carry?",
+      "answers": {
+        "A": "Positive charge",
+        "B": "No charge",
+        "C": "Alternating charge",
+        "D": "Negative charge",
+        "E": "Double positive charge"
+      },
+      "correct_answer": "D",
+      "explanation": "Electrons carry a negative charge."
+    },
+    {
+      "id": 4,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electric Charge",
+      "question": "What charge do protons carry?",
+      "answers": {
+        "A": "Negative charge",
+        "B": "Positive charge",
+        "C": "No charge",
+        "D": "Alternating charge",
+        "E": "Double negative charge"
+      },
+      "correct_answer": "B",
+      "explanation": "Protons in the atomic nucleus carry a positive charge."
+    },
+    {
+      "id": 5,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electric Charge",
+      "question": "How do like electric charges interact with each other?",
+      "answers": {
+        "A": "They attract each other",
+        "B": "They always neutralize each other",
+        "C": "They repel each other",
+        "D": "They form magnetic fields",
+        "E": "They become ions"
+      },
+      "correct_answer": "C",
+      "explanation": "Like charges repel each other; unlike charges attract each other."
+    },
+    {
+      "id": 6,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ions",
+      "question": "When is an atom electrically neutral?",
+      "answers": {
+        "A": "When it has more electrons than protons",
+        "B": "When it contains no neutrons",
+        "C": "When the number of electrons equals the number of protons",
+        "D": "When only valence electrons are present",
+        "E": "When the outer shell is empty"
+      },
+      "correct_answer": "C",
+      "explanation": "An atom is electrically neutral when the number of electrons and protons are equal."
+    },
+    {
+      "id": 7,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ions",
+      "question": "What characterizes a positive ion?",
+      "answers": {
+        "A": "Excess of electrons",
+        "B": "Deficiency of electrons",
+        "C": "Deficiency of neutrons",
+        "D": "Deficiency of protons",
+        "E": "No valence electrons"
+      },
+      "correct_answer": "B",
+      "explanation": "A positive ion has a deficiency of electrons and is therefore positively charged."
+    },
+    {
+      "id": 8,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ions",
+      "question": "What characterizes a negative ion?",
+      "answers": {
+        "A": "Excess of electrons",
+        "B": "Deficiency of electrons",
+        "C": "Excess of protons",
+        "D": "No charge",
+        "E": "Only bound electrons"
+      },
+      "correct_answer": "A",
+      "explanation": "A negative ion has an excess of electrons."
+    },
+    {
+      "id": 9,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elementary Charge",
+      "question": "What is the magnitude of the elementary charge of an electron?",
+      "answers": {
+        "A": "1.602 · 10^-19 As",
+        "B": "1.602 · 10^19 As",
+        "C": "0.1602 As",
+        "D": "6.24 · 10^18 As",
+        "E": "1 C"
+      },
+      "correct_answer": "A",
+      "explanation": "The elementary charge is 1.602 · 10^-19 As."
+    },
+    {
+      "id": 10,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electric Current",
+      "question": "What is electric current?",
+      "answers": {
+        "A": "The storage of electrical energy",
+        "B": "The directed movement of charge carriers",
+        "C": "The difference between potentials",
+        "D": "The inhibition of electrons",
+        "E": "The magnetization of a conductor"
+      },
+      "correct_answer": "B",
+      "explanation": "Electric current is the directed movement of charge carriers."
+    },
+    {
+      "id": 11,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Types of Conductors",
+      "question": "Which material is an electronic conductor according to the reference material?",
+      "answers": {
+        "A": "Plastic",
+        "B": "Porcelain",
+        "C": "Copper",
+        "D": "Pure water",
+        "E": "Air"
+      },
+      "correct_answer": "C",
+      "explanation": "Copper is an electronic conductor because it has many freely mobile electrons."
+    },
+    {
+      "id": 12,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Types of Conductors",
+      "question": "Which material is an insulator (non-conductor) according to the reference material?",
+      "answers": {
+        "A": "Aluminium",
+        "B": "Silver",
+        "C": "Carbon",
+        "D": "Glass",
+        "E": "Copper"
+      },
+      "correct_answer": "D",
+      "explanation": "Glass is an insulator and has only a few bound charge carriers."
+    },
+    {
+      "id": 13,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Semiconductors",
+      "question": "Which material is referred to as a semiconductor?",
+      "answers": {
+        "A": "Silicon",
+        "B": "Gold",
+        "C": "Iron",
+        "D": "Porcelain",
+        "E": "Oil"
+      },
+      "correct_answer": "A",
+      "explanation": "Silicon is a typical example of a semiconductor."
+    },
+    {
+      "id": 14,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electric Circuit",
+      "question": "What condition must be met for current to flow?",
+      "answers": {
+        "A": "The conductor must be warm",
+        "B": "The circuit must be closed",
+        "C": "Alternating current must be present",
+        "D": "The load must be made of copper",
+        "E": "There must be no resistance"
+      },
+      "correct_answer": "B",
+      "explanation": "Electric current can only flow in a closed circuit."
+    },
+    {
+      "id": 15,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electric Circuit",
+      "question": "Which component belongs to a simple electric circuit?",
+      "answers": {
+        "A": "Transformer",
+        "B": "Voltage source",
+        "C": "Generator field",
+        "D": "Wheatstone bridge",
+        "E": "Capacitor plate"
+      },
+      "correct_answer": "B",
+      "explanation": "A simple electric circuit consists of a voltage source, a load, and a forward and return conductor."
+    },
+    {
+      "id": 16,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Current Direction",
+      "question": "In which direction does the conventional current flow?",
+      "answers": {
+        "A": "From the negative to the positive terminal",
+        "B": "From the positive to the negative terminal",
+        "C": "Always toward ground",
+        "D": "From the load to the source",
+        "E": "It is not defined"
+      },
+      "correct_answer": "B",
+      "explanation": "The conventional current direction flows from the positive terminal to the negative terminal."
+    },
+    {
+      "id": 17,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Current Direction",
+      "question": "In which direction does the electron flow travel?",
+      "answers": {
+        "A": "From the positive to the negative terminal",
+        "B": "From higher to lower potential",
+        "C": "From the negative to the positive terminal",
+        "D": "Always in the direction of the voltage arrow",
+        "E": "It alternates periodically"
+      },
+      "correct_answer": "C",
+      "explanation": "Electrons move from the negative terminal through the load to the positive terminal."
+    },
+    {
+      "id": 18,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Current Intensity",
+      "question": "What is the symbol for current intensity?",
+      "answers": {
+        "A": "Q",
+        "B": "U",
+        "C": "R",
+        "D": "I",
+        "E": "J"
+      },
+      "correct_answer": "D",
+      "explanation": "The symbol for current intensity is I."
+    },
+    {
+      "id": 19,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Current Intensity",
+      "question": "What is the unit of current intensity?",
+      "answers": {
+        "A": "Volt",
+        "B": "Ohm",
+        "C": "Ampere",
+        "D": "Siemens",
+        "E": "Coulomb"
+      },
+      "correct_answer": "C",
+      "explanation": "The unit of current intensity is the ampere, with the unit symbol A."
+    },
+    {
+      "id": 20,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electric Charge (Quantity)",
+      "question": "What is the symbol for electric charge?",
+      "answers": {
+        "A": "I",
+        "B": "Q",
+        "C": "U",
+        "D": "G",
+        "E": "φ"
+      },
+      "correct_answer": "B",
+      "explanation": "Electric charge is denoted by the symbol Q."
+    },
+    {
+      "id": 21,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electric Charge (Quantity)",
+      "question": "What is the unit of electric charge?",
+      "answers": {
+        "A": "Coulomb",
+        "B": "Volt",
+        "C": "Ohm",
+        "D": "Ampere",
+        "E": "Kelvin"
+      },
+      "correct_answer": "A",
+      "explanation": "The unit of electric charge is the coulomb, equivalent to the ampere-second."
+    },
+    {
+      "id": 22,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Current Density",
+      "question": "What is the symbol for current density?",
+      "answers": {
+        "A": "A",
+        "B": "R",
+        "C": "J",
+        "D": "G",
+        "E": "e"
+      },
+      "correct_answer": "C",
+      "explanation": "Current density is denoted by the symbol J."
+    },
+    {
+      "id": 23,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Current Density",
+      "question": "What is the unit of current density?",
+      "answers": {
+        "A": "A/m",
+        "B": "A/mm²",
+        "C": "Ω/mm²",
+        "D": "V/mm²",
+        "E": "C/mm²"
+      },
+      "correct_answer": "B",
+      "explanation": "Current density is the ratio of current to cross-sectional area and has the unit A/mm²."
+    },
+    {
+      "id": 24,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Types of Current",
+      "question": "Which type of current has a constant direction and constant magnitude?",
+      "answers": {
+        "A": "Alternating current",
+        "B": "Mixed current",
+        "C": "Pulsating direct current",
+        "D": "Direct current",
+        "E": "Reactive current"
+      },
+      "correct_answer": "D",
+      "explanation": "Direct current has a constant direction and a constant magnitude."
+    },
+    {
+      "id": 25,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Types of Current",
+      "question": "Which symbol is used for alternating current?",
+      "answers": {
+        "A": "—",
+        "B": "=",
+        "C": "~",
+        "D": "+",
+        "E": "<>"
+      },
+      "correct_answer": "C",
+      "explanation": "Alternating current is represented by the symbol ~ in the reference material."
+    },
+    {
+      "id": 26,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Effects of Electric Current",
+      "question": "Which effect of electric current is used in electric heaters?",
+      "answers": {
+        "A": "Luminous effect",
+        "B": "Chemical effect",
+        "C": "Magnetic effect",
+        "D": "Thermal effect",
+        "E": "Capacitive effect"
+      },
+      "correct_answer": "D",
+      "explanation": "Electric heaters make use of the thermal effect of electric current."
+    },
+    {
+      "id": 27,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Voltage",
+      "question": "What is the symbol for electric voltage?",
+      "answers": {
+        "A": "I",
+        "B": "R",
+        "C": "U",
+        "D": "Q",
+        "E": "γ"
+      },
+      "correct_answer": "C",
+      "explanation": "Electric voltage is denoted by the symbol U."
+    },
+    {
+      "id": 28,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Voltage",
+      "question": "What is the unit of electric voltage?",
+      "answers": {
+        "A": "Ampere",
+        "B": "Volt",
+        "C": "Coulomb",
+        "D": "Siemens",
+        "E": "Ohm"
+      },
+      "correct_answer": "B",
+      "explanation": "The unit of electric voltage is the volt, with the unit symbol V."
+    },
+    {
+      "id": 29,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electric Potential",
+      "question": "Which symbol is used for electric potential?",
+      "answers": {
+        "A": "ρ",
+        "B": "α",
+        "C": "φ",
+        "D": "γ",
+        "E": "J"
+      },
+      "correct_answer": "C",
+      "explanation": "The symbol φ is used for electric potential."
+    },
+    {
+      "id": 30,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Resistance",
+      "question": "What is the unit of electrical resistance?",
+      "answers": {
+        "A": "Volt",
+        "B": "Ampere",
+        "C": "Siemens",
+        "D": "Ohm",
+        "E": "Coulomb"
+      },
+      "correct_answer": "D",
+      "explanation": "Electrical resistance has the unit ohm, with the symbol Ω."
+    },
+    {
+      "id": 31,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Atomic Structure",
+      "question": "Why are valence electrons particularly important for the electrical behavior of an atom?",
+      "answers": {
+        "A": "Because they are located in the atomic nucleus",
+        "B": "Because they are the easiest to influence",
+        "C": "Because they carry no charge",
+        "D": "Because they always float freely in a vacuum",
+        "E": "Because they only occur in insulators"
+      },
+      "correct_answer": "B",
+      "explanation": "Valence electrons are located in the outermost shell and are the easiest to influence."
+    },
+    {
+      "id": 32,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Ions",
+      "question": "Which statement about a positive ion is correct?",
+      "answers": {
+        "A": "It has an excess of electrons",
+        "B": "It is always electrically neutral",
+        "C": "It has an electron deficiency and attracts negative charges",
+        "D": "It contains no protons",
+        "E": "It is an insulator"
+      },
+      "correct_answer": "C",
+      "explanation": "A positive ion is formed by an electron deficiency and therefore attracts negative charges."
+    },
+    {
+      "id": 33,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Types of Conductors",
+      "question": "What characterizes an electronic conductor?",
+      "answers": {
+        "A": "Few bound charge carriers",
+        "B": "Many freely mobile electrons",
+        "C": "Ion movement exclusively",
+        "D": "Complete absence of current",
+        "E": "Temperature-independent conductivity"
+      },
+      "correct_answer": "B",
+      "explanation": "Electronic conductors have many freely mobile electrons in their crystal lattice."
+    },
+    {
+      "id": 34,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Types of Conductors",
+      "question": "Which statement correctly describes ionic conductors?",
+      "answers": {
+        "A": "They only conduct in a vacuum",
+        "B": "They consist only of metals",
+        "C": "No material change occurs in them",
+        "D": "Conductive liquids, melts, or ionized gases can be ionic conductors",
+        "E": "They only have valence electrons"
+      },
+      "correct_answer": "D",
+      "explanation": "Ionic conductors are conductive liquids, melts, or ionized gases; a material change may occur during the process."
+    },
+    {
+      "id": 35,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Semiconductors",
+      "question": "What influences the conductivity of a semiconductor according to the reference material?",
+      "answers": {
+        "A": "Pressure only",
+        "B": "Chemical reactions only",
+        "C": "External influences such as heat, light, or magnetic field",
+        "D": "Current density only",
+        "E": "Length exclusively"
+      },
+      "correct_answer": "C",
+      "explanation": "Semiconductors are influenced in their conductivity by external factors such as heat, light, or a magnetic field."
+    },
+    {
+      "id": 36,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electric Circuit",
+      "question": "Which combination belongs to a simple electric circuit?",
+      "answers": {
+        "A": "Voltage source, load, connecting conductor",
+        "B": "Generator field, transformer, fuse",
+        "C": "Resistor, magnet, ground",
+        "D": "Source, capacitor, semiconductor",
+        "E": "Voltmeter, ammeter, motor"
+      },
+      "correct_answer": "A",
+      "explanation": "A simple electric circuit consists of a voltage source, a load, and a forward and return conductor."
+    },
+    {
+      "id": 37,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Current Direction",
+      "question": "In what way does the conventional current direction differ from the electron flow direction?",
+      "answers": {
+        "A": "They are always identical",
+        "B": "It runs opposite to the electron flow direction",
+        "C": "It only applies to alternating current",
+        "D": "It only exists in semiconductors",
+        "E": "It is only defined for insulators"
+      },
+      "correct_answer": "B",
+      "explanation": "The conventional current flows from the positive to the negative terminal, which is opposite to the movement of electrons."
+    },
+    {
+      "id": 38,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Current Intensity",
+      "question": "Which statement correctly describes 1 ampere?",
+      "answers": {
+        "A": "1 A equals 1 volt per ohm",
+        "B": "1 A is the charge of one electron",
+        "C": "1 A is present when 6.24 · 10^18 electrons pass through a cross-section per second",
+        "D": "1 A equals 1000 coulombs",
+        "E": "1 A is a unit of voltage"
+      },
+      "correct_answer": "C",
+      "explanation": "1 A is defined as 6.24 · 10^18 electrons passing through a conductor cross-section per second."
+    },
+    {
+      "id": 39,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Current Intensity",
+      "question": "Which formula describes current intensity?",
+      "answers": {
+        "A": "I = U · R",
+        "B": "I = Q / t",
+        "C": "I = A / Q",
+        "D": "I = ρ · l",
+        "E": "I = 1 / G"
+      },
+      "correct_answer": "B",
+      "explanation": "Current intensity is the charge per unit time: I = Q / t."
+    },
+    {
+      "id": 40,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electric Charge (Quantity)",
+      "question": "Which statement about electric charge is correct?",
+      "answers": {
+        "A": "1 C equals 1 V",
+        "B": "Q is measured in ohms",
+        "C": "1 C corresponds to 6.24 · 10^18 elementary charges",
+        "D": "Q is independent of time",
+        "E": "Q is equal to conductance"
+      },
+      "correct_answer": "C",
+      "explanation": "A charge of 1 coulomb corresponds to 6.24 · 10^18 elementary charges."
+    },
+    {
+      "id": 41,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Current Density",
+      "question": "How is current density defined?",
+      "answers": {
+        "A": "As the ratio of voltage to resistance",
+        "B": "As the product of current and cross-sectional area",
+        "C": "As the ratio of current to conductor cross-sectional area",
+        "D": "As the quotient of resistance and conductance",
+        "E": "As charge per resistance"
+      },
+      "correct_answer": "C",
+      "explanation": "Current density is the ratio of current to conductor cross-sectional area: J = I / A."
+    },
+    {
+      "id": 42,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Current Density",
+      "question": "What is the consequence of higher current density?",
+      "answers": {
+        "A": "Fewer collisions and less heating",
+        "B": "More collisions of electrons with atomic ions and greater heating",
+        "C": "Always lower voltage",
+        "D": "Complete cancellation of resistance",
+        "E": "No effect on the conductor"
+      },
+      "correct_answer": "B",
+      "explanation": "With increasing current density, collisions increase, causing the conductor to heat up more."
+    },
+    {
+      "id": 43,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Types of Current",
+      "question": "Which statement correctly describes alternating current?",
+      "answers": {
+        "A": "Its direction remains constant",
+        "B": "It consists only of a DC component",
+        "C": "Its direction and magnitude change periodically",
+        "D": "It only occurs in batteries",
+        "E": "It has no symbol"
+      },
+      "correct_answer": "C",
+      "explanation": "Alternating current periodically changes its direction and usually its magnitude as well."
+    },
+    {
+      "id": 44,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Types of Current",
+      "question": "What is pulsating direct current?",
+      "answers": {
+        "A": "A form of alternating current with direction reversal",
+        "B": "A special form of mixed current with constant direction and varying magnitude",
+        "C": "A completely constant direct current",
+        "D": "A current without charge carriers",
+        "E": "A purely magnetic current"
+      },
+      "correct_answer": "B",
+      "explanation": "Pulsating direct current is a special form of mixed current: the direction remains constant but the magnitude varies."
+    },
+    {
+      "id": 45,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Effects of Electric Current",
+      "question": "Which assignment of current effect to application is correct?",
+      "answers": {
+        "A": "Magnetic effect – electroplating",
+        "B": "Chemical effect – electric motors",
+        "C": "Luminous effect – LEDs",
+        "D": "Thermal effect – loudspeakers",
+        "E": "Chemical effect – electric iron"
+      },
+      "correct_answer": "C",
+      "explanation": "LEDs are an example of the luminous effect of electric current."
+    },
+    {
+      "id": 46,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Voltage",
+      "question": "How is electric voltage defined in the reference material?",
+      "answers": {
+        "A": "As the product of current and resistance",
+        "B": "As the difference in electron population between two points",
+        "C": "As the inhibition of electron movement",
+        "D": "As charge per unit time",
+        "E": "As resistance per metre"
+      },
+      "correct_answer": "B",
+      "explanation": "Voltage is the difference in electron population between two points."
+    },
+    {
+      "id": 47,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Voltage",
+      "question": "Which statement about the negative and positive terminal is correct?",
+      "answers": {
+        "A": "The negative terminal has an electron deficiency",
+        "B": "The positive terminal has an excess of electrons",
+        "C": "The negative terminal has an excess of electrons; the positive terminal has an electron deficiency",
+        "D": "Both terminals always have equal electron populations",
+        "E": "Only alternating current has a negative terminal"
+      },
+      "correct_answer": "C",
+      "explanation": "The negative terminal has an excess of electrons; the positive terminal has an electron deficiency."
+    },
+    {
+      "id": 48,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Voltage",
+      "question": "How does source voltage differ from voltage drop?",
+      "answers": {
+        "A": "Source voltage is always smaller",
+        "B": "Source voltage is generated in the source; voltage drop occurs across loads",
+        "C": "Voltage drop only exists in alternating current",
+        "D": "Source voltage has no symbol",
+        "E": "There is no difference"
+      },
+      "correct_answer": "B",
+      "explanation": "Source voltage Uq is generated in the voltage source, while voltage drops across loads."
+    },
+    {
+      "id": 49,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electric Potential",
+      "question": "What is electric potential?",
+      "answers": {
+        "A": "The current intensity at a point",
+        "B": "The resistance between two conductors",
+        "C": "The voltage between a point and a fixed reference point",
+        "D": "The charge of an electron",
+        "E": "The conductance of a material"
+      },
+      "correct_answer": "C",
+      "explanation": "Potential is the voltage between a point and a fixed reference point such as ground or earth."
+    },
+    {
+      "id": 50,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electric Potential",
+      "question": "Which statement about potentials is correct?",
+      "answers": {
+        "A": "Potentials have no unit",
+        "B": "Potentials always have the sign 0",
+        "C": "Potentials always have a sign (polarity)",
+        "D": "Potentials can only be positive",
+        "E": "Potentials are measured in amperes"
+      },
+      "correct_answer": "C",
+      "explanation": "Potentials can be positive or negative and therefore always carry a sign."
+    },
+    {
+      "id": 51,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Voltage Direction",
+      "question": "In which direction does the voltage arrow generally point?",
+      "answers": {
+        "A": "From lower to higher potential",
+        "B": "From higher to lower potential",
+        "C": "Always toward the negative terminal",
+        "D": "Always opposite to the voltage drop",
+        "E": "Only in the direction of electron flow"
+      },
+      "correct_answer": "B",
+      "explanation": "The voltage arrow points from higher to lower potential."
+    },
+    {
+      "id": 52,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Resistance",
+      "question": "What is meant by electrical resistance?",
+      "answers": {
+        "A": "The generation of charge carriers",
+        "B": "The opposition to charge carrier movement caused by collisions with atomic ions",
+        "C": "The difference between two potentials",
+        "D": "Conduction through ionized gases",
+        "E": "Charge per unit time"
+      },
+      "correct_answer": "B",
+      "explanation": "Resistance is the opposition to charge carrier movement caused by collisions with atomic ions."
+    },
+    {
+      "id": 53,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Resistance",
+      "question": "When does a conductor have a resistance of 1 Ω?",
+      "answers": {
+        "A": "When a voltage of 1 V is applied at 1 A",
+        "B": "When a charge of 1 C flows at 1 V",
+        "C": "When a current of 1 A flows at 1 V",
+        "D": "When a current of 1 V is produced at 1 Ω",
+        "E": "When its length is 1 m"
+      },
+      "correct_answer": "C",
+      "explanation": "1 Ω means: a current of 1 A flows when a voltage of 1 V is applied."
+    },
+    {
+      "id": 54,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Resistivity",
+      "question": "What is the unit of resistivity ρ?",
+      "answers": {
+        "A": "Ω/m",
+        "B": "Ω·mm²/m",
+        "C": "S/m",
+        "D": "A/mm²",
+        "E": "V·m"
+      },
+      "correct_answer": "B",
+      "explanation": "Resistivity ρ is given in Ω·mm²/m."
+    },
+    {
+      "id": 55,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Resistivity",
+      "question": "Under which standard conditions is resistivity defined?",
+      "answers": {
+        "A": "10 m length, 10 mm² cross-section, 0 °C",
+        "B": "1 m length, 1 mm² cross-section, 20 °C",
+        "C": "1 m length, 1 cm² cross-section, 25 °C",
+        "D": "100 m length, 1 mm² cross-section, 20 °C",
+        "E": "1 m length, 10 mm² cross-section, 100 °C"
+      },
+      "correct_answer": "B",
+      "explanation": "Resistivity refers to a conductor of 1 m length, 1 mm² cross-section, at 20 °C."
+    },
+    {
+      "id": 56,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Conductance",
+      "question": "Which formula describes conductance G?",
+      "answers": {
+        "A": "G = R · I",
+        "B": "G = 1 / R",
+        "C": "G = ρ / l",
+        "D": "G = U / I",
+        "E": "G = γ · R"
+      },
+      "correct_answer": "B",
+      "explanation": "Conductance is the reciprocal of resistance: G = 1 / R."
+    },
+    {
+      "id": 57,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Conductivity",
+      "question": "What is the relationship between conductivity γ and resistivity ρ?",
+      "answers": {
+        "A": "γ = ρ",
+        "B": "γ = R / ρ",
+        "C": "γ = 1 / ρ",
+        "D": "γ = ρ / A",
+        "E": "γ = U / ρ"
+      },
+      "correct_answer": "C",
+      "explanation": "Conductivity γ is the reciprocal of resistivity ρ."
+    },
+    {
+      "id": 58,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Temperature Dependence",
+      "question": "How does the resistance of a PTC (positive temperature coefficient) thermistor behave when heated?",
+      "answers": {
+        "A": "It decreases",
+        "B": "It always stays the same",
+        "C": "It increases",
+        "D": "It becomes negative",
+        "E": "It converts to conductance"
+      },
+      "correct_answer": "C",
+      "explanation": "In a PTC thermistor, resistance increases with increasing temperature."
+    },
+    {
+      "id": 59,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Temperature Dependence",
+      "question": "How does the resistance of an NTC (negative temperature coefficient) thermistor behave when heated?",
+      "answers": {
+        "A": "It increases",
+        "B": "It decreases",
+        "C": "It stays constant",
+        "D": "It becomes zero",
+        "E": "It alternates periodically"
+      },
+      "correct_answer": "B",
+      "explanation": "In an NTC thermistor, resistance decreases with increasing temperature."
+    },
+    {
+      "id": 60,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Color Code",
+      "question": "What tolerance does the color gold represent in the resistor color code?",
+      "answers": {
+        "A": "±1 %",
+        "B": "±2 %",
+        "C": "±5 %",
+        "D": "±10 %",
+        "E": "±20 %"
+      },
+      "correct_answer": "C",
+      "explanation": "A gold tolerance band represents ±5 %."
+    },
+    {
+      "id": 61,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Current Direction",
+      "question": "Which statement is correct for a metallic conductor?",
+      "answers": {
+        "A": "Electron flow and conventional current flow in the same direction",
+        "B": "Conventional current direction is historically defined and runs opposite to electron movement",
+        "C": "Electrons move from the positive to the negative terminal",
+        "D": "Conventional current direction only applies to alternating current",
+        "E": "In metals there is no directed movement of charge carriers"
+      },
+      "correct_answer": "B",
+      "explanation": "In metals, electrons move from the negative to the positive terminal, while the conventional current direction is defined as the opposite by convention."
+    },
+    {
+      "id": 62,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Types of Conductors",
+      "question": "Why is pure water classified as an insulator in the reference material, even though it is a liquid?",
+      "answers": {
+        "A": "Because all liquids are electronic conductors",
+        "B": "Because insulators have few bound charge carriers, and pure water fulfils this property",
+        "C": "Because pure water consists of metals",
+        "D": "Because water is always a semiconductor",
+        "E": "Because liquids fundamentally have no resistance"
+      },
+      "correct_answer": "B",
+      "explanation": "Insulators have only a few bound charge carriers; pure water is therefore classified as an insulator in the reference material."
+    },
+    {
+      "id": 63,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Types of Conductors",
+      "question": "Which combination contains exclusively materials referred to as semiconductors?",
+      "answers": {
+        "A": "Silicon, germanium, selenium",
+        "B": "Copper, aluminium, silver",
+        "C": "Glass, porcelain, rubber",
+        "D": "Carbon, gold, iron",
+        "E": "Oil, air, vacuum"
+      },
+      "correct_answer": "A",
+      "explanation": "Silicon, germanium, and selenium are listed as semiconductors in the reference material."
+    },
+    {
+      "id": 64,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Current Density",
+      "question": "Why does a conductor heat up more at high current density?",
+      "answers": {
+        "A": "Because its potential automatically drops",
+        "B": "Because fewer charge carriers are present",
+        "C": "Because more collisions between electrons and atomic ions occur",
+        "D": "Because the conductor becomes a semiconductor",
+        "E": "Because the conductance always becomes zero"
+      },
+      "correct_answer": "C",
+      "explanation": "High current density means more collisions between electrons and atomic ions, resulting in greater heating."
+    },
+    {
+      "id": 65,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Types of Current",
+      "question": "Which statement correctly distinguishes mixed current from pulsating direct current?",
+      "answers": {
+        "A": "Both terms mean the same thing without any difference",
+        "B": "Pulsating direct current is a special form of mixed current with a constant direction",
+        "C": "Mixed current always has a constant magnitude",
+        "D": "Pulsating direct current regularly reverses direction",
+        "E": "Mixed current only occurs in induction furnaces"
+      },
+      "correct_answer": "B",
+      "explanation": "Pulsating direct current is a special form of mixed current; its direction remains constant while its magnitude changes."
+    },
+    {
+      "id": 66,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Effects of Electric Current",
+      "question": "Which application belongs to the chemical effect of electric current?",
+      "answers": {
+        "A": "Soldering iron",
+        "B": "LED",
+        "C": "Solenoid",
+        "D": "Electroplating",
+        "E": "Loudspeaker"
+      },
+      "correct_answer": "D",
+      "explanation": "Electroplating makes use of the chemical effect of electric current."
+    },
+    {
+      "id": 67,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Electric Potential",
+      "question": "Two points have potentials φ1 = +4 V and φ2 = −6 V. What voltage results from U = φ1 − φ2?",
+      "answers": {
+        "A": "−10 V",
+        "B": "+2 V",
+        "C": "+10 V",
+        "D": "−2 V",
+        "E": "0 V"
+      },
+      "correct_answer": "C",
+      "explanation": "U = φ1 − φ2 = 4 V − (−6 V) = 10 V."
+    },
+    {
+      "id": 68,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Voltage Direction",
+      "question": "Which general statement about voltage arrows is correct?",
+      "answers": {
+        "A": "For voltage sources, the voltage arrow points from the negative to the positive terminal",
+        "B": "For voltage drops, the voltage arrow always points opposite to the conventional current direction",
+        "C": "Voltage arrows always point from higher to lower potential",
+        "D": "Voltage arrows may only be used with alternating current",
+        "E": "Potentials do not require signs if a voltage arrow is present"
+      },
+      "correct_answer": "C",
+      "explanation": "In general, the voltage arrow points from higher to lower potential."
+    },
+    {
+      "id": 69,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Voltage Direction",
+      "question": "Which statement about source voltage arrows and voltage drop arrows is correct?",
+      "answers": {
+        "A": "Both arrows always point in the direction of electron flow",
+        "B": "Source voltage arrows point from the positive to the negative terminal; voltage drop arrows point in the direction of conventional current",
+        "C": "Voltage drops have no arrow",
+        "D": "Source voltage and voltage drop are always denoted by Uq",
+        "E": "Only voltage drops have a sign"
+      },
+      "correct_answer": "B",
+      "explanation": "Source voltage arrows point from the positive to the negative terminal; voltage drop arrows are drawn in the direction of conventional current."
+    },
+    {
+      "id": 70,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Resistivity",
+      "question": "Which material has the lowest resistivity according to the table?",
+      "answers": {
+        "A": "Aluminium",
+        "B": "Copper",
+        "C": "Silver",
+        "D": "Constantan",
+        "E": "Iron"
+      },
+      "correct_answer": "C",
+      "explanation": "Silver has the lowest listed resistivity at 0.016 Ω·mm²/m."
+    },
+    {
+      "id": 71,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Conductivity",
+      "question": "Which material has the highest conductivity according to the table?",
+      "answers": {
+        "A": "Aluminium",
+        "B": "Copper",
+        "C": "Silver",
+        "D": "Carbon",
+        "E": "Germanium"
+      },
+      "correct_answer": "C",
+      "explanation": "Silver has the highest listed conductivity at 62.5 m/(Ω·mm²)."
+    },
+    {
+      "id": 72,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Conductance",
+      "question": "Which statement correctly links resistance, conductance, and conductivity?",
+      "answers": {
+        "A": "A higher resistance means higher conductance",
+        "B": "Conductance and resistance are reciprocals; conductivity and resistivity are also reciprocals",
+        "C": "Conductivity is the same as current density",
+        "D": "Conductance is measured in ohms",
+        "E": "Conductivity never depends on the material"
+      },
+      "correct_answer": "B",
+      "explanation": "G = 1/R and γ = 1/ρ. Both pairs of quantities are in a reciprocal relationship."
+    },
+    {
+      "id": 73,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Temperature Dependence",
+      "question": "Which material is described as a nearly temperature-neutral resistive material?",
+      "answers": {
+        "A": "Copper",
+        "B": "Aluminium",
+        "C": "Carbon",
+        "D": "Constantan",
+        "E": "Silicon"
+      },
+      "correct_answer": "D",
+      "explanation": "Constantan is described as nearly temperature-neutral."
+    },
+    {
+      "id": 74,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Temperature Dependence",
+      "question": "Which combination is completely correct?",
+      "answers": {
+        "A": "PTC: T↑ → R↓; NTC: T↑ → R↑",
+        "B": "PTC: T↑ → R↑; NTC: T↑ → R↓",
+        "C": "PTC and NTC: both R constant",
+        "D": "PTC: voltage-dependent; NTC: light-dependent",
+        "E": "PTC and NTC only apply at 20 °C"
+      },
+      "correct_answer": "B",
+      "explanation": "For a PTC, resistance increases with temperature; for an NTC, it decreases."
+    },
+    {
+      "id": 75,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Temperature Dependence",
+      "question": "Which statement about the temperature coefficient α is correct?",
+      "answers": {
+        "A": "It has the unit Ω",
+        "B": "It indicates the change in voltage per kelvin",
+        "C": "It describes the change in resistance per kelvin for 1 Ω",
+        "D": "It only applies to semiconductors",
+        "E": "It is identical to current density"
+      },
+      "correct_answer": "C",
+      "explanation": "The temperature coefficient α indicates how much a resistance changes per kelvin, referenced to 1 Ω."
+    },
+    {
+      "id": 76,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Temperature Dependence",
+      "question": "Over what temperature range are the linear resistance formulas valid according to the reference material?",
+      "answers": {
+        "A": "0 °C to 100 °C",
+        "B": "−30 °C to +200 °C",
+        "C": "−100 °C to +100 °C",
+        "D": "20 °C to 80 °C",
+        "E": "Only exactly at 20 °C"
+      },
+      "correct_answer": "B",
+      "explanation": "The stated formulas for temperature dependence are valid in the range −30 °C to +200 °C."
+    },
+    {
+      "id": 77,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Technical Resistors",
+      "question": "Which group belongs to mechanically adjustable resistors?",
+      "answers": {
+        "A": "Wire-wound resistors, film resistors, chip resistors",
+        "B": "NTC, PTC, VDR",
+        "C": "Potentiometer, variable resistor, trimmer",
+        "D": "Copper, silver, aluminium",
+        "E": "Conductor, insulator, semiconductor"
+      },
+      "correct_answer": "C",
+      "explanation": "Potentiometers, variable resistors, and trimmers are mechanically adjustable resistors."
+    },
+    {
+      "id": 78,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Technical Resistors",
+      "question": "Which assignment of resistor type to dependency is correct?",
+      "answers": {
+        "A": "LDR – magnetic field dependent",
+        "B": "MDR – light dependent",
+        "C": "VDR – voltage dependent",
+        "D": "DMS – temperature dependent",
+        "E": "PTC – pressure dependent"
+      },
+      "correct_answer": "C",
+      "explanation": "VDR stands for Voltage Dependent Resistor and is voltage dependent."
+    },
+    {
+      "id": 79,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Preferred Value Series",
+      "question": "What does the number in an IEC preferred value series such as E12 or E96 indicate?",
+      "answers": {
+        "A": "The maximum power rating in watts",
+        "B": "The number of color bands",
+        "C": "The number of values per decade",
+        "D": "The tolerance in percent",
+        "E": "The number of component terminals"
+      },
+      "correct_answer": "C",
+      "explanation": "The number in the E-series indicates how many resistor values are provided per decade."
+    },
+    {
+      "id": 80,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Color Code",
+      "question": "Which color provides a multiplier factor of 10^-1?",
+      "answers": {
+        "A": "Black",
+        "B": "Brown",
+        "C": "Gold",
+        "D": "Silver",
+        "E": "White"
+      },
+      "correct_answer": "C",
+      "explanation": "Gold represents a multiplier of 10^-1 in the color code."
+    },
+    {
+      "id": 81,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Color Code",
+      "question": "Which color represents the digit 7 in the resistor color code?",
+      "answers": {
+        "A": "Grey",
+        "B": "Violet",
+        "C": "Blue",
+        "D": "Green",
+        "E": "Red"
+      },
+      "correct_answer": "B",
+      "explanation": "Violet corresponds to the digit 7."
+    },
+    {
+      "id": 82,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Color Code",
+      "question": "What tolerance applies when no tolerance band is present?",
+      "answers": {
+        "A": "±0.5 %",
+        "B": "±1 %",
+        "C": "±5 %",
+        "D": "±10 %",
+        "E": "±20 %"
+      },
+      "correct_answer": "E",
+      "explanation": "Without a tolerance band, the color code implies a tolerance of ±20 %."
+    },
+    {
+      "id": 83,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Alphanumeric Marking",
+      "question": "How is the marking 4K7 to be interpreted?",
+      "answers": {
+        "A": "4.7 Ω",
+        "B": "47 Ω",
+        "C": "4.7 kΩ",
+        "D": "47 kΩ",
+        "E": "4.7 MΩ"
+      },
+      "correct_answer": "C",
+      "explanation": "In 4K7, the letter K replaces the decimal point and also stands for kilohm: 4.7 kΩ."
+    },
+    {
+      "id": 84,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Alphanumeric Marking",
+      "question": "How is the marking R22 to be interpreted?",
+      "answers": {
+        "A": "22 Ω",
+        "B": "0.22 Ω",
+        "C": "2.2 Ω",
+        "D": "0.022 kΩ",
+        "E": "22 mΩ"
+      },
+      "correct_answer": "B",
+      "explanation": "In R22, R replaces the decimal point, so the value is 0.22 Ω."
+    },
+    {
+      "id": 85,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Alphanumeric Marking",
+      "question": "How is the marking 1M0 to be interpreted?",
+      "answers": {
+        "A": "1.0 Ω",
+        "B": "10 MΩ",
+        "C": "0.1 MΩ",
+        "D": "1.0 MΩ",
+        "E": "1000 Ω"
+      },
+      "correct_answer": "D",
+      "explanation": "In 1M0, M replaces the decimal point and denotes megaohm: 1.0 MΩ."
+    },
+    {
+      "id": 86,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Units",
+      "question": "Which assignment of symbol to unit is correct?",
+      "answers": {
+        "A": "γ – Ω·mm²/m",
+        "B": "ρ – m/(Ω·mm²)",
+        "C": "J – A/mm²",
+        "D": "α – V/K",
+        "E": "G – Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "Current density J is given in A/mm²."
+    },
+    {
+      "id": 87,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Formula Relationships",
+      "question": "Which formula describes conductor resistance using conductivity γ?",
+      "answers": {
+        "A": "R = γ · l / A",
+        "B": "R = l / (γ · A)",
+        "C": "R = A / (γ · l)",
+        "D": "R = 1 / (γ + A)",
+        "E": "R = ρ / γ"
+      },
+      "correct_answer": "B",
+      "explanation": "Using conductivity, conductor resistance is given by R = l / (γ · A)."
+    },
+    {
+      "id": 88,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Formula Relationships",
+      "question": "Which rearranged formula for calculating cross-sectional area A is correct?",
+      "answers": {
+        "A": "A = R · ρ / l",
+        "B": "A = ρ · l / R",
+        "C": "A = l / (ρ · R)",
+        "D": "A = R / (ρ · l)",
+        "E": "A = ρ / (R · l)"
+      },
+      "correct_answer": "B",
+      "explanation": "From R = ρ · l / A, rearranging gives A = ρ · l / R."
+    },
+    {
+      "id": 89,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Formula Relationships",
+      "question": "Which formula gives the temperature rise from warm and cold resistance?",
+      "answers": {
+        "A": "Δϑ = α · R20 / RW",
+        "B": "Δϑ = (RW − R20) / (α · R20)",
+        "C": "Δϑ = RW · R20 / α",
+        "D": "Δϑ = (R20 − RW) / α",
+        "E": "Δϑ = α · (RW − R20)"
+      },
+      "correct_answer": "B",
+      "explanation": "The temperature rise is calculated as Δϑ = (RW − R20) / (α · R20)."
+    },
+    {
+      "id": 90,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Resistor Classification",
+      "question": "Which classification of technical resistors is completely correct according to the reference material?",
+      "answers": {
+        "A": "Fixed resistors, mechanically adjustable resistors, physically variable resistors",
+        "B": "Conductors, semiconductors, insulators",
+        "C": "DC, AC, and mixed resistors",
+        "D": "PTC, NTC, constantan",
+        "E": "High-, medium-, and low-voltage resistors"
+      },
+      "correct_answer": "A",
+      "explanation": "The reference material classifies technical resistors into fixed resistors, mechanically adjustable resistors, and physically variable resistors."
+    },
+    {
+      "id": 91,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Electric Charge (Quantity)",
+      "question": "A conductor carries a current of I = 3 A for 5 s. What charge Q is transported?",
+      "given": { "I": "3 A", "t": "5 s" },
+      "searched": "Q in As (= C)",
+      "formula_hint": "Q = I · t",
+      "answers": {
+        "A": "Q = 0.6 As",
+        "B": "Q = 8 As",
+        "C": "Q = 15 As",
+        "D": "Q = 30 As",
+        "E": "Q = 60 As"
+      },
+      "correct_answer": "C",
+      "explanation": "Q = I · t = 3 A · 5 s = 15 As."
+    },
+    {
+      "id": 92,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Electric Charge (Quantity)",
+      "question": "A load is operated at I = 2 A for t = 4 min. What charge Q was transported?",
+      "given": { "I": "2 A", "t": "4 min = 240 s" },
+      "searched": "Q in As (= C)",
+      "formula_hint": "Q = I · t",
+      "answers": {
+        "A": "Q = 8 As",
+        "B": "Q = 120 As",
+        "C": "Q = 240 As",
+        "D": "Q = 480 As",
+        "E": "Q = 960 As"
+      },
+      "correct_answer": "D",
+      "explanation": "Q = 2 A · 240 s = 480 As."
+    },
+    {
+      "id": 93,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Current Intensity",
+      "question": "A charge of Q = 90 C flows through a conductor in t = 30 s. What is the current intensity I?",
+      "given": { "Q": "90 C", "t": "30 s" },
+      "searched": "I in A",
+      "formula_hint": "I = Q / t",
+      "answers": {
+        "A": "I = 0.33 A",
+        "B": "I = 2 A",
+        "C": "I = 3 A",
+        "D": "I = 30 A",
+        "E": "I = 60 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I = Q / t = 90 C / 30 s = 3 A."
+    },
+    {
+      "id": 94,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Current Intensity",
+      "question": "Q = 7200 C is transported in t = 2 h. What is the current intensity I?",
+      "given": { "Q": "7200 C", "t": "2 h = 7200 s" },
+      "searched": "I in A",
+      "formula_hint": "I = Q / t",
+      "answers": {
+        "A": "I = 0.5 A",
+        "B": "I = 1 A",
+        "C": "I = 2 A",
+        "D": "I = 7.2 A",
+        "E": "I = 14.4 A"
+      },
+      "correct_answer": "B",
+      "explanation": "I = 7200 C / 7200 s = 1 A."
+    },
+    {
+      "id": 95,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Current Density",
+      "question": "A conductor with a cross-sectional area of A = 2.0 mm² carries a current of I = 10 A. What is the current density J?",
+      "given": { "I": "10 A", "A": "2.0 mm²" },
+      "searched": "J in A/mm²",
+      "formula_hint": "J = I / A",
+      "answers": {
+        "A": "J = 0.2 A/mm²",
+        "B": "J = 2 A/mm²",
+        "C": "J = 5 A/mm²",
+        "D": "J = 12 A/mm²",
+        "E": "J = 20 A/mm²"
+      },
+      "correct_answer": "C",
+      "explanation": "J = I / A = 10 A / 2.0 mm² = 5 A/mm²."
+    },
+    {
+      "id": 96,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Current Density",
+      "question": "A conductor cross-section of A = 4 mm² is loaded with I = 16 A. What current density J results?",
+      "given": { "I": "16 A", "A": "4 mm²" },
+      "searched": "J in A/mm²",
+      "formula_hint": "J = I / A",
+      "answers": {
+        "A": "J = 2 A/mm²",
+        "B": "J = 4 A/mm²",
+        "C": "J = 8 A/mm²",
+        "D": "J = 16 A/mm²",
+        "E": "J = 64 A/mm²"
+      },
+      "correct_answer": "B",
+      "explanation": "J = 16 A / 4 mm² = 4 A/mm²."
+    },
+    {
+      "id": 97,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Conductance",
+      "question": "A resistor has a value of R = 5 Ω. What is the conductance G?",
+      "given": { "R": "5 Ω" },
+      "searched": "G in S",
+      "formula_hint": "G = 1 / R",
+      "answers": {
+        "A": "G = 0.02 S",
+        "B": "G = 0.2 S",
+        "C": "G = 2 S",
+        "D": "G = 5 S",
+        "E": "G = 10 S"
+      },
+      "correct_answer": "B",
+      "explanation": "G = 1 / 5 Ω = 0.2 S."
+    },
+    {
+      "id": 98,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Conductivity",
+      "question": "A material has a resistivity of ρ = 0.02 Ω·mm²/m. What is the conductivity γ?",
+      "given": { "ρ": "0.02 Ω·mm²/m" },
+      "searched": "γ in m/(Ω·mm²)",
+      "formula_hint": "γ = 1 / ρ",
+      "answers": {
+        "A": "γ = 0.02 m/(Ω·mm²)",
+        "B": "γ = 2 m/(Ω·mm²)",
+        "C": "γ = 5 m/(Ω·mm²)",
+        "D": "γ = 50 m/(Ω·mm²)",
+        "E": "γ = 500 m/(Ω·mm²)"
+      },
+      "correct_answer": "D",
+      "explanation": "γ = 1 / 0.02 = 50 m/(Ω·mm²)."
+    },
+    {
+      "id": 99,
+      "type": "calculation",
+      "difficulty": "easy",
+      "category": "Electric Potential",
+      "question": "The potentials of two points are φ1 = +8 V and φ2 = +3 V. What is the voltage U?",
+      "given": {
+        "φ1": "+8 V",
+        "φ2": "+3 V"
+      },
+      "searched": "U in V",
+      "formula_hint": "U = φ1 − φ2",
+      "answers": {
+        "A": "U = −11 V",
+        "B": "U = −5 V",
+        "C": "U = 5 V",
+        "D": "U = 11 V",
+        "E": "U = 24 V"
+      },
+      "correct_answer": "C",
+      "explanation": "U = 8 V − 3 V = 5 V."
+    },
+    {
+      "id": 100,
+      "type": "calculation",
+      "difficulty": "easy",
+      "category": "Resistance Change",
+      "question": "A resistor has a value of R20 = 100 Ω at 20 °C. With a temperature rise of Δϑ = 10 K and α = 0.0039 1/K: What is the resistance change ΔR?",
+      "given": {
+        "R20": "100 Ω",
+        "α": "0.0039 1/K",
+        "Δϑ": "10 K"
+      },
+      "searched": "ΔR in Ω",
+      "formula_hint": "ΔR = R20 · α · Δϑ",
+      "answers": {
+        "A": "ΔR = 0.39 Ω",
+        "B": "ΔR = 3.9 Ω",
+        "C": "ΔR = 39 Ω",
+        "D": "ΔR = 0.039 Ω",
+        "E": "ΔR = 13.9 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "ΔR = 100 Ω · 0.0039 · 10 = 3.9 Ω."
+    },
+    {
+      "id": 101,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Conductor Resistance and Conductance",
+      "question": "A copper conductor has a length of l = 50 m and a cross-sectional area of A = 2.5 mm². For copper, ρ = 0.0178 Ω·mm²/m. First calculate the conductor resistance R, then determine the conductance G.",
+      "given": {
+        "l": "50 m",
+        "A": "2.5 mm²",
+        "ρ": "0.0178 Ω·mm²/m"
+      },
+      "searched": "G in S",
+      "formula_hint": "Step 1: R = ρ · l / A; Step 2: G = 1 / R",
+      "answers": {
+        "A": "G = 0.36 S",
+        "B": "G = 2.81 S",
+        "C": "G = 3.56 S",
+        "D": "G = 14.04 S",
+        "E": "G = 140.4 S"
+      },
+      "correct_answer": "B",
+      "explanation": "R = 0.0178 · 50 / 2.5 = 0.356 Ω. Therefore G = 1 / 0.356 ≈ 2.81 S."
+    },
+    {
+      "id": 102,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Conductor Resistance and Conductance",
+      "question": "An aluminium conductor with l = 20 m and A = 4 mm² has a resistivity of ρ = 0.0278 Ω·mm²/m. What is its conductance G?",
+      "given": {
+        "l": "20 m",
+        "A": "4 mm²",
+        "ρ": "0.0278 Ω·mm²/m"
+      },
+      "searched": "G in S",
+      "formula_hint": "Step 1: R = ρ · l / A; Step 2: G = 1 / R",
+      "answers": {
+        "A": "G = 0.139 S",
+        "B": "G = 1.39 S",
+        "C": "G = 7.19 S",
+        "D": "G = 13.9 S",
+        "E": "G = 71.9 S"
+      },
+      "correct_answer": "C",
+      "explanation": "R = 0.0278 · 20 / 4 = 0.139 Ω. Therefore G = 1 / 0.139 ≈ 7.19 S."
+    },
+    {
+      "id": 103,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Conductivity and Resistance",
+      "question": "For silver, the electrical conductivity is γ = 62.5 m/(Ω·mm²). A conductor is l = 25 m long with a cross-section of A = 1.5 mm². What is the resistance R?",
+      "given": {
+        "γ": "62.5 m/(Ω·mm²)",
+        "l": "25 m",
+        "A": "1.5 mm²"
+      },
+      "searched": "R in Ω",
+      "formula_hint": "Step 1: R = l / (γ · A)",
+      "answers": {
+        "A": "R = 0.267 Ω",
+        "B": "R = 2.67 Ω",
+        "C": "R = 9.38 Ω",
+        "D": "R = 37.5 Ω",
+        "E": "R = 93.8 Ω"
+      },
+      "correct_answer": "A",
+      "explanation": "R = 25 / (62.5 · 1.5) = 25 / 93.75 ≈ 0.267 Ω."
+    },
+    {
+      "id": 104,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Conductor Resistance and Cross-Section",
+      "question": "A copper conductor of length l = 100 m must have a resistance of R = 0.89 Ω. For copper, ρ = 0.0178 Ω·mm²/m. What cross-sectional area A is required?",
+      "given": {
+        "l": "100 m",
+        "R": "0.89 Ω",
+        "ρ": "0.0178 Ω·mm²/m"
+      },
+      "searched": "A in mm²",
+      "formula_hint": "Step 1: A = ρ · l / R",
+      "answers": {
+        "A": "A = 0.5 mm²",
+        "B": "A = 1.0 mm²",
+        "C": "A = 2.0 mm²",
+        "D": "A = 5.0 mm²",
+        "E": "A = 20 mm²"
+      },
+      "correct_answer": "C",
+      "explanation": "A = 0.0178 · 100 / 0.89 = 2.0 mm²."
+    },
+    {
+      "id": 105,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Conductor Resistance and Length",
+      "question": "A conductor has a resistance of R = 0.356 Ω, a cross-section of A = 2.5 mm², and a resistivity of ρ = 0.0178 Ω·mm²/m. What is the length of the conductor?",
+      "given": {
+        "R": "0.356 Ω",
+        "A": "2.5 mm²",
+        "ρ": "0.0178 Ω·mm²/m"
+      },
+      "searched": "l in m",
+      "formula_hint": "Step 1: l = R · A / ρ",
+      "answers": {
+        "A": "l = 5 m",
+        "B": "l = 20 m",
+        "C": "l = 40 m",
+        "D": "l = 50 m",
+        "E": "l = 200 m"
+      },
+      "correct_answer": "D",
+      "explanation": "l = 0.356 · 2.5 / 0.0178 = 50 m."
+    },
+    {
+      "id": 106,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Conductivity and Resistivity",
+      "question": "A material has a resistivity of ρ = 0.0278 Ω·mm²/m. What is the conductivity γ, and what resistance R does a 10 m long conductor made of this material have with A = 1 mm²?",
+      "given": {
+        "ρ": "0.0278 Ω·mm²/m",
+        "l": "10 m",
+        "A": "1 mm²"
+      },
+      "searched": "R in Ω",
+      "formula_hint": "Step 1: γ = 1 / ρ; Step 2: R = l / (γ · A)",
+      "answers": {
+        "A": "R = 0.278 Ω",
+        "B": "R = 2.78 Ω",
+        "C": "R = 27.8 Ω",
+        "D": "R = 35.97 Ω",
+        "E": "R = 359.7 Ω"
+      },
+      "correct_answer": "A",
+      "explanation": "γ = 1 / 0.0278 ≈ 35.97 m/(Ω·mm²). Then R = 10 / (35.97 · 1) ≈ 0.278 Ω."
+    },
+    {
+      "id": 107,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Current Density and Current",
+      "question": "A conductor with A = 1.5 mm² may be loaded with a current density of J = 6 A/mm². What current I results?",
+      "given": {
+        "A": "1.5 mm²",
+        "J": "6 A/mm²"
+      },
+      "searched": "I in A",
+      "formula_hint": "Step 1: From J = I / A it follows that I = J · A",
+      "answers": {
+        "A": "I = 4 A",
+        "B": "I = 7.5 A",
+        "C": "I = 9 A",
+        "D": "I = 15 A",
+        "E": "I = 40 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I = J · A = 6 A/mm² · 1.5 mm² = 9 A."
+    },
+    {
+      "id": 108,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Current Density and Cross-Section",
+      "question": "A conductor is to be operated at I = 18 A with a current density of J = 6 A/mm². What cross-sectional area A is required?",
+      "given": {
+        "I": "18 A",
+        "J": "6 A/mm²"
+      },
+      "searched": "A in mm²",
+      "formula_hint": "Step 1: From J = I / A it follows that A = I / J",
+      "answers": {
+        "A": "A = 1 mm²",
+        "B": "A = 2 mm²",
+        "C": "A = 3 mm²",
+        "D": "A = 6 mm²",
+        "E": "A = 12 mm²"
+      },
+      "correct_answer": "C",
+      "explanation": "A = I / J = 18 A / 6 A/mm² = 3 mm²."
+    },
+    {
+      "id": 109,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Electric Potential and Voltage",
+      "question": "At one point, the potential is φ1 = +12 V. The voltage between the two points is U = 20 V, calculated using U = φ1 − φ2. What is the potential φ2 at the second point?",
+      "given": {
+        "φ1": "+12 V",
+        "U": "20 V"
+      },
+      "searched": "φ2 in V",
+      "formula_hint": "Step 1: U = φ1 − φ2; Step 2: rearrange for φ2: φ2 = φ1 − U",
+      "answers": {
+        "A": "φ2 = +32 V",
+        "B": "φ2 = +8 V",
+        "C": "φ2 = 0 V",
+        "D": "φ2 = −8 V",
+        "E": "φ2 = −32 V"
+      },
+      "correct_answer": "D",
+      "explanation": "φ2 = φ1 − U = 12 V − 20 V = −8 V."
+    },
+    {
+      "id": 110,
+      "type": "calculation",
+      "difficulty": "medium",
+      "category": "Resistance Change and Hot Resistance",
+      "question": "A copper resistor has a value of R20 = 50 Ω at 20 °C. With α = 0.0039 1/K and a temperature rise of Δϑ = 40 K: First calculate ΔR, then determine the hot resistance RW.",
+      "given": {
+        "R20": "50 Ω",
+        "α": "0.0039 1/K",
+        "Δϑ": "40 K"
+      },
+      "searched": "RW in Ω",
+      "formula_hint": "Step 1: ΔR = R20 · α · Δϑ; Step 2: RW = R20 + ΔR",
+      "answers": {
+        "A": "RW = 50.78 Ω",
+        "B": "RW = 57.8 Ω",
+        "C": "RW = 65.6 Ω",
+        "D": "RW = 78.0 Ω",
+        "E": "RW = 128 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "ΔR = 50 · 0.0039 · 40 = 7.8 Ω. Therefore RW = 50 + 7.8 = 57.8 Ω."
+    },
+    {
+      "id": 111,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Temperature Dependence and Conductor Resistance",
+      "question": "A copper conductor is l = 100 m long with A = 1.5 mm². For copper, ρ = 0.0178 Ω·mm²/m and α = 0.0039 1/K. What is the hot resistance RW after a temperature rise of Δϑ = 60 K?",
+      "given": {
+        "l": "100 m",
+        "A": "1.5 mm²",
+        "ρ": "0.0178 Ω·mm²/m",
+        "α": "0.0039 1/K",
+        "Δϑ": "60 K"
+      },
+      "searched": "RW in Ω",
+      "formula_hint": "Step 1: R20 = ρ · l / A; Step 2: RW = R20 · (1 + α · Δϑ)",
+      "answers": {
+        "A": "RW = 1.19 Ω",
+        "B": "RW = 1.46 Ω",
+        "C": "RW = 1.76 Ω",
+        "D": "RW = 2.11 Ω",
+        "E": "RW = 2.76 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "R20 = 0.0178 · 100 / 1.5 ≈ 1.187 Ω. RW = 1.187 · (1 + 0.0039 · 60) = 1.187 · 1.234 ≈ 1.46 Ω."
+    },
+    {
+      "id": 112,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Temperature Dependence",
+      "question": "A copper resistor has a value of R20 = 80 Ω at 20 °C. After heating, it rises to RW = 95.6 Ω. With α = 0.0039 1/K: What is the temperature rise Δϑ?",
+      "given": {
+        "R20": "80 Ω",
+        "RW": "95.6 Ω",
+        "α": "0.0039 1/K"
+      },
+      "searched": "Δϑ in K",
+      "formula_hint": "Step 1: Δϑ = (RW − R20) / (α · R20)",
+      "answers": {
+        "A": "Δϑ = 25 K",
+        "B": "Δϑ = 40 K",
+        "C": "Δϑ = 50 K",
+        "D": "Δϑ = 60 K",
+        "E": "Δϑ = 80 K"
+      },
+      "correct_answer": "C",
+      "explanation": "Δϑ = (95.6 − 80) / (0.0039 · 80) = 15.6 / 0.312 = 50 K."
+    },
+    {
+      "id": 113,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Conductor Resistance and Temperature",
+      "question": "An aluminium conductor is l = 80 m long with A = 4 mm². For aluminium, ρ = 0.0278 Ω·mm²/m. The conductor heats up by Δϑ = 50 K. With α = 0.0039 1/K, calculate the hot resistance RW.",
+      "given": {
+        "l": "80 m",
+        "A": "4 mm²",
+        "ρ": "0.0278 Ω·mm²/m",
+        "α": "0.0039 1/K",
+        "Δϑ": "50 K"
+      },
+      "searched": "RW in Ω",
+      "formula_hint": "Step 1: R20 = ρ · l / A; Step 2: RW = R20 · (1 + α · Δϑ)",
+      "answers": {
+        "A": "RW = 0.417 Ω",
+        "B": "RW = 0.556 Ω",
+        "C": "RW = 0.664 Ω",
+        "D": "RW = 0.772 Ω",
+        "E": "RW = 1.328 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "R20 = 0.0278 · 80 / 4 = 0.556 Ω. RW = 0.556 · (1 + 0.0039 · 50) = 0.556 · 1.195 ≈ 0.664 Ω."
+    },
+    {
+      "id": 114,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Conductor Resistance and Conductance",
+      "question": "A silver conductor is l = 30 m long with A = 0.75 mm². For silver, ρ = 0.016 Ω·mm²/m. First calculate R, then determine the conductance G.",
+      "given": {
+        "l": "30 m",
+        "A": "0.75 mm²",
+        "ρ": "0.016 Ω·mm²/m"
+      },
+      "searched": "G in S",
+      "formula_hint": "Step 1: R = ρ · l / A; Step 2: G = 1 / R",
+      "answers": {
+        "A": "G = 0.40 S",
+        "B": "G = 1.56 S",
+        "C": "G = 6.40 S",
+        "D": "G = 15.6 S",
+        "E": "G = 25.0 S"
+      },
+      "correct_answer": "B",
+      "explanation": "R = 0.016 · 30 / 0.75 = 0.64 Ω. Therefore G = 1 / 0.64 ≈ 1.5625 S."
+    },
+    {
+      "id": 115,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Conductivity and Cross-Section",
+      "question": "A copper conductor with l = 40 m must have a resistance of R = 0.5 Ω. For copper, γ = 56.2 m/(Ω·mm²). What cross-sectional area A is required?",
+      "given": {
+        "l": "40 m",
+        "R": "0.5 Ω",
+        "γ": "56.2 m/(Ω·mm²)"
+      },
+      "searched": "A in mm²",
+      "formula_hint": "Step 1: R = l / (γ · A); Step 2: rearrange for A: A = l / (γ · R)",
+      "answers": {
+        "A": "A = 0.71 mm²",
+        "B": "A = 1.42 mm²",
+        "C": "A = 2.81 mm²",
+        "D": "A = 5.62 mm²",
+        "E": "A = 11.24 mm²"
+      },
+      "correct_answer": "B",
+      "explanation": "A = l / (γ · R) = 40 / (56.2 · 0.5) = 40 / 28.1 ≈ 1.42 mm²."
+    },
+    {
+      "id": 116,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Current Density and Electric Potential",
+      "question": "A current of I = 12.5 A flows through a conductor with a cross-section of A = 2.5 mm². The potentials at its ends are φ1 = +15 V and φ2 = −5 V. What is the current density J?",
+      "given": {
+        "φ1": "+15 V",
+        "φ2": "−5 V",
+        "I": "12.5 A",
+        "A": "2.5 mm²"
+      },
+      "searched": "J in A/mm²",
+      "formula_hint": "Step 1: U = φ1 − φ2 (voltage determination); Step 2: J = I / A",
+      "answers": {
+        "A": "J = 2 A/mm²",
+        "B": "J = 4 A/mm²",
+        "C": "J = 5 A/mm²",
+        "D": "J = 8 A/mm²",
+        "E": "J = 20 A/mm²"
+      },
+      "correct_answer": "C",
+      "explanation": "U = 15 − (−5) = 20 V (for reference only). The current density is J = 12.5 A / 2.5 mm² = 5 A/mm²."
+    },
+    {
+      "id": 117,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Conductor Resistance and Charge",
+      "question": "A copper conductor with l = 10 m and A = 1 mm² has ρ = 0.0178 Ω·mm²/m. A current of I = 5 A flows through it for 2 minutes. First calculate the resistance R, then determine the total charge Q transported during this time.",
+      "given": {
+        "l": "10 m",
+        "A": "1 mm²",
+        "ρ": "0.0178 Ω·mm²/m",
+        "I": "5 A",
+        "t": "2 min = 120 s"
+      },
+      "searched": "Q in As (= C)",
+      "formula_hint": "Step 1: R = ρ · l / A; Step 2: Q = I · t",
+      "answers": {
+        "A": "Q = 60 As",
+        "B": "Q = 120 As",
+        "C": "Q = 300 As",
+        "D": "Q = 600 As",
+        "E": "Q = 1068 As"
+      },
+      "correct_answer": "D",
+      "explanation": "R = 0.0178 · 10 / 1 = 0.178 Ω. Q = 5 A · 120 s = 600 As."
+    },
+    {
+      "id": 118,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Resistance Change and Hot Resistance",
+      "question": "A copper conductor has a resistance of R20 = 1.78 Ω at 20 °C. It heats up by Δϑ = 100 K. With α = 0.0039 1/K: First calculate the resistance change ΔR, then determine the hot resistance RW.",
+      "given": {
+        "R20": "1.78 Ω",
+        "α": "0.0039 1/K",
+        "Δϑ": "100 K"
+      },
+      "searched": "RW in Ω",
+      "formula_hint": "Step 1: ΔR = R20 · α · Δϑ; Step 2: RW = R20 + ΔR",
+      "answers": {
+        "A": "RW = 1.849 Ω",
+        "B": "RW = 2.474 Ω",
+        "C": "RW = 3.560 Ω",
+        "D": "RW = 4.342 Ω",
+        "E": "RW = 5.162 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "ΔR = 1.78 · 0.0039 · 100 = 0.6942 Ω. RW = 1.78 + 0.6942 ≈ 2.474 Ω."
+    },
+    {
+      "id": 119,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Conductivity, Resistance and Conductance",
+      "question": "A material has a resistivity of ρ = 0.0178 Ω·mm²/m. A conductor made of this material is l = 56.2 m long with A = 2 mm². First calculate the conductivity γ, then the resistance R, and finally the conductance G.",
+      "given": {
+        "ρ": "0.0178 Ω·mm²/m",
+        "l": "56.2 m",
+        "A": "2 mm²"
+      },
+      "searched": "G in S",
+      "formula_hint": "Step 1: γ = 1 / ρ; Step 2: R = l / (γ · A); Step 3: G = 1 / R",
+      "answers": {
+        "A": "G = 0.633 S",
+        "B": "G = 1.000 S",
+        "C": "G = 2.000 S",
+        "D": "G = 3.157 S",
+        "E": "G = 31.57 S"
+      },
+      "correct_answer": "C",
+      "explanation": "γ = 1 / 0.0178 ≈ 56.18 m/(Ω·mm²). R = 56.2 / (56.18 · 2) ≈ 0.5 Ω. G = 1 / 0.5 = 2.0 S."
+    },
+    {
+      "id": 120,
+      "type": "calculation",
+      "difficulty": "hard",
+      "category": "Conductor Resistance and Temperature Dependence",
+      "question": "A copper conductor is l = 50 m long with A = 1 mm². With ρ = 0.0178 Ω·mm²/m and α = 0.0039 1/K, it heats up to a hot resistance of RW = 1.334 Ω. What temperature rise Δϑ occurred?",
+      "given": {
+        "RW": "1.334 Ω",
+        "l": "50 m",
+        "A": "1 mm²",
+        "ρ": "0.0178 Ω·mm²/m",
+        "α": "0.0039 1/K"
+      },
+      "searched": "Δϑ in K",
+      "formula_hint": "Step 1: R20 = ρ · l / A; Step 2: Δϑ = (RW − R20) / (α · R20)",
+      "answers": {
+        "A": "Δϑ = 32 K",
+        "B": "Δϑ = 48 K",
+        "C": "Δϑ = 64 K",
+        "D": "Δϑ = 100 K",
+        "E": "Δϑ = 128 K"
+      },
+      "correct_answer": "D",
+      "explanation": "R20 = 0.0178 · 50 / 1 = 0.89 Ω. Δϑ = (1.334 − 0.89) / (0.0039 · 0.89) = 0.444 / 0.003471 ≈ 100 K."
+    }
+  ]
+}
