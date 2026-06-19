@@ -1435,7 +1435,7 @@
         "B": "Conductors, semiconductors, insulators",
         "C": "DC, AC, and mixed resistors",
         "D": "PTC, NTC, constantan",
-        "E": "High-, medium-, and low-voltage resistors"
+        "E": "High-, mittel-, and low-voltage resistors"
       },
       "correct_answer": "A",
       "explanation": "The reference material classifies technical resistors into fixed resistors, mechanically adjustable resistors, and physically variable resistors."
@@ -1594,8 +1594,8 @@
     },
     {
       "id": 99,
-      "type": "calculation",
-      "difficulty": "easy",
+      "type": "rechnung",
+      "difficulty": "leicht",
       "category": "Electric Potential",
       "question": "The potentials of two points are φ1 = +8 V and φ2 = +3 V. What is the voltage U?",
       "given": {
@@ -1616,8 +1616,8 @@
     },
     {
       "id": 100,
-      "type": "calculation",
-      "difficulty": "easy",
+      "type": "rechnung",
+      "difficulty": "leicht",
       "category": "Resistance Change",
       "question": "A resistor has a value of R20 = 100 Ω at 20 °C. With a temperature rise of Δϑ = 10 K and α = 0.0039 1/K: What is the resistance change ΔR?",
       "given": {
@@ -1639,8 +1639,8 @@
     },
     {
       "id": 101,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Conductor Resistance and Conductance",
       "question": "A copper conductor has a length of l = 50 m and a cross-sectional area of A = 2.5 mm². For copper, ρ = 0.0178 Ω·mm²/m. First calculate the conductor resistance R, then determine the conductance G.",
       "given": {
@@ -1662,8 +1662,8 @@
     },
     {
       "id": 102,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Conductor Resistance and Conductance",
       "question": "An aluminium conductor with l = 20 m and A = 4 mm² has a resistivity of ρ = 0.0278 Ω·mm²/m. What is its conductance G?",
       "given": {
@@ -1685,8 +1685,8 @@
     },
     {
       "id": 103,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Conductivity and Resistance",
       "question": "For silver, the electrical conductivity is γ = 62.5 m/(Ω·mm²). A conductor is l = 25 m long with a cross-section of A = 1.5 mm². What is the resistance R?",
       "given": {
@@ -1708,8 +1708,8 @@
     },
     {
       "id": 104,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Conductor Resistance and Cross-Section",
       "question": "A copper conductor of length l = 100 m must have a resistance of R = 0.89 Ω. For copper, ρ = 0.0178 Ω·mm²/m. What cross-sectional area A is required?",
       "given": {
@@ -1731,8 +1731,8 @@
     },
     {
       "id": 105,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Conductor Resistance and Length",
       "question": "A conductor has a resistance of R = 0.356 Ω, a cross-section of A = 2.5 mm², and a resistivity of ρ = 0.0178 Ω·mm²/m. What is the length of the conductor?",
       "given": {
@@ -1754,8 +1754,8 @@
     },
     {
       "id": 106,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Conductivity and Resistivity",
       "question": "A material has a resistivity of ρ = 0.0278 Ω·mm²/m. What is the conductivity γ, and what resistance R does a 10 m long conductor made of this material have with A = 1 mm²?",
       "given": {
@@ -1777,8 +1777,8 @@
     },
     {
       "id": 107,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Current Density and Current",
       "question": "A conductor with A = 1.5 mm² may be loaded with a current density of J = 6 A/mm². What current I results?",
       "given": {
@@ -1799,8 +1799,8 @@
     },
     {
       "id": 108,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Current Density and Cross-Section",
       "question": "A conductor is to be operated at I = 18 A with a current density of J = 6 A/mm². What cross-sectional area A is required?",
       "given": {
@@ -1821,8 +1821,8 @@
     },
     {
       "id": 109,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Electric Potential and Voltage",
       "question": "At one point, the potential is φ1 = +12 V. The voltage between the two points is U = 20 V, calculated using U = φ1 − φ2. What is the potential φ2 at the second point?",
       "given": {
@@ -1843,8 +1843,8 @@
     },
     {
       "id": 110,
-      "type": "calculation",
-      "difficulty": "medium",
+      "type": "rechnung",
+      "difficulty": "mittel",
       "category": "Resistance Change and Hot Resistance",
       "question": "A copper resistor has a value of R20 = 50 Ω at 20 °C. With α = 0.0039 1/K and a temperature rise of Δϑ = 40 K: First calculate ΔR, then determine the hot resistance RW.",
       "given": {
@@ -1866,8 +1866,8 @@
     },
     {
       "id": 111,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Temperature Dependence and Conductor Resistance",
       "question": "A copper conductor is l = 100 m long with A = 1.5 mm². For copper, ρ = 0.0178 Ω·mm²/m and α = 0.0039 1/K. What is the hot resistance RW after a temperature rise of Δϑ = 60 K?",
       "given": {
@@ -1891,8 +1891,8 @@
     },
     {
       "id": 112,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Temperature Dependence",
       "question": "A copper resistor has a value of R20 = 80 Ω at 20 °C. After heating, it rises to RW = 95.6 Ω. With α = 0.0039 1/K: What is the temperature rise Δϑ?",
       "given": {
@@ -1914,8 +1914,8 @@
     },
     {
       "id": 113,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Conductor Resistance and Temperature",
       "question": "An aluminium conductor is l = 80 m long with A = 4 mm². For aluminium, ρ = 0.0278 Ω·mm²/m. The conductor heats up by Δϑ = 50 K. With α = 0.0039 1/K, calculate the hot resistance RW.",
       "given": {
@@ -1939,8 +1939,8 @@
     },
     {
       "id": 114,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Conductor Resistance and Conductance",
       "question": "A silver conductor is l = 30 m long with A = 0.75 mm². For silver, ρ = 0.016 Ω·mm²/m. First calculate R, then determine the conductance G.",
       "given": {
@@ -1962,8 +1962,8 @@
     },
     {
       "id": 115,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Conductivity and Cross-Section",
       "question": "A copper conductor with l = 40 m must have a resistance of R = 0.5 Ω. For copper, γ = 56.2 m/(Ω·mm²). What cross-sectional area A is required?",
       "given": {
@@ -1985,8 +1985,8 @@
     },
     {
       "id": 116,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Current Density and Electric Potential",
       "question": "A current of I = 12.5 A flows through a conductor with a cross-section of A = 2.5 mm². The potentials at its ends are φ1 = +15 V and φ2 = −5 V. What is the current density J?",
       "given": {
@@ -2009,8 +2009,8 @@
     },
     {
       "id": 117,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Conductor Resistance and Charge",
       "question": "A copper conductor with l = 10 m and A = 1 mm² has ρ = 0.0178 Ω·mm²/m. A current of I = 5 A flows through it for 2 minutes. First calculate the resistance R, then determine the total charge Q transported during this time.",
       "given": {
@@ -2034,8 +2034,8 @@
     },
     {
       "id": 118,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Resistance Change and Hot Resistance",
       "question": "A copper conductor has a resistance of R20 = 1.78 Ω at 20 °C. It heats up by Δϑ = 100 K. With α = 0.0039 1/K: First calculate the resistance change ΔR, then determine the hot resistance RW.",
       "given": {
@@ -2057,8 +2057,8 @@
     },
     {
       "id": 119,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Conductivity, Resistance and Conductance",
       "question": "A material has a resistivity of ρ = 0.0178 Ω·mm²/m. A conductor made of this material is l = 56.2 m long with A = 2 mm². First calculate the conductivity γ, then the resistance R, and finally the conductance G.",
       "given": {
@@ -2080,8 +2080,8 @@
     },
     {
       "id": 120,
-      "type": "calculation",
-      "difficulty": "hard",
+      "type": "rechnung",
+      "difficulty": "schwer",
       "category": "Conductor Resistance and Temperature Dependence",
       "question": "A copper conductor is l = 50 m long with A = 1 mm². With ρ = 0.0178 Ω·mm²/m and α = 0.0039 1/K, it heats up to a hot resistance of RW = 1.334 Ω. What temperature rise Δϑ occurred?",
       "given": {
