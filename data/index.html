@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EFK Learning Tool – Lernplattform für IHK Elektrofachkraft für Industrie. Lernen und Prüfen mit Fragen zu Elektrotechnik, Schutzmaßnahmen und Normen.">
+  <meta name="theme-color" content="#003A70">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="EFK Learning Tool">
+  <meta property="og:description" content="Lernplattform für IHK Elektrofachkraft für Industrie">
+  <meta property="og:type" content="website">
+
+  <title>EFK Learning Tool</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/styles.css">
+
+  <!-- Favicon inline (SVG Data URI) – IHK-Blau -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23003A70'/><text y='22' x='5' font-size='18' font-family='sans-serif' font-weight='900' fill='%23E87722'>E</text></svg>">
+</head>
+<body>
+
+<!-- =====================================================================
+     APP SHELL
+     ===================================================================== -->
+<div id="app">
+
+  <!-- HEADER -->
+  <header class="app-header" role="banner">
+    <div class="app-header__brand" role="button" tabindex="0" aria-label="EFK Learning Tool – Zur Startseite">
+      <div class="app-header__logo" aria-hidden="true">EFK</div>
+      <div>
+        <div class="app-header__title">EFK Learning Tool</div>
+        <div class="app-header__subtitle" id="header-tagline">
+          Lernplattform für IHK Elektrofachkraft
+        </div>
+      </div>
+    </div>
+
+    <div class="app-header__controls">
+      <!-- Language Toggle -->
+      <div class="lang-toggle" role="group" aria-label="Sprache / Language">
+        <button class="lang-toggle__btn active" data-lang="de" aria-pressed="true" title="Deutsch">DE</button>
+        <button class="lang-toggle__btn" data-lang="en" aria-pressed="false" title="English">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT (SPA-Views) -->
+  <main class="app-main" id="app-main" role="main">
+
+    <!-- ---------------------------------------------------------------
+         HOME VIEW
+         --------------------------------------------------------------- -->
+    <section class="view" id="view-home" aria-label="Startseite">
+      <!-- Wird per JS gerendert -->
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         LEARN SETUP VIEW
+         --------------------------------------------------------------- -->
+    <section class="view" id="view-learn-setup" aria-label="Lernmodus einrichten">
+      <!-- Wird per JS gerendert -->
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         LEARN PLAY VIEW
+         --------------------------------------------------------------- -->
+    <section class="view" id="view-learn-play" aria-label="Lernmodus">
+      <!-- Wird per JS gerendert -->
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         EXAM SETUP VIEW
+         --------------------------------------------------------------- -->
+    <section class="view" id="view-exam-setup" aria-label="Prüfungsmodus einrichten">
+      <!-- Wird per JS gerendert -->
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         EXAM PLAY VIEW
+         --------------------------------------------------------------- -->
+    <section class="view" id="view-exam-play" aria-label="Prüfung">
+      <!-- Wird per JS gerendert -->
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         EXAM RESULT VIEW
+         --------------------------------------------------------------- -->
+    <section class="view" id="view-exam-result" aria-label="Prüfungsergebnis">
+      <!-- Wird per JS gerendert -->
+    </section>
+
+    <!-- ---------------------------------------------------------------
+         HISTORY VIEW
+         --------------------------------------------------------------- -->
+    <section class="view" id="view-history" aria-label="Prüfungsverlauf">
+      <!-- Wird per JS gerendert -->
+    </section>
+
+  </main>
+
+</div><!-- /#app -->
+
+<!-- App-Logik (defer: nach DOM-Parsing, vor DOMContentLoaded) -->
+<script src="./assets/app.js" defer></script>
+
+<!-- Noscript-Hinweis -->
+<noscript>
+  <div style="font-family:sans-serif;padding:2rem;text-align:center;color:#C0392B;background:#FDECEA;border:1px solid #F1A89F;border-radius:8px;margin:2rem auto;max-width:500px">
+    <strong>JavaScript ist erforderlich.</strong><br>
+    Bitte aktiviere JavaScript in deinem Browser, um EFK Learning Tool zu nutzen.<br><br>
+    <em>JavaScript is required. Please enable it in your browser.</em>
+  </div>
+</noscript>
+
+</body>
+</html>

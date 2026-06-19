@@ -1,0 +1,2129 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Atomaufbau",
+      "question": "Wie heißen die Elektronen der äußersten Elektronenschale?",
+      "answers": {
+        "A": "Kernelektronen",
+        "B": "Valenzelektronen",
+        "C": "Freie Elektronen",
+        "D": "Sekundärelektronen",
+        "E": "Neutronen"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Elektronen der äußersten Schale heißen Valenzelektronen. Sie bestimmen das chemische und elektrische Verhalten des Atoms."
+    },
+    {
+      "id": 2,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Atomaufbau",
+      "question": "Welche Teilchen befinden sich im Atomkern?",
+      "answers": {
+        "A": "Elektronen und Protonen",
+        "B": "Elektronen und Neutronen",
+        "C": "Protonen und Neutronen",
+        "D": "Nur Protonen",
+        "E": "Nur Neutronen"
+      },
+      "correct_answer": "C",
+      "explanation": "Der Atomkern enthält Protonen mit positiver Ladung und Neutronen ohne Ladung."
+    },
+    {
+      "id": 3,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Ladung",
+      "question": "Welche Ladung tragen Elektronen?",
+      "answers": {
+        "A": "Positive Ladung",
+        "B": "Keine Ladung",
+        "C": "Wechselnde Ladung",
+        "D": "Negative Ladung",
+        "E": "Doppelte positive Ladung"
+      },
+      "correct_answer": "D",
+      "explanation": "Elektronen sind negativ geladen."
+    },
+    {
+      "id": 4,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Ladung",
+      "question": "Welche Ladung tragen Protonen?",
+      "answers": {
+        "A": "Negative Ladung",
+        "B": "Positive Ladung",
+        "C": "Keine Ladung",
+        "D": "Wechselnde Ladung",
+        "E": "Doppelte negative Ladung"
+      },
+      "correct_answer": "B",
+      "explanation": "Protonen im Atomkern tragen positive Ladung."
+    },
+    {
+      "id": 5,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Ladung",
+      "question": "Wie verhalten sich gleichnamige elektrische Ladungen zueinander?",
+      "answers": {
+        "A": "Sie ziehen sich an",
+        "B": "Sie neutralisieren sich immer",
+        "C": "Sie stoßen sich ab",
+        "D": "Sie bilden Magnetfelder",
+        "E": "Sie werden zu Ionen"
+      },
+      "correct_answer": "C",
+      "explanation": "Gleichnamige Ladungen stoßen sich ab, ungleichnamige ziehen sich an."
+    },
+    {
+      "id": 6,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ionen",
+      "question": "Wann ist ein Atom elektrisch neutral?",
+      "answers": {
+        "A": "Wenn es mehr Elektronen als Protonen hat",
+        "B": "Wenn es keine Neutronen enthält",
+        "C": "Wenn die Anzahl der Elektronen der Anzahl der Protonen entspricht",
+        "D": "Wenn nur Valenzelektronen vorhanden sind",
+        "E": "Wenn die äußere Schale leer ist"
+      },
+      "correct_answer": "C",
+      "explanation": "Ein Atom ist elektrisch neutral, wenn Elektronen- und Protonenzahl gleich sind."
+    },
+    {
+      "id": 7,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ionen",
+      "question": "Was kennzeichnet ein positives Ion?",
+      "answers": {
+        "A": "Elektronenüberschuss",
+        "B": "Elektronenmangel",
+        "C": "Neutronenmangel",
+        "D": "Protonenmangel",
+        "E": "Keine Valenzelektronen"
+      },
+      "correct_answer": "B",
+      "explanation": "Ein positives Ion hat einen Elektronenmangel und ist daher positiv geladen."
+    },
+    {
+      "id": 8,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ionen",
+      "question": "Was kennzeichnet ein negatives Ion?",
+      "answers": {
+        "A": "Elektronenüberschuss",
+        "B": "Elektronenmangel",
+        "C": "Protonenüberschuss",
+        "D": "Keine Ladung",
+        "E": "Nur gebundene Elektronen"
+      },
+      "correct_answer": "A",
+      "explanation": "Ein negatives Ion besitzt einen Elektronenüberschuss."
+    },
+    {
+      "id": 9,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elementarladung",
+      "question": "Wie groß ist die Elementarladung eines Elektrons?",
+      "answers": {
+        "A": "1,602 · 10^-19 As",
+        "B": "1,602 · 10^19 As",
+        "C": "0,1602 As",
+        "D": "6,24 · 10^18 As",
+        "E": "1 C"
+      },
+      "correct_answer": "A",
+      "explanation": "Die Elementarladung beträgt 1,602 · 10^-19 As."
+    },
+    {
+      "id": 10,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrischer Strom",
+      "question": "Was ist elektrischer Strom?",
+      "answers": {
+        "A": "Die Speicherung elektrischer Energie",
+        "B": "Die gerichtete Bewegung von Ladungsträgern",
+        "C": "Der Unterschied von Potentialen",
+        "D": "Die Hemmung von Elektronen",
+        "E": "Die Magnetisierung eines Leiters"
+      },
+      "correct_answer": "B",
+      "explanation": "Elektrischer Strom ist die gerichtete Bewegung von Ladungsträgern."
+    },
+    {
+      "id": 11,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Leiterarten",
+      "question": "Welcher Stoff ist laut Unterlage ein Elektronenleiter?",
+      "answers": {
+        "A": "Kunststoff",
+        "B": "Porzellan",
+        "C": "Kupfer",
+        "D": "Reines Wasser",
+        "E": "Luft"
+      },
+      "correct_answer": "C",
+      "explanation": "Kupfer zählt zu den Elektronenleitern, weil es viele frei bewegliche Elektronen besitzt."
+    },
+    {
+      "id": 12,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Leiterarten",
+      "question": "Welcher Stoff ist laut Unterlage ein Nichtleiter?",
+      "answers": {
+        "A": "Aluminium",
+        "B": "Silber",
+        "C": "Kohle",
+        "D": "Glas",
+        "E": "Kupfer"
+      },
+      "correct_answer": "D",
+      "explanation": "Glas ist ein Isolator und besitzt nur wenige gebundene Ladungsträger."
+    },
+    {
+      "id": 13,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Halbleiter",
+      "question": "Welcher Stoff wird als Halbleiter genannt?",
+      "answers": {
+        "A": "Silizium",
+        "B": "Gold",
+        "C": "Eisen",
+        "D": "Porzellan",
+        "E": "Öl"
+      },
+      "correct_answer": "A",
+      "explanation": "Silizium ist ein typisches Beispiel für einen Halbleiter."
+    },
+    {
+      "id": 14,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromkreis",
+      "question": "Welche Bedingung muss erfüllt sein, damit Strom fließen kann?",
+      "answers": {
+        "A": "Der Leiter muss warm sein",
+        "B": "Der Leiterkreis muss geschlossen sein",
+        "C": "Es muss Wechselstrom vorliegen",
+        "D": "Der Verbraucher muss aus Kupfer bestehen",
+        "E": "Es darf kein Widerstand vorhanden sein"
+      },
+      "correct_answer": "B",
+      "explanation": "Ein elektrischer Strom kann nur in einem geschlossenen Leiterkreis fließen."
+    },
+    {
+      "id": 15,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromkreis",
+      "question": "Welches Bauteil gehört zu einem einfachen Stromkreis?",
+      "answers": {
+        "A": "Transformator",
+        "B": "Spannungserzeuger",
+        "C": "Generatorfeld",
+        "D": "Messbrücke",
+        "E": "Kondensatorplatte"
+      },
+      "correct_answer": "B",
+      "explanation": "Ein einfacher Stromkreis besteht aus Spannungserzeuger, Verbraucher sowie Hin- und Rückleiter."
+    },
+    {
+      "id": 16,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromrichtung",
+      "question": "In welche Richtung verläuft die technische Stromrichtung?",
+      "answers": {
+        "A": "Vom negativen zum positiven Pol",
+        "B": "Vom positiven zum negativen Pol",
+        "C": "Immer zur Erde",
+        "D": "Vom Verbraucher zur Quelle",
+        "E": "Sie ist nicht festgelegt"
+      },
+      "correct_answer": "B",
+      "explanation": "Die technische Stromrichtung verläuft konventionell vom positiven Pol zum negativen Pol."
+    },
+    {
+      "id": 17,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromrichtung",
+      "question": "In welche Richtung verläuft die Elektronenstromrichtung?",
+      "answers": {
+        "A": "Vom positiven zum negativen Pol",
+        "B": "Vom höheren zum niedrigeren Potential",
+        "C": "Vom negativen zum positiven Pol",
+        "D": "Immer mit dem Spannungspfeil",
+        "E": "Sie wechselt periodisch"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Elektronen bewegen sich vom negativen Pol über den Verbraucher zum positiven Pol."
+    },
+    {
+      "id": 18,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromstärke",
+      "question": "Wie lautet das Formelzeichen der Stromstärke?",
+      "answers": {
+        "A": "Q",
+        "B": "U",
+        "C": "R",
+        "D": "I",
+        "E": "J"
+      },
+      "correct_answer": "D",
+      "explanation": "Das Formelzeichen der Stromstärke ist I."
+    },
+    {
+      "id": 19,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromstärke",
+      "question": "Welche Einheit hat die Stromstärke?",
+      "answers": {
+        "A": "Volt",
+        "B": "Ohm",
+        "C": "Ampere",
+        "D": "Siemens",
+        "E": "Coulomb"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Einheit der Stromstärke ist Ampere mit dem Einheitenzeichen A."
+    },
+    {
+      "id": 20,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ladungsmenge",
+      "question": "Wie lautet das Formelzeichen der Ladungsmenge?",
+      "answers": {
+        "A": "I",
+        "B": "Q",
+        "C": "U",
+        "D": "G",
+        "E": "φ"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Ladungsmenge wird mit dem Formelzeichen Q angegeben."
+    },
+    {
+      "id": 21,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ladungsmenge",
+      "question": "Welche Einheit hat die Ladungsmenge?",
+      "answers": {
+        "A": "Coulomb",
+        "B": "Volt",
+        "C": "Ohm",
+        "D": "Ampere",
+        "E": "Kelvin"
+      },
+      "correct_answer": "A",
+      "explanation": "Die Einheit der Ladungsmenge ist Coulomb, gleichbedeutend mit Amperesekunde."
+    },
+    {
+      "id": 22,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromdichte",
+      "question": "Wie lautet das Formelzeichen der Stromdichte?",
+      "answers": {
+        "A": "A",
+        "B": "R",
+        "C": "J",
+        "D": "G",
+        "E": "e"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Stromdichte wird mit dem Formelzeichen J bezeichnet."
+    },
+    {
+      "id": 23,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromdichte",
+      "question": "Welche Einheit hat die Stromdichte?",
+      "answers": {
+        "A": "A/m",
+        "B": "A/mm²",
+        "C": "Ω/mm²",
+        "D": "V/mm²",
+        "E": "C/mm²"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Stromdichte ist das Verhältnis von Stromstärke zu Querschnitt und hat die Einheit A/mm²."
+    },
+    {
+      "id": 24,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromarten",
+      "question": "Welche Stromart hat konstante Richtung und konstante Stärke?",
+      "answers": {
+        "A": "Wechselstrom",
+        "B": "Mischstrom",
+        "C": "Pulsierender Gleichstrom",
+        "D": "Gleichstrom",
+        "E": "Blindstrom"
+      },
+      "correct_answer": "D",
+      "explanation": "Gleichstrom besitzt eine konstante Richtung und eine konstante Stärke."
+    },
+    {
+      "id": 25,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromarten",
+      "question": "Welches Symbol wird für Wechselstrom verwendet?",
+      "answers": {
+        "A": "—",
+        "B": "=",
+        "C": "~",
+        "D": "+",
+        "E": "<>"
+      },
+      "correct_answer": "C",
+      "explanation": "Wechselstrom wird in der Unterlage mit dem Symbol ~ dargestellt."
+    },
+    {
+      "id": 26,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Stromwirkungen",
+      "question": "Welche Wirkung des elektrischen Stromes wird bei Heizöfen genutzt?",
+      "answers": {
+        "A": "Lichtwirkung",
+        "B": "Chemische Wirkung",
+        "C": "Magnetische Wirkung",
+        "D": "Wärmewirkung",
+        "E": "Kapazitive Wirkung"
+      },
+      "correct_answer": "D",
+      "explanation": "Heizöfen nutzen die Wärmewirkung des elektrischen Stromes."
+    },
+    {
+      "id": 27,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Spannung",
+      "question": "Wie lautet das Formelzeichen der elektrischen Spannung?",
+      "answers": {
+        "A": "I",
+        "B": "R",
+        "C": "U",
+        "D": "Q",
+        "E": "γ"
+      },
+      "correct_answer": "C",
+      "explanation": "Die elektrische Spannung wird mit dem Formelzeichen U angegeben."
+    },
+    {
+      "id": 28,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Spannung",
+      "question": "Welche Einheit hat die elektrische Spannung?",
+      "answers": {
+        "A": "Ampere",
+        "B": "Volt",
+        "C": "Coulomb",
+        "D": "Siemens",
+        "E": "Ohm"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Einheit der elektrischen Spannung ist Volt mit dem Einheitenzeichen V."
+    },
+    {
+      "id": 29,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Potential",
+      "question": "Welches Formelzeichen wird für das Potential verwendet?",
+      "answers": {
+        "A": "ρ",
+        "B": "α",
+        "C": "φ",
+        "D": "γ",
+        "E": "J"
+      },
+      "correct_answer": "C",
+      "explanation": "Für das Potential wird das Formelzeichen φ verwendet."
+    },
+    {
+      "id": 30,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Widerstand",
+      "question": "Welche Einheit hat der elektrische Widerstand?",
+      "answers": {
+        "A": "Volt",
+        "B": "Ampere",
+        "C": "Siemens",
+        "D": "Ohm",
+        "E": "Coulomb"
+      },
+      "correct_answer": "D",
+      "explanation": "Der elektrische Widerstand hat die Einheit Ohm mit dem Zeichen Ω."
+    },
+    {
+      "id": 31,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Atomaufbau",
+      "question": "Warum sind Valenzelektronen für das elektrische Verhalten eines Atoms besonders wichtig?",
+      "answers": {
+        "A": "Weil sie im Atomkern sitzen",
+        "B": "Weil sie am leichtesten zu beeinflussen sind",
+        "C": "Weil sie keine Ladung tragen",
+        "D": "Weil sie immer frei im Vakuum schweben",
+        "E": "Weil sie nur in Isolatoren vorkommen"
+      },
+      "correct_answer": "B",
+      "explanation": "Valenzelektronen liegen in der äußersten Schale und sind am leichtesten zu beeinflussen."
+    },
+    {
+      "id": 32,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Ionen",
+      "question": "Welche Aussage zu einem positiven Ion ist richtig?",
+      "answers": {
+        "A": "Es hat einen Elektronenüberschuss",
+        "B": "Es ist immer elektrisch neutral",
+        "C": "Es besitzt einen Elektronenmangel und zieht negative Ladungen an",
+        "D": "Es enthält keine Protonen",
+        "E": "Es ist ein Nichtleiter"
+      },
+      "correct_answer": "C",
+      "explanation": "Ein positives Ion entsteht durch Elektronenmangel und zieht daher negative Ladungen an."
+    },
+    {
+      "id": 33,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Leiterarten",
+      "question": "Wodurch zeichnet sich ein Elektronenleiter aus?",
+      "answers": {
+        "A": "Durch wenige gebundene Ladungsträger",
+        "B": "Durch viele frei bewegliche Elektronen",
+        "C": "Durch ausschließlich Ionenbewegung",
+        "D": "Durch vollständige Stromlosigkeit",
+        "E": "Durch temperaturunabhängige Leitfähigkeit"
+      },
+      "correct_answer": "B",
+      "explanation": "Elektronenleiter besitzen viele frei bewegliche Elektronen im Raumgitter."
+    },
+    {
+      "id": 34,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Leiterarten",
+      "question": "Welche Aussage beschreibt Ionenleiter richtig?",
+      "answers": {
+        "A": "Sie leiten nur im Vakuum",
+        "B": "Sie bestehen nur aus Metallen",
+        "C": "Bei ihnen tritt keine stoffliche Veränderung auf",
+        "D": "Leitende Flüssigkeiten, Schmelzen oder ionisierte Gase können Ionenleiter sein",
+        "E": "Sie besitzen nur Valenzelektronen"
+      },
+      "correct_answer": "D",
+      "explanation": "Ionenleiter sind leitende Flüssigkeiten, Schmelzen oder ionisierte Gase; dabei kann eine stoffliche Veränderung auftreten."
+    },
+    {
+      "id": 35,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Halbleiter",
+      "question": "Wodurch wird die Leitfähigkeit eines Halbleiters laut Unterlage beeinflusst?",
+      "answers": {
+        "A": "Nur durch Druck",
+        "B": "Nur durch chemische Reaktion",
+        "C": "Durch äußere Einflüsse wie Wärme, Licht oder Magnetfeld",
+        "D": "Nur durch Stromdichte",
+        "E": "Ausschließlich durch Länge"
+      },
+      "correct_answer": "C",
+      "explanation": "Halbleiter werden durch äußere Einflüsse wie Wärme, Licht oder Magnetfeld leitfähig beeinflusst."
+    },
+    {
+      "id": 36,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Stromkreis",
+      "question": "Welche Kombination gehört zu einem einfachen Stromkreis?",
+      "answers": {
+        "A": "Spannungserzeuger, Verbraucher, Verbindungsleitung",
+        "B": "Generatorfeld, Transformator, Sicherung",
+        "C": "Widerstand, Magnet, Erde",
+        "D": "Quelle, Kondensator, Halbleiter",
+        "E": "Voltmeter, Amperemeter, Motor"
+      },
+      "correct_answer": "A",
+      "explanation": "Ein einfacher Stromkreis besteht aus Spannungserzeuger, Verbraucher sowie Hin- und Rückleiter."
+    },
+    {
+      "id": 37,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Stromrichtung",
+      "question": "Worin unterscheidet sich die technische Stromrichtung von der Elektronenstromrichtung?",
+      "answers": {
+        "A": "Sie ist immer identisch",
+        "B": "Sie verläuft entgegengesetzt zur Elektronenstromrichtung",
+        "C": "Sie gilt nur bei Wechselstrom",
+        "D": "Sie existiert nur in Halbleitern",
+        "E": "Sie ist nur bei Isolatoren definiert"
+      },
+      "correct_answer": "B",
+      "explanation": "Die technische Stromrichtung verläuft vom Plus- zum Minuspol und damit entgegengesetzt zur Elektronenbewegung."
+    },
+    {
+      "id": 38,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Stromstärke",
+      "question": "Welche Aussage beschreibt 1 Ampere korrekt?",
+      "answers": {
+        "A": "1 A entspricht 1 Volt pro Ohm",
+        "B": "1 A ist die Ladung eines Elektrons",
+        "C": "1 A liegt vor, wenn 6,24 · 10^18 Elektronen pro Sekunde einen Querschnitt durchfließen",
+        "D": "1 A ist gleich 1000 Coulomb",
+        "E": "1 A ist eine Spannungseinheit"
+      },
+      "correct_answer": "C",
+      "explanation": "1 A wird über 6,24 · 10^18 Elektronen definiert, die pro Sekunde einen Leiterquerschnitt passieren."
+    },
+    {
+      "id": 39,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Stromstärke",
+      "question": "Welche Formel beschreibt die Stromstärke?",
+      "answers": {
+        "A": "I = U · R",
+        "B": "I = Q / t",
+        "C": "I = A / Q",
+        "D": "I = ρ · l",
+        "E": "I = 1 / G"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Stromstärke ist die Ladungsmenge pro Zeit: I = Q / t."
+    },
+    {
+      "id": 40,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Ladungsmenge",
+      "question": "Welche Aussage zur Ladungsmenge ist richtig?",
+      "answers": {
+        "A": "1 C entspricht 1 V",
+        "B": "Q wird in Ohm gemessen",
+        "C": "1 C entspricht 6,24 · 10^18 Elementarladungen",
+        "D": "Q ist unabhängig von Zeit",
+        "E": "Q ist gleich dem Leitwert"
+      },
+      "correct_answer": "C",
+      "explanation": "Eine Ladungsmenge von 1 Coulomb entspricht 6,24 · 10^18 Elementarladungen."
+    },
+    {
+      "id": 41,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Stromdichte",
+      "question": "Wie ist die Stromdichte definiert?",
+      "answers": {
+        "A": "Als Verhältnis von Spannung zu Widerstand",
+        "B": "Als Produkt aus Strom und Querschnitt",
+        "C": "Als Verhältnis von Stromstärke zu Leiterquerschnitt",
+        "D": "Als Quotient aus Widerstand und Leitwert",
+        "E": "Als Ladung pro Widerstand"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Stromdichte ist das Verhältnis aus Stromstärke und Leiterquerschnitt: J = I / A."
+    },
+    {
+      "id": 42,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Stromdichte",
+      "question": "Welche Folge hat eine größere Stromdichte?",
+      "answers": {
+        "A": "Weniger Zusammenstöße und weniger Erwärmung",
+        "B": "Mehr Zusammenstöße der Elektronen mit Atomionen und stärkere Erwärmung",
+        "C": "Immer geringere Spannung",
+        "D": "Vollständige Aufhebung des Widerstands",
+        "E": "Keine Auswirkung auf den Leiter"
+      },
+      "correct_answer": "B",
+      "explanation": "Mit steigender Stromdichte nehmen die Zusammenstöße zu, wodurch der Leiter stärker erwärmt wird."
+    },
+    {
+      "id": 43,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Stromarten",
+      "question": "Welche Aussage beschreibt Wechselstrom richtig?",
+      "answers": {
+        "A": "Seine Richtung bleibt konstant",
+        "B": "Er besteht nur aus einem Gleichanteil",
+        "C": "Richtung und Stärke wechseln periodisch",
+        "D": "Er kommt nur in Batterien vor",
+        "E": "Er hat kein Symbol"
+      },
+      "correct_answer": "C",
+      "explanation": "Wechselstrom ändert periodisch seine Richtung und meist auch seine Stärke."
+    },
+    {
+      "id": 44,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Stromarten",
+      "question": "Was ist pulsierender Gleichstrom?",
+      "answers": {
+        "A": "Eine Form des Wechselstroms mit Richtungswechsel",
+        "B": "Eine Sonderform des Mischstroms mit konstanter Richtung und wechselnder Stärke",
+        "C": "Ein vollständig konstanter Gleichstrom",
+        "D": "Ein Strom ohne Ladungsträger",
+        "E": "Ein nur magnetischer Strom"
+      },
+      "correct_answer": "B",
+      "explanation": "Pulsierender Gleichstrom ist eine Sonderform des Mischstroms: die Richtung bleibt konstant, die Stärke ändert sich."
+    },
+    {
+      "id": 45,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Stromwirkungen",
+      "question": "Welche Zuordnung Stromwirkung–Anwendung ist korrekt?",
+      "answers": {
+        "A": "Magnetische Wirkung – Galvanisieren",
+        "B": "Chemische Wirkung – Elektromotoren",
+        "C": "Lichtwirkung – LEDs",
+        "D": "Wärmewirkung – Lautsprecher",
+        "E": "Chemische Wirkung – Bügeleisen"
+      },
+      "correct_answer": "C",
+      "explanation": "LEDs sind ein Beispiel für die Lichtwirkung des elektrischen Stromes."
+    },
+    {
+      "id": 46,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Spannung",
+      "question": "Wie wird elektrische Spannung in der Unterlage definiert?",
+      "answers": {
+        "A": "Als Produkt aus Strom und Widerstand",
+        "B": "Als Unterschied in der Elektronenbesetzung zwischen zwei Punkten",
+        "C": "Als Hemmung der Elektronenbewegung",
+        "D": "Als Ladungsmenge pro Zeit",
+        "E": "Als Widerstand pro Meter"
+      },
+      "correct_answer": "B",
+      "explanation": "Spannung ist der Unterschied in der Elektronenbesetzung zwischen zwei Punkten."
+    },
+    {
+      "id": 47,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Spannung",
+      "question": "Welche Aussage zu Minus- und Pluspol ist richtig?",
+      "answers": {
+        "A": "Am Minuspol herrscht Elektronenmangel",
+        "B": "Am Pluspol herrscht Elektronenüberschuss",
+        "C": "Am Minuspol herrscht Elektronenüberschuss, am Pluspol Elektronenmangel",
+        "D": "Beide Pole sind immer gleich besetzt",
+        "E": "Nur bei Wechselstrom gibt es einen Minuspol"
+      },
+      "correct_answer": "C",
+      "explanation": "Der Minuspol besitzt Elektronenüberschuss, der Pluspol Elektronenmangel."
+    },
+    {
+      "id": 48,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Spannung",
+      "question": "Wodurch unterscheidet sich die Quellenspannung vom Spannungsfall?",
+      "answers": {
+        "A": "Quellenspannung ist immer kleiner",
+        "B": "Quellenspannung wird in der Quelle erzeugt, Spannungsfall tritt an Verbrauchern auf",
+        "C": "Spannungsfall ist nur bei Wechselstrom vorhanden",
+        "D": "Quellenspannung hat kein Formelzeichen",
+        "E": "Es gibt keinen Unterschied"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Quellenspannung Uq wird in der Spannungsquelle erzeugt, während Spannung an Verbrauchern abfällt."
+    },
+    {
+      "id": 49,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Potential",
+      "question": "Was ist elektrisches Potential?",
+      "answers": {
+        "A": "Die Stromstärke eines Punktes",
+        "B": "Der Widerstand zwischen zwei Leitern",
+        "C": "Die Spannung zwischen einem Punkt und einem festen Bezugspunkt",
+        "D": "Die Ladung eines Elektrons",
+        "E": "Der Leitwert eines Materials"
+      },
+      "correct_answer": "C",
+      "explanation": "Potential ist die Spannung zwischen einem Punkt und einem festen Bezugspunkt wie Masse oder Erde."
+    },
+    {
+      "id": 50,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Potential",
+      "question": "Welche Aussage zu Potentialen ist richtig?",
+      "answers": {
+        "A": "Potentiale haben keine Einheit",
+        "B": "Potentiale haben immer das Vorzeichen 0",
+        "C": "Potentiale haben immer ein Vorzeichen",
+        "D": "Potentiale können nur positiv sein",
+        "E": "Potentiale werden in Ampere gemessen"
+      },
+      "correct_answer": "C",
+      "explanation": "Potentiale können positiv oder negativ sein und tragen daher immer ein Vorzeichen."
+    },
+    {
+      "id": 51,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Spannungsrichtung",
+      "question": "Wohin zeigt der Spannungspfeil allgemein?",
+      "answers": {
+        "A": "Vom niedrigeren zum höheren Potential",
+        "B": "Vom höheren zum niedrigeren Potential",
+        "C": "Immer zum Minuspol",
+        "D": "Immer entgegengesetzt zum Spannungsfall",
+        "E": "Nur in Richtung Elektronenstrom"
+      },
+      "correct_answer": "B",
+      "explanation": "Der Spannungspfeil zeigt vom höheren zum niedrigeren Potential."
+    },
+    {
+      "id": 52,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Widerstand",
+      "question": "Was versteht man unter elektrischem Widerstand?",
+      "answers": {
+        "A": "Die Erzeugung von Ladungsträgern",
+        "B": "Die Hemmung der Ladungsträgerbewegung durch Zusammenstöße mit Atomionen",
+        "C": "Den Unterschied zweier Potentiale",
+        "D": "Die Leitung durch ionisierte Gase",
+        "E": "Die Ladungsmenge pro Zeit"
+      },
+      "correct_answer": "B",
+      "explanation": "Widerstand ist die Hemmung der Ladungsträgerbewegung durch Zusammenstöße mit Atomionen."
+    },
+    {
+      "id": 53,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Widerstand",
+      "question": "Wann hat ein Leiter den Widerstand 1 Ω?",
+      "answers": {
+        "A": "Wenn bei 1 A eine Spannung von 1 V anliegt",
+        "B": "Wenn bei 1 V eine Ladung von 1 C fließt",
+        "C": "Wenn bei 1 V ein Strom von 1 A fließt",
+        "D": "Wenn bei 1 Ω ein Strom von 1 V entsteht",
+        "E": "Wenn seine Länge 1 m beträgt"
+      },
+      "correct_answer": "C",
+      "explanation": "1 Ω bedeutet: Bei einer Spannung von 1 V fließt ein Strom von 1 A."
+    },
+    {
+      "id": 54,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Spezifischer Widerstand",
+      "question": "Welche Einheit hat der spezifische Widerstand ρ?",
+      "answers": {
+        "A": "Ω/m",
+        "B": "Ω·mm²/m",
+        "C": "S/m",
+        "D": "A/mm²",
+        "E": "V·m"
+      },
+      "correct_answer": "B",
+      "explanation": "Der spezifische Widerstand ρ wird in Ω·mm²/m angegeben."
+    },
+    {
+      "id": 55,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Spezifischer Widerstand",
+      "question": "Unter welchen Normbedingungen ist der spezifische Widerstand definiert?",
+      "answers": {
+        "A": "10 m Länge, 10 mm² Querschnitt, 0 °C",
+        "B": "1 m Länge, 1 mm² Querschnitt, 20 °C",
+        "C": "1 m Länge, 1 cm² Querschnitt, 25 °C",
+        "D": "100 m Länge, 1 mm² Querschnitt, 20 °C",
+        "E": "1 m Länge, 10 mm² Querschnitt, 100 °C"
+      },
+      "correct_answer": "B",
+      "explanation": "Der spezifische Widerstand bezieht sich auf 1 m Länge, 1 mm² Querschnitt und 20 °C."
+    },
+    {
+      "id": 56,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Leitwert",
+      "question": "Welche Formel beschreibt den Leitwert G?",
+      "answers": {
+        "A": "G = R · I",
+        "B": "G = 1 / R",
+        "C": "G = ρ / l",
+        "D": "G = U / I",
+        "E": "G = γ · R"
+      },
+      "correct_answer": "B",
+      "explanation": "Der Leitwert ist der Kehrwert des Widerstands: G = 1 / R."
+    },
+    {
+      "id": 57,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Leitfähigkeit",
+      "question": "Welche Beziehung besteht zwischen Leitfähigkeit γ und spezifischem Widerstand ρ?",
+      "answers": {
+        "A": "γ = ρ",
+        "B": "γ = R / ρ",
+        "C": "γ = 1 / ρ",
+        "D": "γ = ρ / A",
+        "E": "γ = U / ρ"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Leitfähigkeit γ ist der Kehrwert des spezifischen Widerstands ρ."
+    },
+    {
+      "id": 58,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Temperaturabhängigkeit",
+      "question": "Wie verhält sich der Widerstand eines Kaltleiters (PTC) bei Erwärmung?",
+      "answers": {
+        "A": "Er sinkt",
+        "B": "Er bleibt immer gleich",
+        "C": "Er steigt",
+        "D": "Er wird negativ",
+        "E": "Er wird zu Leitwert"
+      },
+      "correct_answer": "C",
+      "explanation": "Bei einem PTC steigt der Widerstand mit zunehmender Temperatur."
+    },
+    {
+      "id": 59,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Temperaturabhängigkeit",
+      "question": "Wie verhält sich der Widerstand eines Heißleiters (NTC) bei Erwärmung?",
+      "answers": {
+        "A": "Er steigt",
+        "B": "Er sinkt",
+        "C": "Er bleibt konstant",
+        "D": "Er wird null",
+        "E": "Er wechselt periodisch"
+      },
+      "correct_answer": "B",
+      "explanation": "Bei einem NTC sinkt der Widerstand mit steigender Temperatur."
+    },
+    {
+      "id": 60,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Farbcode",
+      "question": "Welche Toleranz steht beim Widerstandsfarbcode für Gold?",
+      "answers": {
+        "A": "±1 %",
+        "B": "±2 %",
+        "C": "±5 %",
+        "D": "±10 %",
+        "E": "±20 %"
+      },
+      "correct_answer": "C",
+      "explanation": "Ein goldener Toleranzring steht für ±5 %."
+    },
+    {
+      "id": 61,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Stromrichtung",
+      "question": "Welche Aussage ist bei einem metallischen Leiter korrekt?",
+      "answers": {
+        "A": "Elektronenstromrichtung und technische Stromrichtung verlaufen gleich",
+        "B": "Die technische Stromrichtung ist historisch festgelegt und verläuft der Elektronenbewegung entgegengesetzt",
+        "C": "Die Elektronen bewegen sich vom Pluspol zum Minuspol",
+        "D": "Die technische Stromrichtung gilt nur für Wechselstrom",
+        "E": "In Metallen gibt es keine gerichtete Bewegung von Ladungsträgern"
+      },
+      "correct_answer": "B",
+      "explanation": "In Metallen bewegen sich Elektronen vom Minus- zum Pluspol, während die technische Stromrichtung konventionell entgegengesetzt festgelegt ist."
+    },
+    {
+      "id": 62,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Leiterarten",
+      "question": "Warum zählt reines Wasser in der Unterlage zu den Nichtleitern, obwohl es flüssig ist?",
+      "answers": {
+        "A": "Weil alle Flüssigkeiten Elektronenleiter sind",
+        "B": "Weil Nichtleiter wenige gebundene Ladungsträger besitzen und reines Wasser diese Eigenschaft erfüllt",
+        "C": "Weil reines Wasser aus Metallen besteht",
+        "D": "Weil Wasser immer ein Halbleiter ist",
+        "E": "Weil Flüssigkeiten grundsätzlich keinen Widerstand haben"
+      },
+      "correct_answer": "B",
+      "explanation": "Nichtleiter besitzen nur wenige gebundene Ladungsträger; reines Wasser ist in der Unterlage deshalb als Isolator eingeordnet."
+    },
+    {
+      "id": 63,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Leiterarten",
+      "question": "Welche Kombination enthält ausschließlich Stoffe, die als Halbleiter genannt werden?",
+      "answers": {
+        "A": "Silizium, Germanium, Selen",
+        "B": "Kupfer, Aluminium, Silber",
+        "C": "Glas, Porzellan, Gummi",
+        "D": "Kohle, Gold, Eisen",
+        "E": "Öl, Luft, Vakuum"
+      },
+      "correct_answer": "A",
+      "explanation": "Silizium, Germanium und Selen werden in der Unterlage als Halbleiter genannt."
+    },
+    {
+      "id": 64,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Stromdichte",
+      "question": "Warum erwärmt sich ein Leiter bei hoher Stromdichte stärker?",
+      "answers": {
+        "A": "Weil sein Potential automatisch sinkt",
+        "B": "Weil dann weniger Ladungsträger vorhanden sind",
+        "C": "Weil mehr Zusammenstöße zwischen Elektronen und Atomionen auftreten",
+        "D": "Weil der Leiter zum Halbleiter wird",
+        "E": "Weil der Leitwert immer null wird"
+      },
+      "correct_answer": "C",
+      "explanation": "Eine hohe Stromdichte bedeutet mehr Zusammenstöße von Elektronen mit Atomionen und damit stärkere Erwärmung."
+    },
+    {
+      "id": 65,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Stromarten",
+      "question": "Welche Aussage grenzt Mischstrom und pulsierenden Gleichstrom richtig voneinander ab?",
+      "answers": {
+        "A": "Beide Begriffe bedeuten dasselbe ohne Unterschied",
+        "B": "Pulsierender Gleichstrom ist eine Sonderform des Mischstroms mit konstanter Richtung",
+        "C": "Mischstrom hat immer konstante Stärke",
+        "D": "Pulsierender Gleichstrom wechselt regelmäßig die Richtung",
+        "E": "Mischstrom kommt nur in Schmelzöfen vor"
+      },
+      "correct_answer": "B",
+      "explanation": "Pulsierender Gleichstrom ist eine Sonderform des Mischstroms; seine Richtung bleibt konstant, seine Stärke ändert sich."
+    },
+    {
+      "id": 66,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Stromwirkungen",
+      "question": "Welche Anwendung gehört zur chemischen Wirkung des Stromes?",
+      "answers": {
+        "A": "Lötkolben",
+        "B": "LED",
+        "C": "Hubmagnet",
+        "D": "Galvanisieren",
+        "E": "Lautsprecher"
+      },
+      "correct_answer": "D",
+      "explanation": "Galvanisieren nutzt die chemische Wirkung des elektrischen Stromes."
+    },
+    {
+      "id": 67,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Potential",
+      "question": "Zwei Punkte haben die Potentiale φ1 = +4 V und φ2 = −6 V. Welche Spannung ergibt sich nach U = φ1 − φ2?",
+      "answers": {
+        "A": "−10 V",
+        "B": "+2 V",
+        "C": "+10 V",
+        "D": "−2 V",
+        "E": "0 V"
+      },
+      "correct_answer": "C",
+      "explanation": "U = φ1 − φ2 = 4 V − (−6 V) = 10 V."
+    },
+    {
+      "id": 68,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Spannungsrichtung",
+      "question": "Welche allgemeine Aussage zu Spannungspfeilen ist richtig?",
+      "answers": {
+        "A": "Bei Spannungsquellen zeigt der Spannungspfeil vom Minus- zum Pluspol",
+        "B": "Bei Spannungsfällen zeigt der Spannungspfeil stets entgegengesetzt zur technischen Stromrichtung",
+        "C": "Spannungspfeile zeigen immer vom höheren zum niedrigeren Potential",
+        "D": "Spannungspfeile dürfen nur bei Wechselstrom verwendet werden",
+        "E": "Potentiale benötigen keine Vorzeichen, wenn ein Spannungspfeil vorhanden ist"
+      },
+      "correct_answer": "C",
+      "explanation": "Allgemein zeigt der Spannungspfeil vom höheren zum niedrigeren Potential."
+    },
+    {
+      "id": 69,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Spannungsrichtung",
+      "question": "Welche Aussage zu Spannungsquellen-Pfeilen und Spannungsfall-Pfeilen ist korrekt?",
+      "answers": {
+        "A": "Beide Pfeile zeigen immer in Elektronenstromrichtung",
+        "B": "Quellenspannungspfeile zeigen vom Plus- zum Minuspol; Spannungsfallpfeile in Richtung des technischen Stromes",
+        "C": "Spannungsfälle haben keinen Pfeil",
+        "D": "Quellenspannung und Spannungsfall werden immer mit Uq bezeichnet",
+        "E": "Nur Spannungsfälle besitzen ein Vorzeichen"
+      },
+      "correct_answer": "B",
+      "explanation": "Quellenspannungspfeile zeigen vom Plus- zum Minuspol; Spannungsfallpfeile werden in Richtung des technischen Stromes eingezeichnet."
+    },
+    {
+      "id": 70,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Spezifischer Widerstand",
+      "question": "Welches Material besitzt laut Tabelle den kleinsten spezifischen Widerstand?",
+      "answers": {
+        "A": "Aluminium",
+        "B": "Kupfer",
+        "C": "Silber",
+        "D": "Konstantan",
+        "E": "Eisen"
+      },
+      "correct_answer": "C",
+      "explanation": "Silber hat mit 0,016 Ω·mm²/m den kleinsten angegebenen spezifischen Widerstand."
+    },
+    {
+      "id": 71,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Leitfähigkeit",
+      "question": "Welches Material besitzt laut Tabelle die höchste Leitfähigkeit?",
+      "answers": {
+        "A": "Aluminium",
+        "B": "Kupfer",
+        "C": "Silber",
+        "D": "Kohle",
+        "E": "Germanium"
+      },
+      "correct_answer": "C",
+      "explanation": "Silber besitzt mit 62,5 m/(Ω·mm²) die höchste angegebene Leitfähigkeit."
+    },
+    {
+      "id": 72,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Leitwert",
+      "question": "Welche Aussage verbindet Widerstand, Leitwert und Leitfähigkeit korrekt?",
+      "answers": {
+        "A": "Ein größerer Widerstand bedeutet größeren Leitwert",
+        "B": "Leitwert und Widerstand sind Kehrwerte; Leitfähigkeit und spezifischer Widerstand ebenfalls",
+        "C": "Leitfähigkeit ist dasselbe wie Stromdichte",
+        "D": "Leitwert wird in Ohm gemessen",
+        "E": "Leitfähigkeit hängt nie vom Material ab"
+      },
+      "correct_answer": "B",
+      "explanation": "G = 1/R und γ = 1/ρ. Beide Größenpaare stehen in reziproker Beziehung."
+    },
+    {
+      "id": 73,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Temperaturabhängigkeit",
+      "question": "Welcher Stoff wird als nahezu temperaturneutraler Widerstandsträger genannt?",
+      "answers": {
+        "A": "Kupfer",
+        "B": "Aluminium",
+        "C": "Kohle",
+        "D": "Konstantan",
+        "E": "Silizium"
+      },
+      "correct_answer": "D",
+      "explanation": "Konstantan wird als nahezu temperaturneutral beschrieben."
+    },
+    {
+      "id": 74,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Temperaturabhängigkeit",
+      "question": "Welche Kombination ist vollständig korrekt?",
+      "answers": {
+        "A": "PTC: T↑ → R↓; NTC: T↑ → R↑",
+        "B": "PTC: T↑ → R↑; NTC: T↑ → R↓",
+        "C": "PTC und NTC: beide R konstant",
+        "D": "PTC: spannungsabhängig; NTC: lichtabhängig",
+        "E": "PTC und NTC gelten nur bei 20 °C"
+      },
+      "correct_answer": "B",
+      "explanation": "Beim PTC steigt der Widerstand mit der Temperatur, beim NTC sinkt er."
+    },
+    {
+      "id": 75,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Temperaturabhängigkeit",
+      "question": "Welche Aussage zum Temperaturkoeffizienten α ist richtig?",
+      "answers": {
+        "A": "Er hat die Einheit Ω",
+        "B": "Er gibt die Spannungsänderung je Kelvin an",
+        "C": "Er beschreibt die Widerstandsänderung je Kelvin für 1 Ω",
+        "D": "Er gilt nur für Halbleiter",
+        "E": "Er ist identisch mit der Stromdichte"
+      },
+      "correct_answer": "C",
+      "explanation": "Der Temperaturkoeffizient α gibt an, wie stark sich ein Widerstand pro Kelvin bezogen auf 1 Ω ändert."
+    },
+    {
+      "id": 76,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Temperaturabhängigkeit",
+      "question": "In welchem Temperaturbereich sind die linearen Widerstandsformeln laut Unterlage gültig?",
+      "answers": {
+        "A": "0 °C bis 100 °C",
+        "B": "−30 °C bis +200 °C",
+        "C": "−100 °C bis +100 °C",
+        "D": "20 °C bis 80 °C",
+        "E": "Nur exakt bei 20 °C"
+      },
+      "correct_answer": "B",
+      "explanation": "Die angegebenen Formeln zur Temperaturabhängigkeit gelten im Bereich von −30 °C bis +200 °C."
+    },
+    {
+      "id": 77,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Technische Widerstände",
+      "question": "Welche Gruppe gehört zu den mechanisch veränderbaren Widerständen?",
+      "answers": {
+        "A": "Drahtwiderstände, Schichtwiderstände, Chipwiderstände",
+        "B": "NTC, PTC, VDR",
+        "C": "Potentiometer, veränderbarer Widerstand, Trimmer",
+        "D": "Kupfer, Silber, Aluminium",
+        "E": "Leiter, Nichtleiter, Halbleiter"
+      },
+      "correct_answer": "C",
+      "explanation": "Potentiometer, veränderbarer Widerstand und Trimmer sind mechanisch veränderbare Widerstände."
+    },
+    {
+      "id": 78,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Technische Widerstände",
+      "question": "Welche Zuordnung Widerstands-Typ – Abhängigkeit ist richtig?",
+      "answers": {
+        "A": "LDR – magnetfeldabhängig",
+        "B": "MDR – lichtabhängig",
+        "C": "VDR – spannungsabhängig",
+        "D": "DMS – temperaturabhängig",
+        "E": "PTC – druckabhängig"
+      },
+      "correct_answer": "C",
+      "explanation": "VDR steht für Voltage Dependent Resistor und ist spannungsabhängig."
+    },
+    {
+      "id": 79,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Normreihen",
+      "question": "Was bedeutet die Zahl in einer IEC-Normreihe wie E12 oder E96?",
+      "answers": {
+        "A": "Die maximale Belastbarkeit in Watt",
+        "B": "Die Anzahl der Farbringe",
+        "C": "Die Anzahl der Werte pro Dekade",
+        "D": "Die Toleranz in Prozent",
+        "E": "Die Anzahl der Bauteilanschlüsse"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Zahl der E-Reihe gibt an, wie viele Widerstandswerte pro Dekade vorgesehen sind."
+    },
+    {
+      "id": 80,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Farbcode",
+      "question": "Welche Farbe liefert als Multiplikator den Faktor 10^-1?",
+      "answers": {
+        "A": "Schwarz",
+        "B": "Braun",
+        "C": "Gold",
+        "D": "Silber",
+        "E": "Weiß"
+      },
+      "correct_answer": "C",
+      "explanation": "Gold steht im Farbcode als Multiplikator für 10^-1."
+    },
+    {
+      "id": 81,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Farbcode",
+      "question": "Welche Farbe steht im Widerstandsfarbcode für die Ziffer 7?",
+      "answers": {
+        "A": "Grau",
+        "B": "Violett",
+        "C": "Blau",
+        "D": "Grün",
+        "E": "Rot"
+      },
+      "correct_answer": "B",
+      "explanation": "Violett entspricht der Ziffer 7."
+    },
+    {
+      "id": 82,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Farbcode",
+      "question": "Welche Toleranz gilt, wenn kein Toleranzring vorhanden ist?",
+      "answers": {
+        "A": "±0,5 %",
+        "B": "±1 %",
+        "C": "±5 %",
+        "D": "±10 %",
+        "E": "±20 %"
+      },
+      "correct_answer": "E",
+      "explanation": "Ohne Toleranzring gilt bei der Farbcodierung eine Toleranz von ±20 %."
+    },
+    {
+      "id": 83,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Alphanumerische Kennzeichnung",
+      "question": "Wie ist die Kennzeichnung 4K7 zu interpretieren?",
+      "answers": {
+        "A": "4,7 Ω",
+        "B": "47 Ω",
+        "C": "4,7 kΩ",
+        "D": "47 kΩ",
+        "E": "4,7 MΩ"
+      },
+      "correct_answer": "C",
+      "explanation": "Bei 4K7 ersetzt der Buchstabe K das Komma und steht zugleich für Kiloohm: 4,7 kΩ."
+    },
+    {
+      "id": 84,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Alphanumerische Kennzeichnung",
+      "question": "Wie ist die Kennzeichnung R22 zu interpretieren?",
+      "answers": {
+        "A": "22 Ω",
+        "B": "0,22 Ω",
+        "C": "2,2 Ω",
+        "D": "0,022 kΩ",
+        "E": "22 mΩ"
+      },
+      "correct_answer": "B",
+      "explanation": "Bei R22 ersetzt R das Komma, daher bedeutet die Angabe 0,22 Ω."
+    },
+    {
+      "id": 85,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Alphanumerische Kennzeichnung",
+      "question": "Wie ist die Kennzeichnung 1M0 zu interpretieren?",
+      "answers": {
+        "A": "1,0 Ω",
+        "B": "10 MΩ",
+        "C": "0,1 MΩ",
+        "D": "1,0 MΩ",
+        "E": "1000 Ω"
+      },
+      "correct_answer": "D",
+      "explanation": "Bei 1M0 ersetzt M das Komma und bezeichnet Megaohm, also 1,0 MΩ."
+    },
+    {
+      "id": 86,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Einheiten",
+      "question": "Welche Zuordnung von Formelzeichen und Einheit ist korrekt?",
+      "answers": {
+        "A": "γ – Ω·mm²/m",
+        "B": "ρ – m/(Ω·mm²)",
+        "C": "J – A/mm²",
+        "D": "α – V/K",
+        "E": "G – Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Stromdichte J wird in A/mm² angegeben."
+    },
+    {
+      "id": 87,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Formelzusammenhänge",
+      "question": "Welche Formel beschreibt den Leiterwiderstand über die Leitfähigkeit γ?",
+      "answers": {
+        "A": "R = γ · l / A",
+        "B": "R = l / (γ · A)",
+        "C": "R = A / (γ · l)",
+        "D": "R = 1 / (γ + A)",
+        "E": "R = ρ / γ"
+      },
+      "correct_answer": "B",
+      "explanation": "Über die Leitfähigkeit gilt für den Leiterwiderstand R = l / (γ · A)."
+    },
+    {
+      "id": 88,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Formelzusammenhänge",
+      "question": "Welche umgestellte Formel zur Berechnung des Querschnitts A ist richtig?",
+      "answers": {
+        "A": "A = R · ρ / l",
+        "B": "A = ρ · l / R",
+        "C": "A = l / (ρ · R)",
+        "D": "A = R / (ρ · l)",
+        "E": "A = ρ / (R · l)"
+      },
+      "correct_answer": "B",
+      "explanation": "Aus R = ρ · l / A folgt durch Umstellen A = ρ · l / R."
+    },
+    {
+      "id": 89,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Formelzusammenhänge",
+      "question": "Welche Formel liefert die Temperaturerhöhung aus Warm- und Kaltwiderstand?",
+      "answers": {
+        "A": "Δϑ = α · R20 / RW",
+        "B": "Δϑ = (RW − R20) / (α · R20)",
+        "C": "Δϑ = RW · R20 / α",
+        "D": "Δϑ = (R20 − RW) / α",
+        "E": "Δϑ = α · (RW − R20)"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Temperaturerhöhung ergibt sich nach Δϑ = (RW − R20) / (α · R20)."
+    },
+    {
+      "id": 90,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Widerstandsklassifikation",
+      "question": "Welche Einteilung technischer Widerstände ist laut Unterlage vollständig korrekt?",
+      "answers": {
+        "A": "Festwiderstände, mechanisch veränderbare Widerstände, physikalisch veränderliche Widerstände",
+        "B": "Leiter, Halbleiter, Nichtleiter",
+        "C": "Gleichstrom-, Wechselstrom- und Mischwiderstände",
+        "D": "PTC, NTC, Konstantan",
+        "E": "Hoch-, Mittel- und Niederspannungswiderstände"
+      },
+      "correct_answer": "A",
+      "explanation": "Die Unterlage teilt technische Widerstände in Festwiderstände, mechanisch veränderbare und physikalisch veränderliche Widerstände ein."
+    },
+    {
+      "id": 91,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Ladungsmenge",
+      "question": "Ein Leiter wird 5 s lang von einem Strom von I = 3 A durchflossen. Welche Ladungsmenge Q wird transportiert?",
+      "given": {
+        "I": "3 A",
+        "t": "5 s"
+      },
+      "searched": "Q in As (= C)",
+      "formula_hint": "Q = I · t",
+      "answers": {
+        "A": "Q = 0,6 As",
+        "B": "Q = 8 As",
+        "C": "Q = 15 As",
+        "D": "Q = 30 As",
+        "E": "Q = 60 As"
+      },
+      "correct_answer": "C",
+      "explanation": "Q = I · t = 3 A · 5 s = 15 As."
+    },
+    {
+      "id": 92,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Ladungsmenge",
+      "question": "Ein Verbraucher wird mit I = 2 A über t = 4 min betrieben. Welche Ladungsmenge Q wurde transportiert?",
+      "given": {
+        "I": "2 A",
+        "t": "4 min = 240 s"
+      },
+      "searched": "Q in As (= C)",
+      "formula_hint": "Q = I · t",
+      "answers": {
+        "A": "Q = 8 As",
+        "B": "Q = 120 As",
+        "C": "Q = 240 As",
+        "D": "Q = 480 As",
+        "E": "Q = 960 As"
+      },
+      "correct_answer": "D",
+      "explanation": "Q = 2 A · 240 s = 480 As."
+    },
+    {
+      "id": 93,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Stromstärke",
+      "question": "Durch einen Leiter fließt eine Ladungsmenge von Q = 90 C in t = 30 s. Wie groß ist die Stromstärke I?",
+      "given": {
+        "Q": "90 C",
+        "t": "30 s"
+      },
+      "searched": "I in A",
+      "formula_hint": "I = Q / t",
+      "answers": {
+        "A": "I = 0,33 A",
+        "B": "I = 2 A",
+        "C": "I = 3 A",
+        "D": "I = 30 A",
+        "E": "I = 60 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I = Q / t = 90 C / 30 s = 3 A."
+    },
+    {
+      "id": 94,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Stromstärke",
+      "question": "Es werden Q = 7200 C in t = 2 h transportiert. Wie groß ist die Stromstärke I?",
+      "given": {
+        "Q": "7200 C",
+        "t": "2 h = 7200 s"
+      },
+      "searched": "I in A",
+      "formula_hint": "I = Q / t",
+      "answers": {
+        "A": "I = 0,5 A",
+        "B": "I = 1 A",
+        "C": "I = 2 A",
+        "D": "I = 7,2 A",
+        "E": "I = 14,4 A"
+      },
+      "correct_answer": "B",
+      "explanation": "I = 7200 C / 7200 s = 1 A."
+    },
+    {
+      "id": 95,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Stromdichte",
+      "question": "Ein Leiter mit dem Querschnitt A = 2,0 mm² führt einen Strom von I = 10 A. Wie groß ist die Stromdichte J?",
+      "given": {
+        "I": "10 A",
+        "A": "2,0 mm²"
+      },
+      "searched": "J in A/mm²",
+      "formula_hint": "J = I / A",
+      "answers": {
+        "A": "J = 0,2 A/mm²",
+        "B": "J = 2 A/mm²",
+        "C": "J = 5 A/mm²",
+        "D": "J = 12 A/mm²",
+        "E": "J = 20 A/mm²"
+      },
+      "correct_answer": "C",
+      "explanation": "J = I / A = 10 A / 2,0 mm² = 5 A/mm²."
+    },
+    {
+      "id": 96,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Stromdichte",
+      "question": "Ein Leiterquerschnitt von A = 4 mm² wird mit I = 16 A belastet. Welche Stromdichte J ergibt sich?",
+      "given": {
+        "I": "16 A",
+        "A": "4 mm²"
+      },
+      "searched": "J in A/mm²",
+      "formula_hint": "J = I / A",
+      "answers": {
+        "A": "J = 2 A/mm²",
+        "B": "J = 4 A/mm²",
+        "C": "J = 8 A/mm²",
+        "D": "J = 16 A/mm²",
+        "E": "J = 64 A/mm²"
+      },
+      "correct_answer": "B",
+      "explanation": "J = 16 A / 4 mm² = 4 A/mm²."
+    },
+    {
+      "id": 97,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Leitwert",
+      "question": "Ein Widerstand hat den Wert R = 5 Ω. Wie groß ist der Leitwert G?",
+      "given": {
+        "R": "5 Ω"
+      },
+      "searched": "G in S",
+      "formula_hint": "G = 1 / R",
+      "answers": {
+        "A": "G = 0,02 S",
+        "B": "G = 0,2 S",
+        "C": "G = 2 S",
+        "D": "G = 5 S",
+        "E": "G = 10 S"
+      },
+      "correct_answer": "B",
+      "explanation": "G = 1 / 5 Ω = 0,2 S."
+    },
+    {
+      "id": 98,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Leitfähigkeit",
+      "question": "Für ein Material ist der spezifische Widerstand ρ = 0,02 Ω·mm²/m gegeben. Wie groß ist die Leitfähigkeit γ?",
+      "given": {
+        "ρ": "0,02 Ω·mm²/m"
+      },
+      "searched": "γ in m/(Ω·mm²)",
+      "formula_hint": "γ = 1 / ρ",
+      "answers": {
+        "A": "γ = 0,02 m/(Ω·mm²)",
+        "B": "γ = 2 m/(Ω·mm²)",
+        "C": "γ = 5 m/(Ω·mm²)",
+        "D": "γ = 50 m/(Ω·mm²)",
+        "E": "γ = 500 m/(Ω·mm²)"
+      },
+      "correct_answer": "D",
+      "explanation": "γ = 1 / 0,02 = 50 m/(Ω·mm²)."
+    },
+    {
+      "id": 99,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Potential",
+      "question": "Die Potentiale zweier Punkte betragen φ1 = +8 V und φ2 = +3 V. Wie groß ist die Spannung U?",
+      "given": {
+        "φ1": "+8 V",
+        "φ2": "+3 V"
+      },
+      "searched": "U in V",
+      "formula_hint": "U = φ1 − φ2",
+      "answers": {
+        "A": "U = −11 V",
+        "B": "U = −5 V",
+        "C": "U = 5 V",
+        "D": "U = 11 V",
+        "E": "U = 24 V"
+      },
+      "correct_answer": "C",
+      "explanation": "U = 8 V − 3 V = 5 V."
+    },
+    {
+      "id": 100,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Widerstandsänderung",
+      "question": "Ein Widerstand hat bei 20 °C den Wert R20 = 100 Ω. Bei einer Temperaturerhöhung von Δϑ = 10 K und α = 0,0039 1/K: Wie groß ist die Widerstandsänderung ΔR?",
+      "given": {
+        "R20": "100 Ω",
+        "α": "0,0039 1/K",
+        "Δϑ": "10 K"
+      },
+      "searched": "ΔR in Ω",
+      "formula_hint": "ΔR = R20 · α · Δϑ",
+      "answers": {
+        "A": "ΔR = 0,39 Ω",
+        "B": "ΔR = 3,9 Ω",
+        "C": "ΔR = 39 Ω",
+        "D": "ΔR = 0,039 Ω",
+        "E": "ΔR = 13,9 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "ΔR = 100 Ω · 0,0039 · 10 = 3,9 Ω."
+    },
+    {
+      "id": 101,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Leiterwiderstand und Leitwert",
+      "question": "Ein Kupferleiter hat die Länge l = 50 m und den Querschnitt A = 2,5 mm². Für Kupfer gilt ρ = 0,0178 Ω·mm²/m. Wie groß ist zuerst der Leiterwiderstand R und daraus der Leitwert G?",
+      "given": {
+        "l": "50 m",
+        "A": "2,5 mm²",
+        "ρ": "0,0178 Ω·mm²/m"
+      },
+      "searched": "G in S",
+      "formula_hint": "Schritt 1: R = ρ · l / A; Schritt 2: G = 1 / R",
+      "answers": {
+        "A": "G = 0,36 S",
+        "B": "G = 2,81 S",
+        "C": "G = 3,56 S",
+        "D": "G = 14,04 S",
+        "E": "G = 140,4 S"
+      },
+      "correct_answer": "B",
+      "explanation": "R = 0,0178 · 50 / 2,5 = 0,356 Ω. Daraus folgt G = 1 / 0,356 ≈ 2,81 S."
+    },
+    {
+      "id": 102,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Leiterwiderstand und Leitwert",
+      "question": "Ein Aluminiumleiter mit l = 20 m und A = 4 mm² hat den spezifischen Widerstand ρ = 0,0278 Ω·mm²/m. Wie groß ist sein Leitwert G?",
+      "given": {
+        "l": "20 m",
+        "A": "4 mm²",
+        "ρ": "0,0278 Ω·mm²/m"
+      },
+      "searched": "G in S",
+      "formula_hint": "Schritt 1: R = ρ · l / A; Schritt 2: G = 1 / R",
+      "answers": {
+        "A": "G = 0,139 S",
+        "B": "G = 1,39 S",
+        "C": "G = 7,19 S",
+        "D": "G = 13,9 S",
+        "E": "G = 71,9 S"
+      },
+      "correct_answer": "C",
+      "explanation": "R = 0,0278 · 20 / 4 = 0,139 Ω. Also G = 1 / 0,139 ≈ 7,19 S."
+    },
+    {
+      "id": 103,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Leitfähigkeit und Widerstand",
+      "question": "Für Silber gilt γ = 62,5 m/(Ω·mm²). Ein Leiter ist l = 25 m lang und hat A = 1,5 mm². Wie groß ist der Widerstand R?",
+      "given": {
+        "γ": "62,5 m/(Ω·mm²)",
+        "l": "25 m",
+        "A": "1,5 mm²"
+      },
+      "searched": "R in Ω",
+      "formula_hint": "Schritt 1: R = l / (γ · A)",
+      "answers": {
+        "A": "R = 0,267 Ω",
+        "B": "R = 2,67 Ω",
+        "C": "R = 9,38 Ω",
+        "D": "R = 37,5 Ω",
+        "E": "R = 93,8 Ω"
+      },
+      "correct_answer": "A",
+      "explanation": "R = 25 / (62,5 · 1,5) = 25 / 93,75 ≈ 0,267 Ω."
+    },
+    {
+      "id": 104,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Leiterwiderstand und Querschnitt",
+      "question": "Ein Kupferleiter von l = 100 m soll einen Widerstand von R = 0,89 Ω haben. Für Kupfer gilt ρ = 0,0178 Ω·mm²/m. Welcher Querschnitt A ist erforderlich?",
+      "given": {
+        "l": "100 m",
+        "R": "0,89 Ω",
+        "ρ": "0,0178 Ω·mm²/m"
+      },
+      "searched": "A in mm²",
+      "formula_hint": "Schritt 1: A = ρ · l / R",
+      "answers": {
+        "A": "A = 0,5 mm²",
+        "B": "A = 1,0 mm²",
+        "C": "A = 2,0 mm²",
+        "D": "A = 5,0 mm²",
+        "E": "A = 20 mm²"
+      },
+      "correct_answer": "C",
+      "explanation": "A = 0,0178 · 100 / 0,89 = 2,0 mm²."
+    },
+    {
+      "id": 105,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Leiterwiderstand und Länge",
+      "question": "Ein Leiter hat den Widerstand R = 0,356 Ω, den Querschnitt A = 2,5 mm² und den spezifischen Widerstand ρ = 0,0178 Ω·mm²/m. Wie lang ist der Leiter?",
+      "given": {
+        "R": "0,356 Ω",
+        "A": "2,5 mm²",
+        "ρ": "0,0178 Ω·mm²/m"
+      },
+      "searched": "l in m",
+      "formula_hint": "Schritt 1: l = R · A / ρ",
+      "answers": {
+        "A": "l = 5 m",
+        "B": "l = 20 m",
+        "C": "l = 40 m",
+        "D": "l = 50 m",
+        "E": "l = 200 m"
+      },
+      "correct_answer": "D",
+      "explanation": "l = 0,356 · 2,5 / 0,0178 = 50 m."
+    },
+    {
+      "id": 106,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Leitfähigkeit und spezifischer Widerstand",
+      "question": "Ein Material besitzt den spezifischen Widerstand ρ = 0,0278 Ω·mm²/m. Wie groß ist die Leitfähigkeit γ und welchen Widerstand R hat ein 10 m langer Leiter aus diesem Material mit A = 1 mm²?",
+      "given": {
+        "ρ": "0,0278 Ω·mm²/m",
+        "l": "10 m",
+        "A": "1 mm²"
+      },
+      "searched": "R in Ω",
+      "formula_hint": "Schritt 1: γ = 1 / ρ; Schritt 2: R = l / (γ · A)",
+      "answers": {
+        "A": "R = 0,278 Ω",
+        "B": "R = 2,78 Ω",
+        "C": "R = 27,8 Ω",
+        "D": "R = 35,97 Ω",
+        "E": "R = 359,7 Ω"
+      },
+      "correct_answer": "A",
+      "explanation": "γ = 1 / 0,0278 ≈ 35,97 m/(Ω·mm²). Dann R = 10 / (35,97 · 1) ≈ 0,278 Ω."
+    },
+    {
+      "id": 107,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Stromdichte und Stromstärke",
+      "question": "Ein Leiter mit A = 1,5 mm² darf mit einer Stromdichte von J = 6 A/mm² belastet werden. Welche Stromstärke I ergibt sich?",
+      "given": {
+        "A": "1,5 mm²",
+        "J": "6 A/mm²"
+      },
+      "searched": "I in A",
+      "formula_hint": "Schritt 1: Aus J = I / A folgt I = J · A",
+      "answers": {
+        "A": "I = 4 A",
+        "B": "I = 7,5 A",
+        "C": "I = 9 A",
+        "D": "I = 15 A",
+        "E": "I = 40 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I = J · A = 6 A/mm² · 1,5 mm² = 9 A."
+    },
+    {
+      "id": 108,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Stromdichte und Querschnitt",
+      "question": "Ein Leiter soll bei I = 18 A mit einer Stromdichte von J = 6 A/mm² betrieben werden. Welcher Querschnitt A ist nötig?",
+      "given": {
+        "I": "18 A",
+        "J": "6 A/mm²"
+      },
+      "searched": "A in mm²",
+      "formula_hint": "Schritt 1: Aus J = I / A folgt A = I / J",
+      "answers": {
+        "A": "A = 1 mm²",
+        "B": "A = 2 mm²",
+        "C": "A = 3 mm²",
+        "D": "A = 6 mm²",
+        "E": "A = 12 mm²"
+      },
+      "correct_answer": "C",
+      "explanation": "A = I / J = 18 A / 6 A/mm² = 3 mm²."
+    },
+    {
+      "id": 109,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Potential und Spannung",
+      "question": "An einem Punkt liegt das Potential φ1 = +12 V. Die Spannung zwischen den Punkten beträgt U = 20 V nach U = φ1 − φ2. Welches Potential φ2 hat der zweite Punkt?",
+      "given": {
+        "φ1": "+12 V",
+        "U": "20 V"
+      },
+      "searched": "φ2 in V",
+      "formula_hint": "Schritt 1: U = φ1 − φ2; Schritt 2: nach φ2 umstellen: φ2 = φ1 − U",
+      "answers": {
+        "A": "φ2 = +32 V",
+        "B": "φ2 = +8 V",
+        "C": "φ2 = 0 V",
+        "D": "φ2 = −8 V",
+        "E": "φ2 = −32 V"
+      },
+      "correct_answer": "D",
+      "explanation": "φ2 = φ1 − U = 12 V − 20 V = −8 V."
+    },
+    {
+      "id": 110,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Widerstandsänderung und Warmwiderstand",
+      "question": "Ein Kupferwiderstand hat bei 20 °C den Wert R20 = 50 Ω. Mit α = 0,0039 1/K und einer Temperaturerhöhung Δϑ = 40 K: Wie groß sind zuerst ΔR und dann der Warmwiderstand RW?",
+      "given": {
+        "R20": "50 Ω",
+        "α": "0,0039 1/K",
+        "Δϑ": "40 K"
+      },
+      "searched": "RW in Ω",
+      "formula_hint": "Schritt 1: ΔR = R20 · α · Δϑ; Schritt 2: RW = R20 + ΔR",
+      "answers": {
+        "A": "RW = 50,78 Ω",
+        "B": "RW = 57,8 Ω",
+        "C": "RW = 65,6 Ω",
+        "D": "RW = 78,0 Ω",
+        "E": "RW = 128 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "ΔR = 50 · 0,0039 · 40 = 7,8 Ω. Damit RW = 50 + 7,8 = 57,8 Ω."
+    },
+    {
+      "id": 111,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Temperaturabhängigkeit und Leiterwiderstand",
+      "question": "Ein Kupferleiter ist l = 100 m lang und hat A = 1,5 mm². Für Kupfer gilt ρ = 0,0178 Ω·mm²/m und α = 0,0039 1/K. Wie groß ist der Warmwiderstand RW bei einer Temperaturerhöhung von Δϑ = 60 K?",
+      "given": {
+        "l": "100 m",
+        "A": "1,5 mm²",
+        "ρ": "0,0178 Ω·mm²/m",
+        "α": "0,0039 1/K",
+        "Δϑ": "60 K"
+      },
+      "searched": "RW in Ω",
+      "formula_hint": "Schritt 1: R20 = ρ · l / A; Schritt 2: RW = R20 · (1 + α · Δϑ)",
+      "answers": {
+        "A": "RW = 1,19 Ω",
+        "B": "RW = 1,46 Ω",
+        "C": "RW = 1,76 Ω",
+        "D": "RW = 2,11 Ω",
+        "E": "RW = 2,76 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "R20 = 0,0178 · 100 / 1,5 ≈ 1,187 Ω. RW = 1,187 · (1 + 0,0039 · 60) = 1,187 · 1,234 ≈ 1,46 Ω."
+    },
+    {
+      "id": 112,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Temperaturabhängigkeit",
+      "question": "Ein Kupferwiderstand hat bei 20 °C den Wert R20 = 80 Ω. Bei Erwärmung steigt er auf RW = 95,6 Ω. Mit α = 0,0039 1/K: Wie groß ist die Temperaturerhöhung Δϑ?",
+      "given": {
+        "R20": "80 Ω",
+        "RW": "95,6 Ω",
+        "α": "0,0039 1/K"
+      },
+      "searched": "Δϑ in K",
+      "formula_hint": "Schritt 1: Δϑ = (RW − R20) / (α · R20)",
+      "answers": {
+        "A": "Δϑ = 25 K",
+        "B": "Δϑ = 40 K",
+        "C": "Δϑ = 50 K",
+        "D": "Δϑ = 60 K",
+        "E": "Δϑ = 80 K"
+      },
+      "correct_answer": "C",
+      "explanation": "Δϑ = (95,6 − 80) / (0,0039 · 80) = 15,6 / 0,312 = 50 K."
+    },
+    {
+      "id": 113,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Leiterwiderstand und Temperatur",
+      "question": "Ein Aluminiumleiter ist l = 80 m lang und besitzt A = 4 mm². Für Aluminium gilt ρ = 0,0278 Ω·mm²/m. Der Leiter erwärmt sich um Δϑ = 50 K. Mit α = 0,0039 1/K soll der Warmwiderstand RW berechnet werden. Wie groß ist RW?",
+      "given": {
+        "l": "80 m",
+        "A": "4 mm²",
+        "ρ": "0,0278 Ω·mm²/m",
+        "α": "0,0039 1/K",
+        "Δϑ": "50 K"
+      },
+      "searched": "RW in Ω",
+      "formula_hint": "Schritt 1: R20 = ρ · l / A; Schritt 2: RW = R20 · (1 + α · Δϑ)",
+      "answers": {
+        "A": "RW = 0,417 Ω",
+        "B": "RW = 0,556 Ω",
+        "C": "RW = 0,664 Ω",
+        "D": "RW = 0,772 Ω",
+        "E": "RW = 1,328 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "R20 = 0,0278 · 80 / 4 = 0,556 Ω. RW = 0,556 · (1 + 0,0039 · 50) = 0,556 · 1,195 ≈ 0,664 Ω."
+    },
+    {
+      "id": 114,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Leiterwiderstand und Leitwert",
+      "question": "Ein Silberleiter ist l = 30 m lang und hat A = 0,75 mm². Für Silber gilt ρ = 0,016 Ω·mm²/m. Wie groß sind zunächst R und daraus der Leitwert G?",
+      "given": {
+        "l": "30 m",
+        "A": "0,75 mm²",
+        "ρ": "0,016 Ω·mm²/m"
+      },
+      "searched": "G in S",
+      "formula_hint": "Schritt 1: R = ρ · l / A; Schritt 2: G = 1 / R",
+      "answers": {
+        "A": "G = 0,40 S",
+        "B": "G = 1,56 S",
+        "C": "G = 6,40 S",
+        "D": "G = 15,6 S",
+        "E": "G = 25,0 S"
+      },
+      "correct_answer": "B",
+      "explanation": "R = 0,016 · 30 / 0,75 = 0,64 Ω. Daraus G = 1 / 0,64 ≈ 1,5625 S."
+    },
+    {
+      "id": 115,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Leitfähigkeit und Querschnitt",
+      "question": "Ein Kupferleiter soll bei l = 40 m den Widerstand R = 0,5 Ω haben. Für Kupfer gilt γ = 56,2 m/(Ω·mm²). Welcher Querschnitt A ist erforderlich?",
+      "given": {
+        "l": "40 m",
+        "R": "0,5 Ω",
+        "γ": "56,2 m/(Ω·mm²)"
+      },
+      "searched": "A in mm²",
+      "formula_hint": "Schritt 1: R = l / (γ · A); Schritt 2: nach A umstellen: A = l / (γ · R)",
+      "answers": {
+        "A": "A = 0,71 mm²",
+        "B": "A = 1,42 mm²",
+        "C": "A = 2,81 mm²",
+        "D": "A = 5,62 mm²",
+        "E": "A = 11,24 mm²"
+      },
+      "correct_answer": "B",
+      "explanation": "A = l / (γ · R) = 40 / (56,2 · 0,5) = 40 / 28,1 ≈ 1,42 mm²."
+    },
+    {
+      "id": 116,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Stromdichte und Potential",
+      "question": "Durch einen Leiter mit dem Querschnitt A = 2,5 mm² fließt ein Strom von I = 12,5 A. Die Potentiale an seinen Enden betragen φ1 = +15 V und φ2 = −5 V. Welche Stromdichte J ergibt sich?",
+      "given": {
+        "φ1": "+15 V",
+        "φ2": "−5 V",
+        "I": "12,5 A",
+        "A": "2,5 mm²"
+      },
+      "searched": "J in A/mm²",
+      "formula_hint": "Schritt 1: U = φ1 − φ2 (Spannungsbestimmung); Schritt 2: J = I / A",
+      "answers": {
+        "A": "J = 2 A/mm²",
+        "B": "J = 4 A/mm²",
+        "C": "J = 5 A/mm²",
+        "D": "J = 8 A/mm²",
+        "E": "J = 20 A/mm²"
+      },
+      "correct_answer": "C",
+      "explanation": "U = 15 − (−5) = 20 V (nur zur Vollständigkeit). Die Stromdichte ist J = 12,5 A / 2,5 mm² = 5 A/mm²."
+    },
+    {
+      "id": 117,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Leiterwiderstand und Ladungsmenge",
+      "question": "Ein Kupferleiter mit l = 10 m und A = 1 mm² hat ρ = 0,0178 Ω·mm²/m. Durch ihn fließt 2 Minuten lang ein Strom von I = 5 A. Wie groß sind zunächst der Widerstand R und wie groß ist die in dieser Zeit transportierte Ladungsmenge Q?",
+      "given": {
+        "l": "10 m",
+        "A": "1 mm²",
+        "ρ": "0,0178 Ω·mm²/m",
+        "I": "5 A",
+        "t": "2 min = 120 s"
+      },
+      "searched": "Q in As (= C)",
+      "formula_hint": "Schritt 1: R = ρ · l / A; Schritt 2: Q = I · t",
+      "answers": {
+        "A": "Q = 60 As",
+        "B": "Q = 120 As",
+        "C": "Q = 300 As",
+        "D": "Q = 600 As",
+        "E": "Q = 1068 As"
+      },
+      "correct_answer": "D",
+      "explanation": "R = 0,0178 · 10 / 1 = 0,178 Ω. Q = 5 A · 120 s = 600 As."
+    },
+    {
+      "id": 118,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Widerstandsänderung und Warmwiderstand",
+      "question": "Ein Kupferleiter hat bei 20 °C den Widerstand R20 = 1,78 Ω. Er erwärmt sich um Δϑ = 100 K. Mit α = 0,0039 1/K: Wie groß sind zuerst die Widerstandsänderung ΔR und daraus der Warmwiderstand RW?",
+      "given": {
+        "R20": "1,78 Ω",
+        "α": "0,0039 1/K",
+        "Δϑ": "100 K"
+      },
+      "searched": "RW in Ω",
+      "formula_hint": "Schritt 1: ΔR = R20 · α · Δϑ; Schritt 2: RW = R20 + ΔR",
+      "answers": {
+        "A": "RW = 1,849 Ω",
+        "B": "RW = 2,474 Ω",
+        "C": "RW = 3,560 Ω",
+        "D": "RW = 4,342 Ω",
+        "E": "RW = 5,162 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "ΔR = 1,78 · 0,0039 · 100 = 0,6942 Ω. RW = 1,78 + 0,6942 ≈ 2,474 Ω."
+    },
+    {
+      "id": 119,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Leitfähigkeit, Widerstand und Leitwert",
+      "question": "Ein Material besitzt den spezifischen Widerstand ρ = 0,0178 Ω·mm²/m. Ein Leiter aus diesem Material ist l = 56,2 m lang und hat A = 2 mm². Wie groß sind zunächst die Leitfähigkeit γ, dann der Widerstand R und daraus der Leitwert G?",
+      "given": {
+        "ρ": "0,0178 Ω·mm²/m",
+        "l": "56,2 m",
+        "A": "2 mm²"
+      },
+      "searched": "G in S",
+      "formula_hint": "Schritt 1: γ = 1 / ρ; Schritt 2: R = l / (γ · A); Schritt 3: G = 1 / R",
+      "answers": {
+        "A": "G = 0,633 S",
+        "B": "G = 1,000 S",
+        "C": "G = 2,000 S",
+        "D": "G = 3,157 S",
+        "E": "G = 31,57 S"
+      },
+      "correct_answer": "C",
+      "explanation": "γ = 1 / 0,0178 ≈ 56,18 m/(Ω·mm²). R = 56,2 / (56,18 · 2) ≈ 0,5 Ω. G = 1 / 0,5 = 2,0 S."
+    },
+    {
+      "id": 120,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Leiterwiderstand und Temperaturabhängigkeit",
+      "question": "Ein Kupferleiter ist l = 50 m lang und hat A = 1 mm². Mit ρ = 0,0178 Ω·mm²/m und α = 0,0039 1/K erwärmt er sich auf einen Warmwiderstand RW = 1,334 Ω. Welche Temperaturerhöhung Δϑ lag vor?",
+      "given": {
+        "RW": "1,334 Ω",
+        "l": "50 m",
+        "A": "1 mm²",
+        "ρ": "0,0178 Ω·mm²/m",
+        "α": "0,0039 1/K"
+      },
+      "searched": "Δϑ in K",
+      "formula_hint": "Schritt 1: R20 = ρ · l / A; Schritt 2: Δϑ = (RW − R20) / (α · R20)",
+      "answers": {
+        "A": "Δϑ = 32 K",
+        "B": "Δϑ = 48 K",
+        "C": "Δϑ = 64 K",
+        "D": "Δϑ = 100 K",
+        "E": "Δϑ = 128 K"
+      },
+      "correct_answer": "D",
+      "explanation": "R20 = 0,0178 · 50 / 1 = 0,89 Ω. Δϑ = (1,334 − 0,89) / (0,0039 · 0,89) = 0,444 / 0,003471 ≈ 100 K."
+    }
+  ]
+}
