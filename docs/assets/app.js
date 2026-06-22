@@ -393,6 +393,7 @@ const Store = (() => {
 const Router = (() => {
   const views = {};
   let _current = null;
+  let _currentParams = {};
 
   function register(id, { onEnter, onLeave } = {}) {
     views[id] = { onEnter, onLeave };
@@ -406,6 +407,7 @@ const Router = (() => {
       views[_current]?.onLeave?.();
     }
     _current = id;
+    _currentParams = params;
     const el = document.getElementById(id);
     if (el) el.classList.add('active');
     views[id]?.onEnter?.(params);
@@ -413,8 +415,9 @@ const Router = (() => {
   }
 
   function current() { return _current; }
+  function currentParams() { return _currentParams; }
 
-  return { register, navigate, current };
+  return { register, navigate, current, currentParams };
 })();
 
 /* =====================================================================
@@ -1618,7 +1621,7 @@ function initHeader() {
       const cur = Router.current();
       if (cur) {
         clearExamTimers(); // Timer stoppen wenn gewechselt
-        Router.navigate(cur);
+        Router.navigate(cur, Router.currentParams());
       }
     });
   });
