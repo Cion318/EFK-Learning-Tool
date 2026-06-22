@@ -456,6 +456,26 @@ function escHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
+/** Escapes HTML then renders physics subscripts (R1→R<sub>1</sub>, Rges, Uq, Pv, …) */
+function fmtTxt(str) {
+  return escHtml(str)
+    // Numeric subscripts: R1, U2, I3, P4, R12, U23, …
+    .replace(/([UIRP])(\d+)/g, '$1<sub>$2</sub>')
+    // Named subscripts — longer tokens first to avoid partial matches
+    .replace(/\bRges\b/g, 'R<sub>ges</sub>')
+    .replace(/\bUges\b/g, 'U<sub>ges</sub>')
+    .replace(/\bIges\b/g, 'I<sub>ges</sub>')
+    .replace(/\bPges\b/g, 'P<sub>ges</sub>')
+    .replace(/\bPout\b/g, 'P<sub>out</sub>')
+    .replace(/\bPaus\b/g, 'P<sub>aus</sub>')
+    .replace(/\bPein\b/g, 'P<sub>ein</sub>')
+    .replace(/\bPin\b/g,  'P<sub>in</sub>')
+    .replace(/\bPv\b/g,   'P<sub>v</sub>')
+    .replace(/\bUq\b/g,   'U<sub>q</sub>')
+    .replace(/\bRi\b/g,   'R<sub>i</sub>')
+    .replace(/\bRL\b/g,   'R<sub>L</sub>');
+}
+
 /**
  * Gibt den sprachspezifischen Anzeigetext eines Kapitel-Eintrags zurück.
  * Reihenfolge: labelDe/labelEn (je nach Sprache) → label (Fallback) → key
@@ -875,7 +895,7 @@ function renderLearnQuestion(filtered) {
   const answersHtml = Object.entries(q.answers).map(([key, text]) =>
     `<button class="answer-option" data-key="${escHtml(key)}">
        <span class="answer-option__key">${escHtml(key)}</span>
-       <span>${escHtml(text)}</span>
+       <span>${fmtTxt(text)}</span>
      </button>`
   ).join('');
 
@@ -886,7 +906,7 @@ function renderLearnQuestion(filtered) {
         <span class="badge badge--type">${escHtml(typeLabel)}</span>
         <span class="badge badge--${q.difficulty}">${escHtml(diffLabel)}</span>
       </div>
-      <div class="question-text">${escHtml(q.question)}</div>
+      <div class="question-text">${fmtTxt(q.question)}</div>
       ${q.image ? `<div class="question-image"><img src="${BASE_URL}${escHtml(q.image.replace(/^\.\//, ''))}" alt="Schaltbild / Circuit diagram" loading="lazy"></div>` : ''}
       <div class="answers-list" id="learn-answers">${answersHtml}</div>
       <div class="feedback-box" id="learn-feedback"></div>
@@ -921,13 +941,13 @@ function renderLearnQuestion(filtered) {
       if (isCorrect) {
         fb.classList.add('feedback-box--correct');
         fb.innerHTML = `<div class="feedback-box__title">${escHtml(t('feedback_correct'))}</div>
-          <div class="feedback-box__explanation"><strong>${escHtml(t('explanation'))}</strong> ${escHtml(q.explanation)}</div>`;
+          <div class="feedback-box__explanation"><strong>${escHtml(t('explanation'))}</strong> ${fmtTxt(q.explanation)}</div>`;
       } else {
         fb.classList.add('feedback-box--wrong');
         fb.innerHTML = `<div class="feedback-box__title">${escHtml(t('feedback_wrong'))}</div>
           <div class="feedback-box__explanation">
-            <strong>${escHtml(t('correct_answer'))}</strong> ${escHtml(q.correct_answer)}: ${escHtml(q.answers[q.correct_answer])}<br>
-            <strong>${escHtml(t('explanation'))}</strong> ${escHtml(q.explanation)}
+            <strong>${escHtml(t('correct_answer'))}</strong> ${escHtml(q.correct_answer)}: ${fmtTxt(q.answers[q.correct_answer])}<br>
+            <strong>${escHtml(t('explanation'))}</strong> ${fmtTxt(q.explanation)}
           </div>`;
       }
 
@@ -1247,7 +1267,7 @@ function renderExamQuestion(index) {
     const isSelected = state.answers[index] === key;
     return `<button class="answer-option${isSelected ? ' selected' : ''}" data-key="${escHtml(key)}">
       <span class="answer-option__key">${escHtml(key)}</span>
-      <span>${escHtml(text)}</span>
+      <span>${fmtTxt(text)}</span>
     </button>`;
   }).join('');
 
@@ -1266,7 +1286,7 @@ function renderExamQuestion(index) {
         <span id="exam-q-timer">${formatTime(qTime)}</span>
       </div>
     </div>
-    <div class="question-text">${escHtml(q.question)}</div>
+    <div class="question-text">${fmtTxt(q.question)}</div>
     ${q.image ? `<div class="question-image"><img src="${BASE_URL}${escHtml(q.image.replace(/^\.\//, ''))}" alt="Schaltbild / Circuit diagram" loading="lazy"></div>` : ''}
     <div class="answers-list" id="exam-answers">${answersHtml}</div>
     <div style="display:flex;justify-content:space-between;align-items:center;margin-top:var(--space-5);flex-wrap:wrap;gap:var(--space-3)">
@@ -1469,22 +1489,22 @@ function renderExamResult(params) {
         <div class="result-q-number">${escHtml(t('question_label'))} ${i + 1} · ${escHtml(q._chapterKey)}</div>
         <div class="result-q-time">⏱ ${formatTime(qTime)}</div>
       </div>
-      <div class="result-q-text">${escHtml(q.question)}</div>
+      <div class="result-q-text">${fmtTxt(q.question)}</div>
       <div class="result-answers">
         <div class="result-answer-row ${isUnanswered ? 'result-wrong-answer' : isCorrect ? 'result-correct-answer' : 'result-wrong-answer'}">
           <strong>${escHtml(t('result_given'))}</strong>
           ${isUnanswered
             ? escHtml(t('result_unanswered'))
-            : `${escHtml(givenKey)}: ${escHtml(q.answers[givenKey])}`
+            : `${escHtml(givenKey)}: ${fmtTxt(q.answers[givenKey])}`
           }
         </div>
         ${!isCorrect ? `
         <div class="result-answer-row result-correct-answer">
           <strong>${escHtml(t('result_correct_ans'))}</strong>
-          ${escHtml(q.correct_answer)}: ${escHtml(q.answers[q.correct_answer])}
+          ${escHtml(q.correct_answer)}: ${fmtTxt(q.answers[q.correct_answer])}
         </div>` : ''}
       </div>
-      <div class="result-explanation">${escHtml(q.explanation)}</div>
+      <div class="result-explanation">${fmtTxt(q.explanation)}</div>
     </div>`;
   }).join('');
 
