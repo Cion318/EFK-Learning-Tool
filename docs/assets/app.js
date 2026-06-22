@@ -887,7 +887,7 @@ function renderLearnQuestion(filtered) {
         <span class="badge badge--${q.difficulty}">${escHtml(diffLabel)}</span>
       </div>
       <div class="question-text">${escHtml(q.question)}</div>
-      ${q.image ? `<div class="question-image"><img src="${escHtml(q.image)}" alt="Schaltbild / Circuit diagram" loading="lazy"></div>` : ''}
+      ${q.image ? `<div class="question-image"><img src="${BASE_URL}${escHtml(q.image.replace(/^\.\//, ''))}" alt="Schaltbild / Circuit diagram" loading="lazy"></div>` : ''}
       <div class="answers-list" id="learn-answers">${answersHtml}</div>
       <div class="feedback-box" id="learn-feedback"></div>
       <button class="btn btn--primary" id="lp-next" style="display:none">
@@ -1267,7 +1267,7 @@ function renderExamQuestion(index) {
       </div>
     </div>
     <div class="question-text">${escHtml(q.question)}</div>
-    ${q.image ? `<div class="question-image"><img src="${escHtml(q.image)}" alt="Schaltbild / Circuit diagram" loading="lazy"></div>` : ''}
+    ${q.image ? `<div class="question-image"><img src="${BASE_URL}${escHtml(q.image.replace(/^\.\//, ''))}" alt="Schaltbild / Circuit diagram" loading="lazy"></div>` : ''}
     <div class="answers-list" id="exam-answers">${answersHtml}</div>
     <div style="display:flex;justify-content:space-between;align-items:center;margin-top:var(--space-5);flex-wrap:wrap;gap:var(--space-3)">
       <div>
