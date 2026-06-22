@@ -667,6 +667,21 @@ p {
   margin-bottom: var(--space-6);
 }
 
+.question-image {
+  margin-bottom: var(--space-5);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: #f9f9f9;
+  border: 1px solid var(--color-border);
+  text-align: center;
+}
+.question-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /* Answer Options */
 .answers-list {
   display: flex;

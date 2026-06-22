@@ -1,0 +1,2023 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohmsches Gesetz",
+      "question": "Wie lautet die Grundformel des Ohmschen Gesetzes?",
+      "answers": {
+        "A": "U = R / I",
+        "B": "U = R · I",
+        "C": "U = I / R",
+        "D": "P = U · I",
+        "E": "R = U + I"
+      },
+      "correct_answer": "B",
+      "explanation": "Das Ohmsche Gesetz lautet U = R · I. Spannung ist gleich Widerstand mal Strom."
+    },
+    {
+      "id": 2,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohmsches Gesetz",
+      "question": "Welches Formelzeichen hat der elektrische Widerstand?",
+      "answers": {
+        "A": "U",
+        "B": "I",
+        "C": "P",
+        "D": "G",
+        "E": "R"
+      },
+      "correct_answer": "E",
+      "explanation": "Der elektrische Widerstand wird mit dem Formelzeichen R bezeichnet."
+    },
+    {
+      "id": 3,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohmsches Gesetz",
+      "question": "Welche Einheit hat der elektrische Widerstand?",
+      "answers": {
+        "A": "Volt (V)",
+        "B": "Ampere (A)",
+        "C": "Watt (W)",
+        "D": "Ohm (Ω)",
+        "E": "Siemens (S)"
+      },
+      "correct_answer": "D",
+      "explanation": "Der elektrische Widerstand hat die Einheit Ohm mit dem Einheitenzeichen Ω."
+    },
+    {
+      "id": 4,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohmsches Gesetz",
+      "question": "Welche drei Größen verknüpft das Ohmsche Gesetz?",
+      "answers": {
+        "A": "Leistung P, Energie W, Zeit t",
+        "B": "Ladung Q, Strom I, Zeit t",
+        "C": "Spannung U, Strom I, Widerstand R",
+        "D": "Stromdichte J, Fläche A, Strom I",
+        "E": "Spezifischer Widerstand ρ, Länge l, Fläche A"
+      },
+      "correct_answer": "C",
+      "explanation": "Das Ohmsche Gesetz verknüpft die drei Grundgrößen: Spannung U, Strom I und Widerstand R."
+    },
+    {
+      "id": 5,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Leistung",
+      "question": "Welches Formelzeichen hat die elektrische Leistung?",
+      "answers": {
+        "A": "W",
+        "B": "E",
+        "C": "P",
+        "D": "Q",
+        "E": "L"
+      },
+      "correct_answer": "C",
+      "explanation": "Die elektrische Leistung wird mit dem Formelzeichen P bezeichnet."
+    },
+    {
+      "id": 6,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Leistung",
+      "question": "Welche Einheit hat die elektrische Leistung?",
+      "answers": {
+        "A": "Volt (V)",
+        "B": "Joule (J)",
+        "C": "Ampere (A)",
+        "D": "Watt (W)",
+        "E": "Ohm (Ω)"
+      },
+      "correct_answer": "D",
+      "explanation": "Die elektrische Leistung hat die Einheit Watt mit dem Einheitenzeichen W."
+    },
+    {
+      "id": 7,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Leistung",
+      "question": "Welche Formel beschreibt die elektrische Leistung mit Spannung und Strom?",
+      "answers": {
+        "A": "P = U + I",
+        "B": "P = U / I",
+        "C": "P = U · I",
+        "D": "P = I / U",
+        "E": "P = R · I"
+      },
+      "correct_answer": "C",
+      "explanation": "Die elektrische Leistung ergibt sich aus dem Produkt von Spannung und Strom: P = U · I."
+    },
+    {
+      "id": 8,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Energie",
+      "question": "Welches Formelzeichen hat die elektrische Energie?",
+      "answers": {
+        "A": "P",
+        "B": "F",
+        "C": "Q",
+        "D": "W",
+        "E": "E"
+      },
+      "correct_answer": "D",
+      "explanation": "Die elektrische Energie wird mit dem Formelzeichen W bezeichnet."
+    },
+    {
+      "id": 9,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Energie",
+      "question": "Welche SI-Einheit hat die elektrische Energie?",
+      "answers": {
+        "A": "Watt (W)",
+        "B": "Joule (J)",
+        "C": "Coulomb (C)",
+        "D": "Volt (V)",
+        "E": "Newton (N)"
+      },
+      "correct_answer": "B",
+      "explanation": "Die SI-Einheit der elektrischen Energie ist das Joule (J). Im Alltag wird auch die Kilowattstunde (kWh) verwendet."
+    },
+    {
+      "id": 10,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Energie",
+      "question": "Wie berechnet man die elektrische Energie aus Leistung und Zeit?",
+      "answers": {
+        "A": "W = P / t",
+        "B": "W = P + t",
+        "C": "W = P − t",
+        "D": "W = P · t",
+        "E": "W = t / P"
+      },
+      "correct_answer": "D",
+      "explanation": "Elektrische Energie ist das Produkt aus Leistung und Zeit: W = P · t."
+    },
+    {
+      "id": 11,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Reihenschaltung",
+      "question": "Was kennzeichnet eine Reihenschaltung?",
+      "answers": {
+        "A": "Alle Bauteile liegen zwischen denselben zwei Punkten",
+        "B": "Alle Bauteile sind hintereinander in einem einzigen Strompfad angeordnet",
+        "C": "An allen Bauteilen liegt dieselbe Spannung an",
+        "D": "Der Strom teilt sich auf mehrere Zweige auf",
+        "E": "Es gibt mehrere parallele Schleifen"
+      },
+      "correct_answer": "B",
+      "explanation": "In einer Reihenschaltung sind alle Bauteile hintereinander in einem einzigen Strompfad (Zweig) angeordnet."
+    },
+    {
+      "id": 12,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Reihenschaltung",
+      "question": "Welche Größe ist in einer Reihenschaltung an allen Bauteilen gleich?",
+      "answers": {
+        "A": "Spannung",
+        "B": "Widerstand",
+        "C": "Strom",
+        "D": "Leistung",
+        "E": "Leitwert"
+      },
+      "correct_answer": "C",
+      "explanation": "In einer Reihenschaltung fließt durch alle Bauteile derselbe Strom."
+    },
+    {
+      "id": 13,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Reihenschaltung",
+      "question": "Wie verhalten sich die Teilspannungen in einer Reihenschaltung?",
+      "answers": {
+        "A": "Sie sind alle gleich groß",
+        "B": "Sie sind alle null",
+        "C": "Sie addieren sich zur Gesamtspannung",
+        "D": "Sie subtrahieren sich voneinander",
+        "E": "Sie multiplizieren sich"
+      },
+      "correct_answer": "C",
+      "explanation": "In einer Reihenschaltung addieren sich alle Teilspannungen zur Gesamtspannung (Maschenregel)."
+    },
+    {
+      "id": 14,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Reihenschaltung",
+      "question": "Wie berechnet man den Gesamtwiderstand einer Reihenschaltung?",
+      "answers": {
+        "A": "Rges = R1 · R2",
+        "B": "Rges = R1 / R2",
+        "C": "Rges = R1 + R2 + ...",
+        "D": "1/Rges = 1/R1 + 1/R2",
+        "E": "Rges = R1 − R2"
+      },
+      "correct_answer": "C",
+      "explanation": "Der Gesamtwiderstand einer Reihenschaltung ist die Summe aller Einzelwiderstände: Rges = R1 + R2 + ..."
+    },
+    {
+      "id": 15,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallelschaltung",
+      "question": "Was kennzeichnet eine Parallelschaltung?",
+      "answers": {
+        "A": "Alle Bauteile sind hintereinander in einem Zweig",
+        "B": "Alle Bauteile liegen zwischen denselben zwei Knoten",
+        "C": "Der Strom ist an allen Bauteilen gleich",
+        "D": "Die Spannungen addieren sich",
+        "E": "Es gibt nur einen Strompfad"
+      },
+      "correct_answer": "B",
+      "explanation": "In einer Parallelschaltung liegen alle Bauteile zwischen denselben zwei Knoten. An ihnen liegt dieselbe Spannung an."
+    },
+    {
+      "id": 16,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallelschaltung",
+      "question": "Welche Größe ist in einer Parallelschaltung an allen Bauteilen gleich?",
+      "answers": {
+        "A": "Strom",
+        "B": "Widerstand",
+        "C": "Leistung",
+        "D": "Spannung",
+        "E": "Leitwert"
+      },
+      "correct_answer": "D",
+      "explanation": "In einer Parallelschaltung liegt an allen Zweigen dieselbe Spannung an."
+    },
+    {
+      "id": 17,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallelschaltung",
+      "question": "Wie verhält sich der Gesamtstrom in einer Parallelschaltung?",
+      "answers": {
+        "A": "Er ist in allen Zweigen gleich groß",
+        "B": "Er teilt sich in die einzelnen Zweigströme auf",
+        "C": "Er ist immer null",
+        "D": "Er wird kleiner als der kleinste Zweigstrom",
+        "E": "Er ist immer gleich 1 A"
+      },
+      "correct_answer": "B",
+      "explanation": "Der Gesamtstrom teilt sich in einer Parallelschaltung in die Zweigströme auf (Knotenregel)."
+    },
+    {
+      "id": 18,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallelschaltung",
+      "question": "Welche Formel gilt für den Gesamtwiderstand einer Parallelschaltung?",
+      "answers": {
+        "A": "Rges = R1 + R2",
+        "B": "Rges = R1 · R2",
+        "C": "1/Rges = 1/R1 + 1/R2 + ...",
+        "D": "Rges = R1 − R2",
+        "E": "Rges = R1 / R2"
+      },
+      "correct_answer": "C",
+      "explanation": "Für den Gesamtwiderstand einer Parallelschaltung gilt: 1/Rges = 1/R1 + 1/R2 + ..."
+    },
+    {
+      "id": 19,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Was besagt die Knotenregel (1. Kirchhoffsches Gesetz)?",
+      "answers": {
+        "A": "Die Summe aller Spannungen in einer Masche ist null",
+        "B": "Die Summe aller zufließenden Ströme ist gleich der Summe der abfließenden Ströme",
+        "C": "Der Strom ist immer konstant",
+        "D": "Die Spannung ist überall im Kreis gleich",
+        "E": "Alle Widerstände sind in Reihe"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Knotenregel besagt: Die Summe der zufließenden Ströme an einem Knoten ist gleich der Summe der abfließenden Ströme (ΣI = 0)."
+    },
+    {
+      "id": 20,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Was besagt die Maschenregel (2. Kirchhoffsches Gesetz)?",
+      "answers": {
+        "A": "Die Summe aller Ströme an einem Knoten ist null",
+        "B": "Die Spannung ist überall im Kreis gleich",
+        "C": "Die algebraische Summe aller Spannungen in einer geschlossenen Masche ist null",
+        "D": "Der Strom ist proportional zur Spannung",
+        "E": "Die Widerstände addieren sich immer"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Maschenregel besagt: Die algebraische Summe aller Spannungen in einer geschlossenen Masche ist null (ΣU = 0)."
+    },
+    {
+      "id": 21,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Was ist ein Knoten (Knotenpunkt) in einem Stromkreis?",
+      "answers": {
+        "A": "Ein Widerstand",
+        "B": "Ein Verbindungspunkt, an dem drei oder mehr Leiter zusammentreffen",
+        "C": "Ein Schalter",
+        "D": "Eine Spannungsquelle",
+        "E": "Ein Verbraucher"
+      },
+      "correct_answer": "B",
+      "explanation": "Ein Knotenpunkt ist eine Stelle im Stromkreis, an der drei oder mehr Leiter zusammentreffen."
+    },
+    {
+      "id": 22,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Was ist eine Masche in einem Stromkreis?",
+      "answers": {
+        "A": "Ein gerader Leiter",
+        "B": "Ein Knotenpunkt",
+        "C": "Eine geschlossene Schleife im Netzwerk",
+        "D": "Ein Widerstand",
+        "E": "Ein Strom"
+      },
+      "correct_answer": "C",
+      "explanation": "Eine Masche ist eine geschlossene Schleife in einem Netzwerk. Die Summe aller Spannungen in der Masche ist null."
+    },
+    {
+      "id": 23,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallelschaltung",
+      "question": "Wie groß ist der Gesamtwiderstand einer Parallelschaltung im Vergleich zum kleinsten Einzelwiderstand?",
+      "answers": {
+        "A": "Größer",
+        "B": "Gleich groß",
+        "C": "Kleiner",
+        "D": "Doppelt so groß",
+        "E": "Viermal so groß"
+      },
+      "correct_answer": "C",
+      "explanation": "Der Gesamtwiderstand einer Parallelschaltung ist immer kleiner als der kleinste Einzelwiderstand."
+    },
+    {
+      "id": 24,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallelschaltung",
+      "question": "Zwei gleiche Widerstände R werden parallel geschaltet. Wie groß ist der Gesamtwiderstand?",
+      "answers": {
+        "A": "2R",
+        "B": "R",
+        "C": "R/2",
+        "D": "R/4",
+        "E": "4R"
+      },
+      "correct_answer": "C",
+      "explanation": "Bei zwei gleichen Widerständen R in Parallelschaltung gilt: Rges = R/2."
+    },
+    {
+      "id": 25,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Spannungsteiler",
+      "question": "Wozu dient ein Spannungsteiler?",
+      "answers": {
+        "A": "Um den Strom zu verdoppeln",
+        "B": "Um eine bestimmte Teilspannung aus der Quellenspannung zu gewinnen",
+        "C": "Um den Widerstand zu erhöhen",
+        "D": "Um die Leistung zu messen",
+        "E": "Um Ströme zu summieren"
+      },
+      "correct_answer": "B",
+      "explanation": "Ein Spannungsteiler (Reihenschaltung aus Widerständen) dient dazu, eine gewünschte Teilspannung aus einer Gesamtspannung zu gewinnen."
+    },
+    {
+      "id": 26,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Leistung",
+      "question": "Welche Formel beschreibt die elektrische Leistung mit Strom und Widerstand?",
+      "answers": {
+        "A": "P = U · I",
+        "B": "P = U² / R",
+        "C": "P = R / I²",
+        "D": "P = I² · R",
+        "E": "P = I / R²"
+      },
+      "correct_answer": "D",
+      "explanation": "Mit Strom und Widerstand gilt: P = I² · R."
+    },
+    {
+      "id": 27,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Leistung",
+      "question": "Welche Formel beschreibt die elektrische Leistung mit Spannung und Widerstand?",
+      "answers": {
+        "A": "P = I² · R",
+        "B": "P = U² / R",
+        "C": "P = U / R",
+        "D": "P = R / U²",
+        "E": "P = U · R"
+      },
+      "correct_answer": "B",
+      "explanation": "Mit Spannung und Widerstand gilt: P = U² / R."
+    },
+    {
+      "id": 28,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Elektrische Energie",
+      "question": "Welche Einheit für Energie wird im Alltag besonders häufig verwendet?",
+      "answers": {
+        "A": "Joule (J)",
+        "B": "Newton (N)",
+        "C": "Watt (W)",
+        "D": "Kilowattstunde (kWh)",
+        "E": "Coulomb (C)"
+      },
+      "correct_answer": "D",
+      "explanation": "Im Alltag – z. B. auf der Stromrechnung – wird die Kilowattstunde (kWh) als Energieeinheit verwendet."
+    },
+    {
+      "id": 29,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohmsches Gesetz",
+      "question": "Bleibt die Spannung konstant und wird der Widerstand größer, was passiert mit dem Strom?",
+      "answers": {
+        "A": "Er wird größer",
+        "B": "Er bleibt gleich",
+        "C": "Er wird kleiner",
+        "D": "Er wird null",
+        "E": "Er verdoppelt sich"
+      },
+      "correct_answer": "C",
+      "explanation": "Nach I = U/R: Ist U konstant und R größer, so wird I kleiner. Spannung und Strom sind bei konstantem R proportional; erhöht sich R, sinkt I."
+    },
+    {
+      "id": 30,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Wirkungsgrad",
+      "question": "Welches Formelzeichen hat der Wirkungsgrad?",
+      "answers": {
+        "A": "W",
+        "B": "P",
+        "C": "η (Eta)",
+        "D": "Q",
+        "E": "α"
+      },
+      "correct_answer": "C",
+      "explanation": "Der Wirkungsgrad wird mit dem griechischen Buchstaben η (Eta) bezeichnet."
+    },
+    {
+      "id": 31,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Ohmsches Gesetz",
+      "question": "Das Ohmsche Gesetz ist linear. Was bedeutet das?",
+      "answers": {
+        "A": "Der Widerstand ist immer konstant und temperaturunabhängig",
+        "B": "Spannung und Strom sind bei konstantem R proportional zueinander",
+        "C": "Leistung und Zeit sind proportional",
+        "D": "Strom und Widerstand sind gleich groß",
+        "E": "Die U-I-Kennlinie ist ein Kreis"
+      },
+      "correct_answer": "B",
+      "explanation": "Ein lineares Bauelement folgt U = R · I. Die U-I-Kennlinie ist eine Gerade durch den Ursprung: Spannung und Strom sind proportional."
+    },
+    {
+      "id": 32,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Reihenschaltung",
+      "question": "In einer Reihenschaltung erhält der Widerstand mit dem größeren Wert ...",
+      "answers": {
+        "A": "weniger Spannung",
+        "B": "die gleiche Spannung wie alle anderen",
+        "C": "mehr Spannung",
+        "D": "keinen Strom",
+        "E": "mehr Strom"
+      },
+      "correct_answer": "C",
+      "explanation": "In der Reihenschaltung gilt U = I · R. Da der Strom überall gleich ist, fällt am größeren Widerstand eine größere Teilspannung ab."
+    },
+    {
+      "id": 33,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Reihenschaltung",
+      "question": "Was passiert mit dem Gesamtwiderstand, wenn ein weiterer Widerstand in Reihe geschaltet wird?",
+      "answers": {
+        "A": "Er bleibt gleich",
+        "B": "Er sinkt",
+        "C": "Er steigt",
+        "D": "Er wird null",
+        "E": "Er halbiert sich"
+      },
+      "correct_answer": "C",
+      "explanation": "Bei der Reihenschaltung addieren sich Widerstände: Rges = R1 + R2 + ... Jeder zusätzliche Widerstand erhöht den Gesamtwiderstand."
+    },
+    {
+      "id": 34,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallelschaltung",
+      "question": "Was passiert mit dem Gesamtwiderstand, wenn ein weiterer Widerstand parallel geschaltet wird?",
+      "answers": {
+        "A": "Er steigt",
+        "B": "Er bleibt gleich",
+        "C": "Er sinkt",
+        "D": "Er wird unendlich",
+        "E": "Er verdoppelt sich"
+      },
+      "correct_answer": "C",
+      "explanation": "Jeder zusätzliche Parallelzweig bietet einen weiteren Strompfad. Der Gesamtwiderstand sinkt, weil mehr Zweige weniger Gesamthemmung bedeuten."
+    },
+    {
+      "id": 35,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Spannungsteiler",
+      "question": "In einem unbelasteten Spannungsteiler (R1 in Reihe mit R2) berechnet man U2 nach ...",
+      "answers": {
+        "A": "U2 = Uges · R1 / (R1 + R2)",
+        "B": "U2 = Uges · R2 / (R1 + R2)",
+        "C": "U2 = Uges · (R1 + R2) / R2",
+        "D": "U2 = Uges / R2",
+        "E": "U2 = Uges − R2"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Teilspannung U2 ergibt sich nach der Spannungsteilerformel: U2 = Uges · R2 / (R1 + R2)."
+    },
+    {
+      "id": 36,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallelschaltung",
+      "question": "In einer Parallelschaltung fließt der größte Strom durch den Zweig mit ...",
+      "answers": {
+        "A": "dem größten Widerstand",
+        "B": "der kleinsten Spannung",
+        "C": "dem kleinsten Widerstand",
+        "D": "der größten Leistung",
+        "E": "dem kleinsten Strom"
+      },
+      "correct_answer": "C",
+      "explanation": "In der Parallelschaltung gilt I = U/R. Da U an allen Zweigen gleich ist, fließt durch den Zweig mit dem kleinsten Widerstand der größte Strom."
+    },
+    {
+      "id": 37,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Reihenschaltung",
+      "question": "Was passiert im Gesamtstromkreis, wenn ein Bauteil in einer Reihenschaltung unterbrochen (Unterbrechung) wird?",
+      "answers": {
+        "A": "Der Strom steigt",
+        "B": "Nur dieses Bauteil fällt aus",
+        "C": "Der Strom im gesamten Kreis hört auf zu fließen",
+        "D": "Die Spannung verdoppelt sich",
+        "E": "Die anderen Bauteile erhalten mehr Strom"
+      },
+      "correct_answer": "C",
+      "explanation": "Eine Unterbrechung in der Reihenschaltung unterbricht den einzigen Strompfad – der Gesamtstrom wird zu null."
+    },
+    {
+      "id": 38,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallelschaltung",
+      "question": "Was passiert, wenn ein Zweig einer Parallelschaltung unterbrochen wird?",
+      "answers": {
+        "A": "Der gesamte Strom hört auf zu fließen",
+        "B": "Die Spannung erhöht sich erheblich",
+        "C": "Nur dieser Zweig fällt aus; die anderen Zweige fließen weiter",
+        "D": "Der Gesamtwiderstand sinkt",
+        "E": "Die Leistung in den anderen Zweigen sinkt"
+      },
+      "correct_answer": "C",
+      "explanation": "In der Parallelschaltung gibt es mehrere Strompfade. Fällt ein Zweig aus, bleiben die anderen unverändert in Betrieb."
+    },
+    {
+      "id": 39,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Elektrische Leistung",
+      "question": "In einer Reihenschaltung wird mehr Leistung in dem Widerstand umgesetzt, der ...",
+      "answers": {
+        "A": "den kleinsten Wert hat",
+        "B": "denselben Wert wie alle anderen hat",
+        "C": "den größten Wert hat",
+        "D": "keinen Strom führt",
+        "E": "keine Spannung hat"
+      },
+      "correct_answer": "C",
+      "explanation": "In der Reihenschaltung gilt P = I² · R. Da I überall gleich ist, setzt der Widerstand mit dem größten Wert die meiste Leistung um."
+    },
+    {
+      "id": 40,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Elektrische Leistung",
+      "question": "In einer Parallelschaltung wird mehr Leistung in dem Widerstand umgesetzt, der ...",
+      "answers": {
+        "A": "den größten Wert hat",
+        "B": "denselben Wert wie alle anderen hat",
+        "C": "den kleinsten Wert hat",
+        "D": "keinen Strom führt",
+        "E": "keine Spannung hat"
+      },
+      "correct_answer": "C",
+      "explanation": "In der Parallelschaltung gilt P = U² / R. Da U an allen Zweigen gleich ist, setzt der Widerstand mit dem kleinsten Wert die meiste Leistung um."
+    },
+    {
+      "id": 41,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Welche Aussage beschreibt die Maschenregel (KVL) richtig?",
+      "answers": {
+        "A": "Die Summe aller Ströme in einer Masche ist null",
+        "B": "Die algebraische Summe aller Spannungen in einer geschlossenen Masche ist null",
+        "C": "Die Leistung ist in jeder Masche gleich",
+        "D": "Der Strom verändert sich in einer Masche nicht",
+        "E": "Die Spannungen multiplizieren sich"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Maschenregel (KVL): Die algebraische Summe aller Spannungen in einer geschlossenen Masche ist null. ΣU = 0."
+    },
+    {
+      "id": 42,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Welche Aussage beschreibt die Knotenregel (KCL) richtig?",
+      "answers": {
+        "A": "Die Summe aller Spannungen an einem Knoten ist null",
+        "B": "An einem Knoten sind alle Ströme gleich groß",
+        "C": "Die Summe der zufließenden Ströme ist gleich der Summe der abfließenden Ströme",
+        "D": "Der Knoten erhöht den Strom",
+        "E": "Die Leistung ist an einem Knoten null"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Knotenregel (KCL): An jedem Knoten gilt ΣI_zu = ΣI_ab, also die zufließende Ladung entspricht der abfließenden."
+    },
+    {
+      "id": 43,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Reihenschaltung",
+      "question": "n gleiche Widerstände R werden in Reihe geschaltet. Der Gesamtwiderstand beträgt:",
+      "answers": {
+        "A": "R / n",
+        "B": "n · R",
+        "C": "n / R",
+        "D": "R + n",
+        "E": "R − n"
+      },
+      "correct_answer": "B",
+      "explanation": "Bei n gleichen Widerständen R in Reihe: Rges = n · R."
+    },
+    {
+      "id": 44,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallelschaltung",
+      "question": "n gleiche Widerstände R werden parallel geschaltet. Der Gesamtwiderstand beträgt:",
+      "answers": {
+        "A": "n · R",
+        "B": "R + n",
+        "C": "R / n",
+        "D": "n / R",
+        "E": "R − n"
+      },
+      "correct_answer": "C",
+      "explanation": "Bei n gleichen Widerständen R in Parallelschaltung: Rges = R / n."
+    },
+    {
+      "id": 45,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Elektrische Leistung",
+      "question": "Wie viele Watt entsprechen 3,5 kW?",
+      "answers": {
+        "A": "35 W",
+        "B": "350 W",
+        "C": "3500 W",
+        "D": "35000 W",
+        "E": "0,35 W"
+      },
+      "correct_answer": "C",
+      "explanation": "1 kW = 1000 W. Daher: 3,5 kW = 3500 W."
+    },
+    {
+      "id": 46,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Elektrische Energie",
+      "question": "Wie viele Joule entsprechen 1 kWh?",
+      "answers": {
+        "A": "1000 J",
+        "B": "3600 J",
+        "C": "3 600 000 J",
+        "D": "1 000 000 J",
+        "E": "60 J"
+      },
+      "correct_answer": "C",
+      "explanation": "1 kWh = 1000 W · 3600 s = 3 600 000 J = 3,6 MJ."
+    },
+    {
+      "id": 47,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Ohmsches Gesetz",
+      "question": "Bei konstantem Widerstand wird die Spannung verdoppelt. Was passiert mit dem Strom?",
+      "answers": {
+        "A": "Er halbiert sich",
+        "B": "Er bleibt gleich",
+        "C": "Er verdoppelt sich",
+        "D": "Er vervierfacht sich",
+        "E": "Er wird null"
+      },
+      "correct_answer": "C",
+      "explanation": "Nach I = U/R: Wird U doppelt so groß bei konstantem R, verdoppelt sich auch I (lineare Proportionalität)."
+    },
+    {
+      "id": 48,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Elektrische Leistung",
+      "question": "Wenn Spannung und Strom beide verdoppelt werden, um welchen Faktor steigt die Leistung?",
+      "answers": {
+        "A": "Faktor 2",
+        "B": "Faktor 3",
+        "C": "Faktor 4",
+        "D": "Faktor 8",
+        "E": "Faktor 1 (keine Änderung)"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U · I. Werden U und I je verdoppelt: Pneu = 2U · 2I = 4 · U · I = 4 · P. Faktor 4."
+    },
+    {
+      "id": 49,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Gemischte Schaltung",
+      "question": "Was versteht man unter einer gemischten Schaltung?",
+      "answers": {
+        "A": "Eine Schaltung nur mit Spannungsquellen",
+        "B": "Eine Kombination aus Reihen- und Parallelschaltungen",
+        "C": "Eine Schaltung nur mit gleichen Widerständen",
+        "D": "Eine Schaltung ohne Strom",
+        "E": "Eine Schaltung mit mehreren Spannungsquellen"
+      },
+      "correct_answer": "B",
+      "explanation": "Eine gemischte Schaltung enthält sowohl Reihen- als auch Parallelverbindungen von Bauteilen."
+    },
+    {
+      "id": 50,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Gemischte Schaltung",
+      "question": "Wie analysiert man eine gemischte Schaltung?",
+      "answers": {
+        "A": "Durch direktes Anwenden des Ohmschen Gesetzes ohne jede Vereinfachung",
+        "B": "Durch Aufstellen von Differentialgleichungen",
+        "C": "Durch schrittweises Ersetzen von Reihen- und Parallelgruppen durch Ersatzwiderstände",
+        "D": "Durch gleichzeitiges Messen aller Ströme",
+        "E": "Durch Subtrahieren aller Widerstände"
+      },
+      "correct_answer": "C",
+      "explanation": "Bei gemischten Schaltungen vereinfacht man schrittweise: Parallelgruppen und Reihengruppen durch Ersatzwiderstände ersetzen, bis ein Gesamtwiderstand vorliegt."
+    },
+    {
+      "id": 51,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Wirkungsgrad",
+      "question": "Wie wird der Wirkungsgrad η berechnet?",
+      "answers": {
+        "A": "η = Pin · Pout",
+        "B": "η = Pout / Pin",
+        "C": "η = Pin / Pout",
+        "D": "η = Pout − Pin",
+        "E": "η = Pin + Pout"
+      },
+      "correct_answer": "B",
+      "explanation": "Der Wirkungsgrad ist das Verhältnis von Nutzleistung zu aufgenommener Leistung: η = Pout / Pin."
+    },
+    {
+      "id": 52,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Wirkungsgrad",
+      "question": "Was passiert mit dem Wirkungsgrad, wenn die Verlustleistung bei gleicher Eingangsleistung steigt?",
+      "answers": {
+        "A": "Er steigt",
+        "B": "Er bleibt gleich",
+        "C": "Er sinkt",
+        "D": "Er verdoppelt sich",
+        "E": "Er wird 100 %"
+      },
+      "correct_answer": "C",
+      "explanation": "η = Pout / Pin = (Pin − Pv) / Pin. Steigt Pv bei gleichem Pin, sinkt Pout und damit η."
+    },
+    {
+      "id": 53,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Leitungsverluste",
+      "question": "Wie berechnet man die Verlustleistung in einer Verbindungsleitung?",
+      "answers": {
+        "A": "Pv = U · R",
+        "B": "Pv = U / R",
+        "C": "Pv = I · R",
+        "D": "Pv = I² · R",
+        "E": "Pv = U² · R"
+      },
+      "correct_answer": "D",
+      "explanation": "Die Verlustleistung im Leitungswiderstand ergibt sich aus: Pv = I² · R_Leitung."
+    },
+    {
+      "id": 54,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Spannungsteiler",
+      "question": "Was passiert mit der Ausgangsspannung eines Spannungsteilers, wenn ein Lastwiderstand angeschlossen wird?",
+      "answers": {
+        "A": "Sie steigt",
+        "B": "Sie bleibt gleich",
+        "C": "Sie sinkt",
+        "D": "Sie wird null",
+        "E": "Sie verdoppelt sich"
+      },
+      "correct_answer": "C",
+      "explanation": "Der Lastwiderstand liegt parallel zu R2 und verringert den Widerstand dieses Zweiges – damit sinkt die Ausgangsspannung."
+    },
+    {
+      "id": 55,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Quellen und Innenwiderstand",
+      "question": "Warum ist die Klemmenspannung einer realen Spannungsquelle unter Last kleiner als die Quellenspannung Uq?",
+      "answers": {
+        "A": "Weil der Strom kleiner wird",
+        "B": "Weil am Innenwiderstand Ri eine Spannung abfällt",
+        "C": "Weil die Temperatur sinkt",
+        "D": "Weil die Kapazität der Quelle erschöpft ist",
+        "E": "Weil der Außenwiderstand zu klein ist"
+      },
+      "correct_answer": "B",
+      "explanation": "Eine reale Quelle hat einen Innenwiderstand Ri. Unter Last fließt Strom, es gilt: U_Klemme = Uq − I · Ri."
+    },
+    {
+      "id": 56,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Leistungsbilanz",
+      "question": "Was besagt die Leistungsbilanz eines Stromkreises?",
+      "answers": {
+        "A": "Die Leistung des Verbrauchers ist immer größer als die der Quelle",
+        "B": "Die erzeugte Leistung ist gleich der Summe aller umgesetzten Leistungen",
+        "C": "Die Verlustleistung ist immer null",
+        "D": "Die Spannung ist immer gleich der Leistung",
+        "E": "Der Strom ist immer kleiner als die Leistung"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Leistungsbilanz besagt: Die von der Quelle erzeugte Leistung ist gleich der Summe aller im Kreis umgesetzten (Nutz- und Verlust-)Leistungen."
+    },
+    {
+      "id": 57,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Wirkungsgrad",
+      "question": "Ein Motor hat einen Wirkungsgrad von 90 % und nimmt 2000 W auf. Welche Nutzleistung liefert er?",
+      "answers": {
+        "A": "200 W",
+        "B": "900 W",
+        "C": "1800 W",
+        "D": "2200 W",
+        "E": "2000 W"
+      },
+      "correct_answer": "C",
+      "explanation": "Pout = η · Pin = 0,90 · 2000 W = 1800 W."
+    },
+    {
+      "id": 58,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Elektrische Energie",
+      "question": "Ein Gerät verbraucht 500 W und läuft 4 Stunden. Wie groß ist die Energie in Wh?",
+      "answers": {
+        "A": "125 Wh",
+        "B": "504 Wh",
+        "C": "500 Wh",
+        "D": "2000 Wh",
+        "E": "2500 Wh"
+      },
+      "correct_answer": "D",
+      "explanation": "W = P · t = 500 W · 4 h = 2000 Wh."
+    },
+    {
+      "id": 59,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallelschaltung",
+      "question": "Warum werden Haushaltsgeräte in der Regel parallel an das Netz geschaltet?",
+      "answers": {
+        "A": "Weil die Spannung sich dann addiert",
+        "B": "Damit jedes Gerät dieselbe Netzspannung erhält und unabhängig von anderen betrieben werden kann",
+        "C": "Weil die Leistung sonst zu groß würde",
+        "D": "Weil der Strom sich in der Parallelschaltung nicht teilt",
+        "E": "Weil Reihenschaltungen keine Geräte versorgen können"
+      },
+      "correct_answer": "B",
+      "explanation": "In der Parallelschaltung liegt an jedem Gerät die volle Netzspannung an, und jedes Gerät kann unabhängig ein- oder ausgeschaltet werden."
+    },
+    {
+      "id": 60,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallelschaltung",
+      "question": "Was passiert, wenn ein Zweig einer Parallelschaltung kurzgeschlossen wird?",
+      "answers": {
+        "A": "Alle anderen Zweige erhalten mehr Spannung",
+        "B": "Die Spannung an allen Zweigen bricht auf nahezu null ein",
+        "C": "Der Strom in anderen Zweigen steigt stark an",
+        "D": "Der Gesamtwiderstand steigt",
+        "E": "Die Leistung sinkt auf null"
+      },
+      "correct_answer": "B",
+      "explanation": "Ein Kurzschluss in einem Parallelzweig hat (nahezu) 0 Ω Widerstand. Die Spannung über alle Zweige bricht auf (nahezu) null zusammen."
+    },
+    {
+      "id": 61,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Die Maschenregel wird auf eine Masche mit Quellenspannung Uq und zwei Spannungsfällen UR1, UR2 angewendet. Welche Gleichung ist korrekt?",
+      "answers": {
+        "A": "Uq + UR1 + UR2 = 0",
+        "B": "Uq − UR1 − UR2 = 0",
+        "C": "UR1 + UR2 = 2 · Uq",
+        "D": "Uq = UR1 · UR2",
+        "E": "UR1 = UR2 = Uq"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Maschenregel: ΣU = 0. Mit Quellenspannung positiv und Spannungsfällen negativ: Uq − UR1 − UR2 = 0, also Uq = UR1 + UR2."
+    },
+    {
+      "id": 62,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Parallelschaltung",
+      "question": "Drei Widerstände R1 = 6 Ω, R2 = 3 Ω, R3 = 2 Ω sind parallel geschaltet. Wie groß ist der Gesamtwiderstand?",
+      "answers": {
+        "A": "11 Ω",
+        "B": "2 Ω",
+        "C": "1 Ω",
+        "D": "0,5 Ω",
+        "E": "6 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "1/Rges = 1/6 + 1/3 + 1/2 = 1/6 + 2/6 + 3/6 = 6/6 = 1. Damit Rges = 1 Ω."
+    },
+    {
+      "id": 63,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Elektrische Leistung",
+      "question": "Ein ohmscher Leiter erwärmt sich, sein Widerstand steigt. Bei konstanter Spannung ändert sich die Leistung wie?",
+      "answers": {
+        "A": "Sie steigt",
+        "B": "Sie bleibt gleich",
+        "C": "Sie sinkt",
+        "D": "Sie verdoppelt sich",
+        "E": "Sie wird negativ"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U² / R. Bei konstantem U und steigendem R sinkt P. Mehr Widerstand = weniger Leistung bei gleicher Spannung."
+    },
+    {
+      "id": 64,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Gemischte Schaltung",
+      "question": "R1 = 10 Ω liegt in Reihe mit der Parallelschaltung aus R2 = R3 = 20 Ω. Wie groß ist der Gesamtwiderstand?",
+      "answers": {
+        "A": "50 Ω",
+        "B": "30 Ω",
+        "C": "20 Ω",
+        "D": "10 Ω",
+        "E": "5 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = R/2 = 20/2 = 10 Ω (zwei gleiche in Parallel). Rges = R1 + R23 = 10 + 10 = 20 Ω."
+    },
+    {
+      "id": 65,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Spannungsteiler",
+      "question": "Ein unbelasteter Spannungsteiler hat R1 = R2 = 100 Ω und Uges = 24 V. Welche Spannung liegt an R2 an?",
+      "answers": {
+        "A": "24 V",
+        "B": "6 V",
+        "C": "8 V",
+        "D": "12 V",
+        "E": "16 V"
+      },
+      "correct_answer": "D",
+      "explanation": "U2 = Uges · R2 / (R1 + R2) = 24 · 100 / (100 + 100) = 24 / 2 = 12 V."
+    },
+    {
+      "id": 66,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Wirkungsgrad",
+      "question": "Ein Generator erzeugt 10 kW. Die Leitungsverluste betragen 500 W. Wie groß ist der Wirkungsgrad?",
+      "answers": {
+        "A": "5 %",
+        "B": "50 %",
+        "C": "90 %",
+        "D": "95 %",
+        "E": "99 %"
+      },
+      "correct_answer": "D",
+      "explanation": "η = Pout / Pin = (10 000 − 500) / 10 000 = 9500 / 10 000 = 0,95 = 95 %."
+    },
+    {
+      "id": 67,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Leistungsbilanz",
+      "question": "Gilt die Leistungsaddition Pges = P1 + P2 + ... sowohl für Reihen- als auch für Parallelschaltungen?",
+      "answers": {
+        "A": "Nur für Reihenschaltungen",
+        "B": "Nur für Parallelschaltungen",
+        "C": "Ja, für beide",
+        "D": "Nein, für keine",
+        "E": "Nur für gemischte Schaltungen"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Leistungsbilanz (Leistungserhaltung) gilt immer: Pges = P1 + P2 + ..., unabhängig von der Schaltungsart."
+    },
+    {
+      "id": 68,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "An einem Knoten treffen vier Ströme zusammen. Bekannt: I1 = 5 A (zufließend), I2 = 2 A (zufließend), I3 = 4 A (abfließend). Wie groß ist I4 (abfließend)?",
+      "answers": {
+        "A": "1 A",
+        "B": "2 A",
+        "C": "3 A",
+        "D": "4 A",
+        "E": "11 A"
+      },
+      "correct_answer": "C",
+      "explanation": "Knotenregel: ΣI_zu = ΣI_ab. 5 + 2 = 4 + I4. Daher I4 = 7 − 4 = 3 A."
+    },
+    {
+      "id": 69,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Elektrische Leistung",
+      "question": "Warum sinkt die Leistung P, wenn bei konstanter Spannung U der Widerstand R steigt? Welche Formel begründet das?",
+      "answers": {
+        "A": "P = I² · R",
+        "B": "P = U · I",
+        "C": "P = U² / R",
+        "D": "P = U + R",
+        "E": "P = R / U"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U² / R zeigt: Bei konstantem U und steigendem R sinkt P direkt proportional zu 1/R."
+    },
+    {
+      "id": 70,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Welches Gesetz besagt, dass die Summe der Teilspannungen in einer Reihenschaltung gleich der Quellenspannung ist?",
+      "answers": {
+        "A": "Knotenregel (KCL)",
+        "B": "Ohmsches Gesetz",
+        "C": "Maschenregel (KVL)",
+        "D": "Lenzsche Regel",
+        "E": "Faradays Gesetz"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Maschenregel (Kirchhoffsches Spannungsgesetz, KVL) besagt, dass die Summe aller Teilspannungen der Quellenspannung entspricht."
+    },
+    {
+      "id": 71,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Welches Gesetz besagt, dass die Summe der Zweigströme gleich dem Gesamtstrom in einer Parallelschaltung ist?",
+      "answers": {
+        "A": "Maschenregel (KVL)",
+        "B": "Ohmsches Gesetz",
+        "C": "Knotenregel (KCL)",
+        "D": "Lenzsche Regel",
+        "E": "Faradays Gesetz"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Knotenregel (KCL) sagt aus: Iges = I1 + I2 + ... – die Zweigströme addieren sich zum Gesamtstrom."
+    },
+    {
+      "id": 72,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Gemischte Schaltung",
+      "question": "Was ist der erste Schritt bei der Analyse einer gemischten Schaltung?",
+      "answers": {
+        "A": "Alle Ströme messen",
+        "B": "Den Gesamtwiderstand durch schrittweises Vereinfachen von Gruppen bestimmen",
+        "C": "Die Spannung an jedem Bauteil messen",
+        "D": "Kirchhoffs Gesetze direkt auf das gesamte Netzwerk anwenden",
+        "E": "Alle Widerstände subtrahieren"
+      },
+      "correct_answer": "B",
+      "explanation": "Man vereinfacht eine gemischte Schaltung schrittweise: Reihen- und Parallelgruppen durch Ersatzwiderstände ersetzen, bis Rges bekannt ist."
+    },
+    {
+      "id": 73,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Elektrische Energie",
+      "question": "Ein 2-kW-Heizgerät läuft täglich 5 Stunden für 30 Tage. Wie viel Energie wird insgesamt verbraucht (in kWh)?",
+      "answers": {
+        "A": "30 kWh",
+        "B": "100 kWh",
+        "C": "150 kWh",
+        "D": "300 kWh",
+        "E": "600 kWh"
+      },
+      "correct_answer": "D",
+      "explanation": "W = P · t = 2 kW · 5 h/Tag · 30 Tage = 300 kWh."
+    },
+    {
+      "id": 74,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Wirkungsgrad",
+      "question": "Wie kann der Wirkungsgrad auch durch die Verlustleistung Pv ausgedrückt werden?",
+      "answers": {
+        "A": "η = Pv / Pin",
+        "B": "η = Pin / Pv",
+        "C": "η = 1 − Pv / Pin",
+        "D": "η = 1 + Pv / Pin",
+        "E": "η = Pin · Pv"
+      },
+      "correct_answer": "C",
+      "explanation": "η = Pout / Pin = (Pin − Pv) / Pin = 1 − Pv / Pin."
+    },
+    {
+      "id": 75,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Spannungsteiler",
+      "question": "Warum liefert ein belasteter Spannungsteiler eine niedrigere Ausgangsspannung als der unbelastete?",
+      "answers": {
+        "A": "Weil der Strom durch R1 größer wird",
+        "B": "Weil der Lastwiderstand parallel zu R2 liegt und den Ersatzwiderstand dieses Zweiges senkt",
+        "C": "Weil die Quelle Energie verliert",
+        "D": "Weil der Strom durch R1 sinkt",
+        "E": "Weil der Innenwiderstand größer wird"
+      },
+      "correct_answer": "B",
+      "explanation": "Der Lastwiderstand RL liegt parallel zu R2. Der Ersatzwiderstand R2||RL < R2, damit sinkt U2 nach der Spannungsteilerformel."
+    },
+    {
+      "id": 76,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Reihenschaltung",
+      "question": "In einer Reihenschaltung liegen Uges = 120 V, drei gleiche Widerstände und I = 2 A. Wie groß ist jeder Einzelwiderstand?",
+      "answers": {
+        "A": "10 Ω",
+        "B": "15 Ω",
+        "C": "20 Ω",
+        "D": "40 Ω",
+        "E": "60 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "Rges = U / I = 120 / 2 = 60 Ω. Bei drei gleichen Widerständen: R = Rges / 3 = 60 / 3 = 20 Ω."
+    },
+    {
+      "id": 77,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Parallelschaltung",
+      "question": "Für n gleiche Widerstände R in Parallelschaltung gilt für den Gesamtwiderstand:",
+      "answers": {
+        "A": "Rges = n · R",
+        "B": "Rges = R + n",
+        "C": "Rges = R / n",
+        "D": "Rges = R · n²",
+        "E": "Rges = n / R"
+      },
+      "correct_answer": "C",
+      "explanation": "Bei n gleichen Widerständen R in Parallel gilt: 1/Rges = n · (1/R), also Rges = R / n."
+    },
+    {
+      "id": 78,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Wirkungsgrad",
+      "question": "Ein Motor mit η = 0,85 soll 3,4 kW mechanische Leistung abgeben. Wie viel Eingangsleistung wird benötigt?",
+      "answers": {
+        "A": "2,89 kW",
+        "B": "3,4 kW",
+        "C": "3,57 kW",
+        "D": "4 kW",
+        "E": "4,25 kW"
+      },
+      "correct_answer": "D",
+      "explanation": "Pin = Pout / η = 3,4 kW / 0,85 = 4 kW."
+    },
+    {
+      "id": 79,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Ohmsches Gesetz",
+      "question": "Gilt das Ohmsche Gesetz für alle elektrischen Bauteile?",
+      "answers": {
+        "A": "Ja, für alle Bauteile ohne Ausnahme",
+        "B": "Nur für Kondensatoren",
+        "C": "Nein, nur für ohmsche (lineare) Widerstände",
+        "D": "Nur für Spulen",
+        "E": "Nur für Dioden"
+      },
+      "correct_answer": "C",
+      "explanation": "Das Ohmsche Gesetz gilt nur für lineare (ohmsche) Widerstände. Nichtlineare Bauelemente wie Dioden, Transistoren oder Glühlampen folgen nicht der Beziehung U = R · I (konst.)."
+    },
+    {
+      "id": 80,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Für welche Stromarten gelten die Kirchhoffschen Gesetze?",
+      "answers": {
+        "A": "Nur für Gleichstrom (DC)",
+        "B": "Nur für Wechselstrom (AC)",
+        "C": "Für Gleich- und Wechselstrom (DC und AC)",
+        "D": "Nur für Mischstrom",
+        "E": "Nur bei sehr niedrigen Frequenzen"
+      },
+      "correct_answer": "C",
+      "explanation": "Die Kirchhoffschen Gesetze (KCL und KVL) sind allgemein gültig und gelten für DC und AC gleichermaßen."
+    },
+    {
+      "id": 81,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Elektrische Leistung",
+      "question": "Warum setzt der Zweig mit dem kleineren Widerstand in einer Parallelschaltung mehr Leistung um?",
+      "answers": {
+        "A": "Weil P = I² · R und I im kleineren R kleiner ist",
+        "B": "Weil P = U² / R und die Spannung an beiden gleich ist – kleineres R ergibt größeres P",
+        "C": "Weil kleinere Widerstände immer weniger Leistung aufnehmen",
+        "D": "Weil die Spannung am kleineren R kleiner ist",
+        "E": "Weil der Strom im kleineren R kleiner ist"
+      },
+      "correct_answer": "B",
+      "explanation": "P = U² / R. In der Parallelschaltung ist U gleich. Kleineres R → größeres P. Doppelt so kleiner Widerstand → doppelte Leistung."
+    },
+    {
+      "id": 82,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Leitungsverluste",
+      "question": "Wodurch entsteht die Verlustleistung in Verbindungsleitungen?",
+      "answers": {
+        "A": "Durch die Quellenspannung allein",
+        "B": "Durch den Leitungswiderstand und den fließenden Strom: Pv = I² · R_Leitung",
+        "C": "Durch die Isolierung der Leitung",
+        "D": "Durch Magnetfelder in der Leitung",
+        "E": "Durch kapazitive Effekte"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Verlustleistung im Leiterwiderstand entsteht durch den Stromfluss: Pv = I² · R_Leitung. Je größer der Strom und der Leiterwiderstand, desto mehr Verluste."
+    },
+    {
+      "id": 83,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Leitungsverluste",
+      "question": "Wie kann man bei der Übertragung einer bestimmten Leistung die Leitungsverluste reduzieren?",
+      "answers": {
+        "A": "Durch Erhöhung des Leitungswiderstands",
+        "B": "Durch Verringerung der Übertragungsspannung",
+        "C": "Durch Erhöhung der Übertragungsspannung (gleiche Leistung bei geringerem Strom)",
+        "D": "Durch Parallelschalten weiterer Leitungen",
+        "E": "Durch Verlängerung der Leitung"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U · I. Bei gleicher Leistung und höherer Spannung sinkt der Strom. Da Pv = I² · R, sinken die Verluste quadratisch mit dem Strom. Deshalb wird Energie auf hohem Spannungsniveau übertragen."
+    },
+    {
+      "id": 84,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Gemischte Schaltung",
+      "question": "In einer gemischten Schaltung ist der Gesamtstrom I bekannt. Wie findet man die Spannung über die Parallelgruppe mit Rparallel?",
+      "answers": {
+        "A": "U_parallel = Uges / Rparallel",
+        "B": "U_parallel = I · Rparallel",
+        "C": "U_parallel = I + Rparallel",
+        "D": "U_parallel = Uges − I",
+        "E": "U_parallel = Rparallel / I"
+      },
+      "correct_answer": "B",
+      "explanation": "Durch die gemischte Schaltung fließt der gleiche Gesamtstrom I. An der Parallelgruppe liegt U_parallel = I · Rparallel (Ohmsches Gesetz)."
+    },
+    {
+      "id": 85,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Leitungsverluste",
+      "question": "Welche Übertragungsspannung ist energieeffizienter: 1 kW bei 10 V oder bei 1000 V durch eine 1-Ω-Leitung?",
+      "answers": {
+        "A": "10 V, weil der Strom kleiner ist",
+        "B": "Beide sind gleich effizient",
+        "C": "1000 V, weil der Strom kleiner ist und damit die Verluste I²·R geringer sind",
+        "D": "10 V, weil die Spannung kleiner ist",
+        "E": "Die Spannung hat keinen Einfluss auf die Verluste"
+      },
+      "correct_answer": "C",
+      "explanation": "Bei 10 V: I = 100 A → Pv = 100² · 1 = 10 000 W. Bei 1000 V: I = 1 A → Pv = 1² · 1 = 1 W. Höhere Spannung bedeutet viel geringere Verluste."
+    },
+    {
+      "id": 86,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Reihenschaltung",
+      "question": "Eine Lampe und ein Heizelement liegen in Reihe an 230 V. An der Lampe liegen 60 V. Welche Spannung liegt am Heizelement?",
+      "answers": {
+        "A": "230 V",
+        "B": "60 V",
+        "C": "170 V",
+        "D": "290 V",
+        "E": "115 V"
+      },
+      "correct_answer": "C",
+      "explanation": "Maschenregel: Uges = ULampe + UHeiz. 230 V = 60 V + UHeiz. Daher UHeiz = 170 V."
+    },
+    {
+      "id": 87,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Parallelschaltung",
+      "question": "Ein weiterer Zweig wird parallel zu einer bestehenden Schaltung hinzugefügt. Was passiert mit dem Gesamtstrom der Quelle?",
+      "answers": {
+        "A": "Er sinkt",
+        "B": "Er bleibt gleich",
+        "C": "Er steigt",
+        "D": "Er wird null",
+        "E": "Er halbiert sich"
+      },
+      "correct_answer": "C",
+      "explanation": "Jeder Parallelzweig verringert den Gesamtwiderstand. Nach I = U / Rges steigt damit der Gesamtstrom."
+    },
+    {
+      "id": 88,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Leistungsbilanz",
+      "question": "Was besagt die Leistungsbilanz eines elektrischen Stromkreises?",
+      "answers": {
+        "A": "Die Quellleistung ist immer kleiner als die Summe der Verbraucherleistungen",
+        "B": "Die erzeugte Leistung der Quelle ist gleich der Summe aller aufgenommenen Leistungen im Kreis",
+        "C": "Die Verlustleistung ist immer größer als die Nutzleistung",
+        "D": "Die Leistung kann nicht gemessen werden",
+        "E": "Leistung ist keine Erhaltungsgröße"
+      },
+      "correct_answer": "B",
+      "explanation": "Die Leistungsbilanz: Pquelle = ΣPverbraucher (Nutzleistung + Verluste). Energie ist eine Erhaltungsgröße."
+    },
+    {
+      "id": 89,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Schaltungsidentifikation",
+      "question": "Woran erkennt man, dass zwei Widerstände in Reihe geschaltet sind?",
+      "answers": {
+        "A": "Sie haben dieselbe Spannung",
+        "B": "Durch sie fließt derselbe Strom, da sie sich denselben Strompfad teilen",
+        "C": "Sie haben den gleichen Widerstandswert",
+        "D": "Sie sind am selben Knoten verbunden",
+        "E": "Durch sie fließen unterschiedliche Ströme"
+      },
+      "correct_answer": "B",
+      "explanation": "Zwei Widerstände sind in Reihe, wenn sie im selben Strompfad (Zweig) liegen und daher vom gleichen Strom durchflossen werden."
+    },
+    {
+      "id": 90,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Schaltungsidentifikation",
+      "question": "Woran erkennt man, dass zwei Widerstände parallel geschaltet sind?",
+      "answers": {
+        "A": "Durch sie fließt derselbe Strom",
+        "B": "Sie liegen in verschiedenen Maschen ohne gemeinsamen Knoten",
+        "C": "Sie sind zwischen denselben zwei Knoten angeschlossen, sodass an ihnen dieselbe Spannung liegt",
+        "D": "Sie haben denselben Widerstandswert",
+        "E": "An ihnen liegen unterschiedliche Spannungen"
+      },
+      "correct_answer": "C",
+      "explanation": "Zwei Widerstände sind parallel, wenn beide Anschlüsse jeweils am selben Knoten verbunden sind. Damit liegt an beiden Widerständen exakt dieselbe Spannung."
+    },
+    {
+      "id": 91,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Ohmsches Gesetz",
+      "question": "An einem Widerstand liegen U = 12 V an, der Strom beträgt I = 2 A. Wie groß ist der Widerstand R?",
+      "given": { "U": "12 V", "I": "2 A" },
+      "searched": "R in Ω",
+      "formula_hint": "R = U / I",
+      "answers": {
+        "A": "R = 0,17 Ω",
+        "B": "R = 6 Ω",
+        "C": "R = 10 Ω",
+        "D": "R = 24 Ω",
+        "E": "R = 14 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "R = U / I = 12 V / 2 A = 6 Ω."
+    },
+    {
+      "id": 92,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Ohmsches Gesetz",
+      "question": "An einem Widerstand von R = 46 Ω liegt die Spannung U = 230 V an. Wie groß ist der Strom I?",
+      "given": { "U": "230 V", "R": "46 Ω" },
+      "searched": "I in A",
+      "formula_hint": "I = U / R",
+      "answers": {
+        "A": "I = 0,2 A",
+        "B": "I = 2 A",
+        "C": "I = 5 A",
+        "D": "I = 10 A",
+        "E": "I = 50 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I = U / R = 230 V / 46 Ω = 5 A."
+    },
+    {
+      "id": 93,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Ohmsches Gesetz",
+      "question": "Durch einen Widerstand von R = 8 Ω fließt ein Strom I = 3 A. Wie groß ist die Spannung U?",
+      "given": { "I": "3 A", "R": "8 Ω" },
+      "searched": "U in V",
+      "formula_hint": "U = I · R",
+      "answers": {
+        "A": "U = 2,67 V",
+        "B": "U = 11 V",
+        "C": "U = 24 V",
+        "D": "U = 48 V",
+        "E": "U = 96 V"
+      },
+      "correct_answer": "C",
+      "explanation": "U = I · R = 3 A · 8 Ω = 24 V."
+    },
+    {
+      "id": 94,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Elektrische Leistung",
+      "question": "An einem Verbraucher liegen U = 24 V an und es fließt I = 2 A. Wie groß ist die Leistung P?",
+      "given": { "U": "24 V", "I": "2 A" },
+      "searched": "P in W",
+      "formula_hint": "P = U · I",
+      "answers": {
+        "A": "P = 12 W",
+        "B": "P = 26 W",
+        "C": "P = 48 W",
+        "D": "P = 96 W",
+        "E": "P = 144 W"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U · I = 24 V · 2 A = 48 W."
+    },
+    {
+      "id": 95,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Elektrische Leistung",
+      "question": "Durch einen Widerstand R = 4 Ω fließt I = 5 A. Wie groß ist die Leistung P?",
+      "given": { "I": "5 A", "R": "4 Ω" },
+      "searched": "P in W",
+      "formula_hint": "P = I² · R",
+      "answers": {
+        "A": "P = 20 W",
+        "B": "P = 40 W",
+        "C": "P = 80 W",
+        "D": "P = 100 W",
+        "E": "P = 500 W"
+      },
+      "correct_answer": "D",
+      "explanation": "P = I² · R = 5² · 4 = 25 · 4 = 100 W."
+    },
+    {
+      "id": 96,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Elektrische Leistung",
+      "question": "An einem Widerstand R = 25 Ω liegen U = 10 V an. Wie groß ist die Leistung P?",
+      "given": { "U": "10 V", "R": "25 Ω" },
+      "searched": "P in W",
+      "formula_hint": "P = U² / R",
+      "answers": {
+        "A": "P = 0,4 W",
+        "B": "P = 2,5 W",
+        "C": "P = 4 W",
+        "D": "P = 10 W",
+        "E": "P = 250 W"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U² / R = 10² / 25 = 100 / 25 = 4 W."
+    },
+    {
+      "id": 97,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Elektrische Energie",
+      "question": "Ein Heizgerät hat eine Leistung von P = 2 kW und läuft t = 3 h. Wie groß ist die verbrauchte Energie W in kWh?",
+      "given": { "P": "2 kW", "t": "3 h" },
+      "searched": "W in kWh",
+      "formula_hint": "W = P · t",
+      "answers": {
+        "A": "W = 0,67 kWh",
+        "B": "W = 1,5 kWh",
+        "C": "W = 5 kWh",
+        "D": "W = 6 kWh",
+        "E": "W = 24 kWh"
+      },
+      "correct_answer": "D",
+      "explanation": "W = P · t = 2 kW · 3 h = 6 kWh."
+    },
+    {
+      "id": 98,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Reihenschaltung",
+      "question": "Drei Widerstände R1 = 10 Ω, R2 = 20 Ω und R3 = 30 Ω sind in Reihe geschaltet. Wie groß ist der Gesamtwiderstand Rges?",
+      "given": { "R1": "10 Ω", "R2": "20 Ω", "R3": "30 Ω" },
+      "searched": "Rges in Ω",
+      "formula_hint": "Rges = R1 + R2 + R3",
+      "image": "./assets/images/efk02_reihe.svg",
+      "answers": {
+        "A": "Rges = 10 Ω",
+        "B": "Rges = 30 Ω",
+        "C": "Rges = 55 Ω",
+        "D": "Rges = 60 Ω",
+        "E": "Rges = 6000 Ω"
+      },
+      "correct_answer": "D",
+      "explanation": "Rges = R1 + R2 + R3 = 10 + 20 + 30 = 60 Ω."
+    },
+    {
+      "id": 99,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Parallelschaltung",
+      "question": "Zwei gleiche Widerstände R1 = R2 = 12 Ω sind parallel geschaltet. Wie groß ist der Gesamtwiderstand Rges?",
+      "given": { "R1": "12 Ω", "R2": "12 Ω" },
+      "searched": "Rges in Ω",
+      "formula_hint": "Rges = R / 2 (bei gleichen Widerständen)",
+      "image": "./assets/images/efk02_parallel.svg",
+      "answers": {
+        "A": "Rges = 24 Ω",
+        "B": "Rges = 12 Ω",
+        "C": "Rges = 6 Ω",
+        "D": "Rges = 4 Ω",
+        "E": "Rges = 3 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "Bei zwei gleichen Widerständen in Parallel: Rges = R/2 = 12/2 = 6 Ω."
+    },
+    {
+      "id": 100,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Reihenschaltung",
+      "question": "R1 = 8 Ω und R2 = 16 Ω liegen in Reihe an Uges = 24 V. Wie groß ist der Strom I?",
+      "given": { "R1": "8 Ω", "R2": "16 Ω", "Uges": "24 V" },
+      "searched": "I in A",
+      "formula_hint": "Schritt 1: Rges = R1 + R2; Schritt 2: I = Uges / Rges",
+      "image": "./assets/images/efk02_reihe.svg",
+      "answers": {
+        "A": "I = 0,5 A",
+        "B": "I = 1 A",
+        "C": "I = 1,5 A",
+        "D": "I = 3 A",
+        "E": "I = 8 A"
+      },
+      "correct_answer": "B",
+      "explanation": "Rges = 8 + 16 = 24 Ω. I = Uges / Rges = 24 V / 24 Ω = 1 A."
+    },
+    {
+      "id": 101,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Reihenschaltung",
+      "question": "R1 = 20 Ω, R2 = 40 Ω und R3 = 60 Ω liegen in Reihe an Uges = 120 V. Wie groß ist die Spannung U2 an R2?",
+      "given": { "R1": "20 Ω", "R2": "40 Ω", "R3": "60 Ω", "Uges": "120 V" },
+      "searched": "U2 in V",
+      "formula_hint": "Schritt 1: Rges = R1+R2+R3; Schritt 2: I = Uges/Rges; Schritt 3: U2 = I · R2",
+      "answers": {
+        "A": "U2 = 10 V",
+        "B": "U2 = 20 V",
+        "C": "U2 = 40 V",
+        "D": "U2 = 60 V",
+        "E": "U2 = 80 V"
+      },
+      "correct_answer": "C",
+      "explanation": "Rges = 20+40+60 = 120 Ω. I = 120/120 = 1 A. U2 = 1 A · 40 Ω = 40 V."
+    },
+    {
+      "id": 102,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Parallelschaltung",
+      "question": "R1 = 12 Ω und R2 = 24 Ω liegen parallel an U = 48 V. Wie groß ist der Gesamtstrom Iges?",
+      "given": { "R1": "12 Ω", "R2": "24 Ω", "U": "48 V" },
+      "searched": "Iges in A",
+      "formula_hint": "Schritt 1: I1 = U/R1; Schritt 2: I2 = U/R2; Schritt 3: Iges = I1 + I2",
+      "image": "./assets/images/efk02_parallel.svg",
+      "answers": {
+        "A": "Iges = 2 A",
+        "B": "Iges = 4 A",
+        "C": "Iges = 6 A",
+        "D": "Iges = 8 A",
+        "E": "Iges = 12 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I1 = 48/12 = 4 A. I2 = 48/24 = 2 A. Iges = 4 + 2 = 6 A."
+    },
+    {
+      "id": 103,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Elektrische Leistung",
+      "question": "R1 = 10 Ω und R2 = 20 Ω liegen in Reihe an Uges = 60 V. Wie groß ist die Leistung P2 an R2?",
+      "given": { "R1": "10 Ω", "R2": "20 Ω", "Uges": "60 V" },
+      "searched": "P2 in W",
+      "formula_hint": "Schritt 1: Rges = R1+R2; Schritt 2: I = Uges/Rges; Schritt 3: P2 = I² · R2",
+      "answers": {
+        "A": "P2 = 40 W",
+        "B": "P2 = 60 W",
+        "C": "P2 = 80 W",
+        "D": "P2 = 120 W",
+        "E": "P2 = 160 W"
+      },
+      "correct_answer": "C",
+      "explanation": "Rges = 30 Ω. I = 60/30 = 2 A. P2 = 2² · 20 = 4 · 20 = 80 W."
+    },
+    {
+      "id": 104,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Spannungsteiler",
+      "question": "Ein unbelasteter Spannungsteiler: R1 = 10 kΩ, R2 = 20 kΩ in Reihe an Uges = 30 V. Wie groß ist die Ausgangsspannung U2?",
+      "given": { "R1": "10 kΩ", "R2": "20 kΩ", "Uges": "30 V" },
+      "searched": "U2 in V",
+      "formula_hint": "U2 = Uges · R2 / (R1 + R2)",
+      "image": "./assets/images/efk02_spannungsteiler.svg",
+      "answers": {
+        "A": "U2 = 5 V",
+        "B": "U2 = 10 V",
+        "C": "U2 = 15 V",
+        "D": "U2 = 20 V",
+        "E": "U2 = 30 V"
+      },
+      "correct_answer": "D",
+      "explanation": "U2 = 30 V · 20 / (10 + 20) = 30 · 20/30 = 20 V."
+    },
+    {
+      "id": 105,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Parallelschaltung",
+      "question": "R1 = 6 Ω und R2 = 12 Ω sind parallel geschaltet. Wie groß ist der Ersatzwiderstand Rges?",
+      "given": { "R1": "6 Ω", "R2": "12 Ω" },
+      "searched": "Rges in Ω",
+      "formula_hint": "Rges = (R1 · R2) / (R1 + R2)",
+      "answers": {
+        "A": "Rges = 2 Ω",
+        "B": "Rges = 4 Ω",
+        "C": "Rges = 6 Ω",
+        "D": "Rges = 9 Ω",
+        "E": "Rges = 18 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "Rges = (6 · 12) / (6 + 12) = 72 / 18 = 4 Ω."
+    },
+    {
+      "id": 106,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Gemischte Schaltung",
+      "question": "R1 = 5 Ω liegt in Reihe mit der Parallelschaltung aus R2 = 10 Ω und R3 = 10 Ω. Uges = 30 V. Wie groß ist der Gesamtstrom I?",
+      "given": { "R1": "5 Ω", "R2": "10 Ω", "R3": "10 Ω", "Uges": "30 V" },
+      "searched": "I in A",
+      "formula_hint": "Schritt 1: R23 = R2·R3/(R2+R3); Schritt 2: Rges = R1+R23; Schritt 3: I = Uges/Rges",
+      "image": "./assets/images/efk02_gemischt.svg",
+      "answers": {
+        "A": "I = 1 A",
+        "B": "I = 2 A",
+        "C": "I = 3 A",
+        "D": "I = 4 A",
+        "E": "I = 6 A"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = 10·10/(10+10) = 5 Ω. Rges = 5+5 = 10 Ω. I = 30/10 = 3 A."
+    },
+    {
+      "id": 107,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Wirkungsgrad",
+      "question": "Eine Maschine nimmt P_ein = 4000 W auf und gibt P_aus = 3200 W ab. Wie groß ist der Wirkungsgrad η in %?",
+      "given": { "Pin": "4000 W", "Pout": "3200 W" },
+      "searched": "η in %",
+      "formula_hint": "η = Pout / Pin",
+      "answers": {
+        "A": "η = 60 %",
+        "B": "η = 70 %",
+        "C": "η = 75 %",
+        "D": "η = 80 %",
+        "E": "η = 90 %"
+      },
+      "correct_answer": "D",
+      "explanation": "η = Pout / Pin = 3200 / 4000 = 0,8 = 80 %."
+    },
+    {
+      "id": 108,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Leitungsverluste",
+      "question": "Durch eine Verbindungsleitung mit R_Leitung = 0,5 Ω fließt I = 10 A. Wie groß ist die Verlustleistung Pv?",
+      "given": { "R_Leitung": "0,5 Ω", "I": "10 A" },
+      "searched": "Pv in W",
+      "formula_hint": "Pv = I² · R_Leitung",
+      "answers": {
+        "A": "Pv = 5 W",
+        "B": "Pv = 25 W",
+        "C": "Pv = 50 W",
+        "D": "Pv = 100 W",
+        "E": "Pv = 500 W"
+      },
+      "correct_answer": "C",
+      "explanation": "Pv = I² · R = 10² · 0,5 = 100 · 0,5 = 50 W."
+    },
+    {
+      "id": 109,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Elektrische Energie",
+      "question": "Eine Anlage hat eine Leistung von P = 1500 W und läuft t = 8 h. Wie groß ist die Energie W in kWh?",
+      "given": { "P": "1500 W = 1,5 kW", "t": "8 h" },
+      "searched": "W in kWh",
+      "formula_hint": "W = P · t",
+      "answers": {
+        "A": "W = 0,188 kWh",
+        "B": "W = 8 kWh",
+        "C": "W = 10 kWh",
+        "D": "W = 12 kWh",
+        "E": "W = 16 kWh"
+      },
+      "correct_answer": "D",
+      "explanation": "W = 1,5 kW · 8 h = 12 kWh."
+    },
+    {
+      "id": 110,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "An einem Knoten fließen I1 = 8 A und I2 = 3 A zu, sowie I3 = 5 A ab. Wie groß ist der abfließende Strom I4?",
+      "given": { "I1": "8 A (zufließend)", "I2": "3 A (zufließend)", "I3": "5 A (abfließend)" },
+      "searched": "I4 in A (abfließend)",
+      "formula_hint": "Knotenregel: ΣI_zu = ΣI_ab → I1 + I2 = I3 + I4",
+      "answers": {
+        "A": "I4 = 0 A",
+        "B": "I4 = 3 A",
+        "C": "I4 = 6 A",
+        "D": "I4 = 11 A",
+        "E": "I4 = 16 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I1 + I2 = I3 + I4. 8 + 3 = 5 + I4. I4 = 11 − 5 = 6 A."
+    },
+    {
+      "id": 111,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Gemischte Schaltung",
+      "question": "R1 = 5 Ω und R4 = 5 Ω liegen in Reihe; zwischen ihnen ist die Parallelschaltung R2 = 10 Ω und R3 = 10 Ω eingefügt. Uges = 60 V. Wie groß ist die Spannung U23 an der Parallelgruppe?",
+      "given": { "R1": "5 Ω", "R2": "10 Ω", "R3": "10 Ω", "R4": "5 Ω", "Uges": "60 V" },
+      "searched": "U23 in V",
+      "formula_hint": "Schritt 1: R23 = R2||R3; Schritt 2: Rges = R1+R23+R4; Schritt 3: I = Uges/Rges; Schritt 4: U23 = I · R23",
+      "image": "./assets/images/efk02_gemischt.svg",
+      "answers": {
+        "A": "U23 = 10 V",
+        "B": "U23 = 15 V",
+        "C": "U23 = 20 V",
+        "D": "U23 = 30 V",
+        "E": "U23 = 40 V"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = 10||10 = 5 Ω. Rges = 5+5+5 = 15 Ω. I = 60/15 = 4 A. U23 = 4 · 5 = 20 V."
+    },
+    {
+      "id": 112,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Reihenschaltung",
+      "question": "In einer Reihenschaltung: Uq = 24 V, R1 = 4 Ω, R2 = 8 Ω. Wie groß ist die Gesamtleistung Pges?",
+      "given": { "Uq": "24 V", "R1": "4 Ω", "R2": "8 Ω" },
+      "searched": "Pges in W",
+      "formula_hint": "Schritt 1: Rges = R1+R2; Schritt 2: I = Uq/Rges; Schritt 3: Pges = Uq · I",
+      "answers": {
+        "A": "Pges = 12 W",
+        "B": "Pges = 24 W",
+        "C": "Pges = 36 W",
+        "D": "Pges = 48 W",
+        "E": "Pges = 96 W"
+      },
+      "correct_answer": "D",
+      "explanation": "Rges = 4+8 = 12 Ω. I = 24/12 = 2 A. Pges = Uq · I = 24 · 2 = 48 W."
+    },
+    {
+      "id": 113,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Kirchhoffsche Gesetze",
+      "question": "Eine Masche enthält: Uq = 36 V, R1 = 6 Ω, R2 = 12 Ω, R3 = 18 Ω – alle in Reihe. Wie groß ist die Spannung U2 an R2?",
+      "given": { "Uq": "36 V", "R1": "6 Ω", "R2": "12 Ω", "R3": "18 Ω" },
+      "searched": "U2 in V",
+      "formula_hint": "Schritt 1: Rges = R1+R2+R3; Schritt 2: I = Uq/Rges; Schritt 3: U2 = I · R2",
+      "answers": {
+        "A": "U2 = 6 V",
+        "B": "U2 = 12 V",
+        "C": "U2 = 18 V",
+        "D": "U2 = 24 V",
+        "E": "U2 = 36 V"
+      },
+      "correct_answer": "B",
+      "explanation": "Rges = 6+12+18 = 36 Ω. I = 36/36 = 1 A. U2 = 1 · 12 = 12 V."
+    },
+    {
+      "id": 114,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Quellen und Innenwiderstand",
+      "question": "Eine reale Quelle hat Uq = 24 V und Ri = 2 Ω. Es wird ein Lastwiderstand RL = 10 Ω angeschlossen. Wie groß ist die Klemmenspannung UL?",
+      "given": { "Uq": "24 V", "Ri": "2 Ω", "RL": "10 Ω" },
+      "searched": "UL in V",
+      "formula_hint": "Schritt 1: Rges = Ri + RL; Schritt 2: I = Uq/Rges; Schritt 3: UL = I · RL",
+      "image": "./assets/images/efk02_ri.svg",
+      "answers": {
+        "A": "UL = 12 V",
+        "B": "UL = 16 V",
+        "C": "UL = 20 V",
+        "D": "UL = 22 V",
+        "E": "UL = 24 V"
+      },
+      "correct_answer": "C",
+      "explanation": "Rges = 2+10 = 12 Ω. I = 24/12 = 2 A. UL = 2 · 10 = 20 V."
+    },
+    {
+      "id": 115,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Parallelschaltung",
+      "question": "R1 = 6 Ω, R2 = 4 Ω und R3 = 3 Ω sind parallel an U = 12 V angeschlossen. Wie groß ist der Gesamtstrom Iges?",
+      "given": { "R1": "6 Ω", "R2": "4 Ω", "R3": "3 Ω", "U": "12 V" },
+      "searched": "Iges in A",
+      "formula_hint": "Schritt 1: Iges = I1 + I2 + I3 = U/R1 + U/R2 + U/R3",
+      "answers": {
+        "A": "Iges = 5 A",
+        "B": "Iges = 7 A",
+        "C": "Iges = 9 A",
+        "D": "Iges = 12 A",
+        "E": "Iges = 36 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I1 = 12/6 = 2 A; I2 = 12/4 = 3 A; I3 = 12/3 = 4 A. Iges = 2+3+4 = 9 A."
+    },
+    {
+      "id": 116,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Gemischte Schaltung",
+      "question": "R1 = 5 Ω liegt in Reihe mit der Parallelschaltung R2 = R3 = 20 Ω. Uges = 60 V. Wie groß ist die Leistung P23 an der Parallelgruppe?",
+      "given": { "R1": "5 Ω", "R2": "20 Ω", "R3": "20 Ω", "Uges": "60 V" },
+      "searched": "P23 in W",
+      "formula_hint": "Schritt 1: R23 = R2||R3; Schritt 2: Rges = R1+R23; Schritt 3: I = Uges/Rges; Schritt 4: U23 = I·R23; Schritt 5: P23 = U23·I",
+      "answers": {
+        "A": "P23 = 80 W",
+        "B": "P23 = 120 W",
+        "C": "P23 = 160 W",
+        "D": "P23 = 200 W",
+        "E": "P23 = 240 W"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = 10 Ω. Rges = 15 Ω. I = 60/15 = 4 A. U23 = 4·10 = 40 V. P23 = U23·I = 40·4 = 160 W."
+    },
+    {
+      "id": 117,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Leitungsberechnung",
+      "question": "Durch eine Kupferleitung (ρ = 0,0178 Ω·mm²/m) der Länge l = 20 m (Hin- und Rückleiter zusammen) fließt I = 16 A. Der maximal zulässige Spannungsfall beträgt ΔU_max = 3,2 V. Welcher Mindestquerschnitt A ist erforderlich?",
+      "given": { "ρ": "0,0178 Ω·mm²/m", "l": "20 m", "I": "16 A", "ΔU_max": "3,2 V" },
+      "searched": "A in mm²",
+      "formula_hint": "Schritt 1: R_max = ΔU_max / I; Schritt 2: A = ρ · l / R_max",
+      "answers": {
+        "A": "A = 0,89 mm²",
+        "B": "A = 1,78 mm²",
+        "C": "A = 2,50 mm²",
+        "D": "A = 3,56 mm²",
+        "E": "A = 5,00 mm²"
+      },
+      "correct_answer": "B",
+      "explanation": "R_max = 3,2 / 16 = 0,2 Ω. A = ρ · l / R_max = 0,0178 · 20 / 0,2 = 0,356 / 0,2 = 1,78 mm²."
+    },
+    {
+      "id": 118,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Wirkungsgrad",
+      "question": "Eine Anlage mit η1 = 0,80 versorgt eine zweite Anlage mit η2 = 0,90. Die Eingangsleistung beträgt Pin = 5 kW. Wie groß ist die Nutzleistung Pout nach beiden Stufen?",
+      "given": { "Pin": "5 kW", "η1": "0,80", "η2": "0,90" },
+      "searched": "Pout in kW",
+      "formula_hint": "Schritt 1: P1out = Pin · η1; Schritt 2: Pout = P1out · η2",
+      "answers": {
+        "A": "Pout = 2,0 kW",
+        "B": "Pout = 3,2 kW",
+        "C": "Pout = 3,6 kW",
+        "D": "Pout = 4,0 kW",
+        "E": "Pout = 4,5 kW"
+      },
+      "correct_answer": "C",
+      "explanation": "P1out = 5 · 0,80 = 4 kW. Pout = 4 · 0,90 = 3,6 kW."
+    },
+    {
+      "id": 119,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Gemischte Schaltung",
+      "question": "In einer Schaltung liegt R1 = 10 Ω in Reihe mit der Parallelschaltung R2 = R3 = 20 Ω. Uges = 100 V. Wie groß ist die Leistung P2 an R2?",
+      "given": { "R1": "10 Ω", "R2": "20 Ω", "R3": "20 Ω", "Uges": "100 V" },
+      "searched": "P2 in W",
+      "formula_hint": "Schritt 1: R23 = R2||R3; Schritt 2: Rges = R1+R23; Schritt 3: I = Uges/Rges; Schritt 4: U23 = I·R23; Schritt 5: I2 = U23/R2; Schritt 6: P2 = I2²·R2",
+      "answers": {
+        "A": "P2 = 62,5 W",
+        "B": "P2 = 100 W",
+        "C": "P2 = 125 W",
+        "D": "P2 = 150 W",
+        "E": "P2 = 250 W"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = 10 Ω. Rges = 20 Ω. I = 5 A. U23 = 5·10 = 50 V. I2 = 50/20 = 2,5 A. P2 = 2,5²·20 = 6,25·20 = 125 W."
+    },
+    {
+      "id": 120,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Quellen und Innenwiderstand",
+      "question": "Eine reale Quelle: Uq = 12 V, Ri = 1 Ω, Leitungswiderstand R_L = 0,5 Ω, Lastwiderstand RL = 8,5 Ω. Wie groß ist der Wirkungsgrad η der Energieübertragung zur Last?",
+      "given": { "Uq": "12 V", "Ri": "1 Ω", "R_Leitung": "0,5 Ω", "RL": "8,5 Ω" },
+      "searched": "η in %",
+      "formula_hint": "Schritt 1: Rges = Ri+R_Leitung+RL; Schritt 2: I = Uq/Rges; Schritt 3: PL = I²·RL; Schritt 4: Pges = Uq·I; Schritt 5: η = PL/Pges",
+      "image": "./assets/images/efk02_ri.svg",
+      "answers": {
+        "A": "η = 70 %",
+        "B": "η = 75 %",
+        "C": "η = 80 %",
+        "D": "η = 85 %",
+        "E": "η = 90 %"
+      },
+      "correct_answer": "D",
+      "explanation": "Rges = 1+0,5+8,5 = 10 Ω. I = 12/10 = 1,2 A. PL = 1,44·8,5 = 12,24 W. Pges = 12·1,2 = 14,4 W. η = 12,24/14,4 = 0,85 = 85 %."
+    }
+  ]
+}

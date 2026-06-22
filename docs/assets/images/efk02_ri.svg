@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 150" width="460" height="150">
+  <style>
+    .wire { stroke:#1a1a1a; stroke-width:2.5; fill:none; stroke-linecap:round; }
+    .box  { stroke:#1a1a1a; stroke-width:2; fill:#f5f5f5; }
+    .src  { stroke:#1a1a1a; stroke-width:2; fill:#e8f0ff; }
+    .lbl  { font-family:sans-serif; font-size:13px; fill:#1a1a1a; text-anchor:middle; dominant-baseline:middle; }
+    .sub  { font-family:sans-serif; font-size:11px; fill:#555; text-anchor:middle; }
+    .brk  { stroke:#555; stroke-width:1; stroke-dasharray:4,3; fill:none; }
+  </style>
+  <!-- Source box (dashed border = real source) -->
+  <rect class="brk" x="20" y="10" width="195" height="130" rx="4"/>
+  <text x="117" y="148" font-family="sans-serif" font-size="10" fill="#555" text-anchor="middle">Reale Quelle / Real Source</text>
+  <!-- Battery / EMF -->
+  <line class="wire" x1="50" y1="25" x2="50" y2="115"/>
+  <line x1="35" y1="60" x2="65" y2="60" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="39" y1="72" x2="61" y2="72" stroke="#1a1a1a" stroke-width="2"/>
+  <text class="sub" x="50" y="42">+</text>
+  <text class="sub" x="50" y="100">−</text>
+  <text class="sub" x="75" y="66">Uq</text>
+  <!-- Top wire: EMF → Ri -->
+  <line class="wire" x1="50" y1="25" x2="110" y2="25"/>
+  <!-- Ri (internal resistance) -->
+  <rect class="box" x="110" y="13" width="75" height="24" rx="2"/>
+  <text class="lbl" x="147" y="25">Rᵢ</text>
+  <!-- Ri → terminal A -->
+  <line class="wire" x1="185" y1="25" x2="245" y2="25"/>
+  <circle cx="245" cy="25" r="4" fill="#1a1a1a"/>
+  <text class="sub" x="245" y="14">A</text>
+  <!-- Terminal A → RL top -->
+  <line class="wire" x1="245" y1="25" x2="350" y2="25"/>
+  <!-- RL (load) -->
+  <rect class="box" x="350" y="13" width="75" height="24" rx="2"/>
+  <text class="lbl" x="387" y="25">R_L</text>
+  <!-- RL → right corner -->
+  <line class="wire" x1="425" y1="25" x2="440" y2="25"/>
+  <line class="wire" x1="440" y1="25" x2="440" y2="115"/>
+  <!-- Bottom bus: right → terminal B → EMF − -->
+  <line class="wire" x1="50" y1="115" x2="440" y2="115"/>
+  <circle cx="245" cy="115" r="4" fill="#1a1a1a"/>
+  <text class="sub" x="245" y="128">B</text>
+  <!-- Terminal voltage arrow -->
+  <text x="255" y="72" font-family="sans-serif" font-size="12" fill="#0057b8" text-anchor="start">U_Klemme</text>
+  <line x1="245" y1="25" x2="245" y2="115" stroke="#0057b8" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="245,25 241,35 249,35" fill="#0057b8"/>
+</svg>

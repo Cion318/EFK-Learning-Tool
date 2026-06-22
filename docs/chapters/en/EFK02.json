@@ -1,0 +1,2023 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohm's Law",
+      "question": "What is the fundamental formula of Ohm's Law?",
+      "answers": {
+        "A": "U = R / I",
+        "B": "U = R · I",
+        "C": "U = I / R",
+        "D": "P = U · I",
+        "E": "R = U + I"
+      },
+      "correct_answer": "B",
+      "explanation": "Ohm's Law states U = R · I. Voltage equals resistance times current."
+    },
+    {
+      "id": 2,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohm's Law",
+      "question": "What symbol is used for electrical resistance?",
+      "answers": {
+        "A": "U",
+        "B": "I",
+        "C": "P",
+        "D": "G",
+        "E": "R"
+      },
+      "correct_answer": "E",
+      "explanation": "Electrical resistance is denoted by the symbol R."
+    },
+    {
+      "id": 3,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohm's Law",
+      "question": "What is the unit of electrical resistance?",
+      "answers": {
+        "A": "Volt (V)",
+        "B": "Ampere (A)",
+        "C": "Watt (W)",
+        "D": "Ohm (Ω)",
+        "E": "Siemens (S)"
+      },
+      "correct_answer": "D",
+      "explanation": "Electrical resistance has the unit Ohm with the symbol Ω."
+    },
+    {
+      "id": 4,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohm's Law",
+      "question": "Which three quantities does Ohm's Law relate?",
+      "answers": {
+        "A": "Power P, energy W, time t",
+        "B": "Charge Q, current I, time t",
+        "C": "Voltage U, current I, resistance R",
+        "D": "Current density J, area A, current I",
+        "E": "Resistivity ρ, length l, area A"
+      },
+      "correct_answer": "C",
+      "explanation": "Ohm's Law relates the three fundamental quantities: voltage U, current I, and resistance R."
+    },
+    {
+      "id": 5,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electrical Power",
+      "question": "What symbol is used for electrical power?",
+      "answers": {
+        "A": "W",
+        "B": "E",
+        "C": "P",
+        "D": "Q",
+        "E": "L"
+      },
+      "correct_answer": "C",
+      "explanation": "Electrical power is denoted by the symbol P."
+    },
+    {
+      "id": 6,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electrical Power",
+      "question": "What is the unit of electrical power?",
+      "answers": {
+        "A": "Volt (V)",
+        "B": "Joule (J)",
+        "C": "Ampere (A)",
+        "D": "Watt (W)",
+        "E": "Ohm (Ω)"
+      },
+      "correct_answer": "D",
+      "explanation": "Electrical power has the unit Watt with the symbol W."
+    },
+    {
+      "id": 7,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electrical Power",
+      "question": "Which formula describes electrical power using voltage and current?",
+      "answers": {
+        "A": "P = U + I",
+        "B": "P = U / I",
+        "C": "P = U · I",
+        "D": "P = I / U",
+        "E": "P = R · I"
+      },
+      "correct_answer": "C",
+      "explanation": "Electrical power is the product of voltage and current: P = U · I."
+    },
+    {
+      "id": 8,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electrical Energy",
+      "question": "What symbol is used for electrical energy?",
+      "answers": {
+        "A": "P",
+        "B": "F",
+        "C": "Q",
+        "D": "W",
+        "E": "E"
+      },
+      "correct_answer": "D",
+      "explanation": "Electrical energy is denoted by the symbol W."
+    },
+    {
+      "id": 9,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electrical Energy",
+      "question": "What is the SI unit of electrical energy?",
+      "answers": {
+        "A": "Watt (W)",
+        "B": "Joule (J)",
+        "C": "Coulomb (C)",
+        "D": "Volt (V)",
+        "E": "Newton (N)"
+      },
+      "correct_answer": "B",
+      "explanation": "The SI unit of electrical energy is the Joule (J). In everyday use, the kilowatt-hour (kWh) is also common."
+    },
+    {
+      "id": 10,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electrical Energy",
+      "question": "How is electrical energy calculated from power and time?",
+      "answers": {
+        "A": "W = P / t",
+        "B": "W = P + t",
+        "C": "W = P − t",
+        "D": "W = P · t",
+        "E": "W = t / P"
+      },
+      "correct_answer": "D",
+      "explanation": "Electrical energy is the product of power and time: W = P · t."
+    },
+    {
+      "id": 11,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Series Circuit",
+      "question": "What characterises a series circuit?",
+      "answers": {
+        "A": "All components are connected between the same two nodes",
+        "B": "All components are connected end-to-end in a single current path",
+        "C": "All components have the same voltage across them",
+        "D": "The current splits into several branches",
+        "E": "There are multiple parallel loops"
+      },
+      "correct_answer": "B",
+      "explanation": "In a series circuit all components are connected end-to-end in a single current path (branch)."
+    },
+    {
+      "id": 12,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Series Circuit",
+      "question": "Which quantity is the same across all components in a series circuit?",
+      "answers": {
+        "A": "Voltage",
+        "B": "Resistance",
+        "C": "Current",
+        "D": "Power",
+        "E": "Conductance"
+      },
+      "correct_answer": "C",
+      "explanation": "In a series circuit the same current flows through all components."
+    },
+    {
+      "id": 13,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Series Circuit",
+      "question": "How do the partial voltages behave in a series circuit?",
+      "answers": {
+        "A": "They are all equal",
+        "B": "They are all zero",
+        "C": "They add up to the total voltage",
+        "D": "They subtract from each other",
+        "E": "They multiply together"
+      },
+      "correct_answer": "C",
+      "explanation": "In a series circuit all partial voltages add up to the total source voltage (voltage loop rule)."
+    },
+    {
+      "id": 14,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Series Circuit",
+      "question": "How is the total resistance of a series circuit calculated?",
+      "answers": {
+        "A": "Rtotal = R1 · R2",
+        "B": "Rtotal = R1 / R2",
+        "C": "Rtotal = R1 + R2 + ...",
+        "D": "1/Rtotal = 1/R1 + 1/R2",
+        "E": "Rtotal = R1 − R2"
+      },
+      "correct_answer": "C",
+      "explanation": "The total resistance of a series circuit is the sum of all individual resistances: Rtotal = R1 + R2 + ..."
+    },
+    {
+      "id": 15,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallel Circuit",
+      "question": "What characterises a parallel circuit?",
+      "answers": {
+        "A": "All components are end-to-end in one branch",
+        "B": "All components are connected between the same two nodes",
+        "C": "The current is the same in all components",
+        "D": "The voltages add up",
+        "E": "There is only one current path"
+      },
+      "correct_answer": "B",
+      "explanation": "In a parallel circuit all components are connected between the same two nodes. The same voltage appears across each of them."
+    },
+    {
+      "id": 16,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallel Circuit",
+      "question": "Which quantity is the same across all branches in a parallel circuit?",
+      "answers": {
+        "A": "Current",
+        "B": "Resistance",
+        "C": "Power",
+        "D": "Voltage",
+        "E": "Conductance"
+      },
+      "correct_answer": "D",
+      "explanation": "In a parallel circuit the same voltage appears across every branch."
+    },
+    {
+      "id": 17,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallel Circuit",
+      "question": "How does the total current behave in a parallel circuit?",
+      "answers": {
+        "A": "It is the same in every branch",
+        "B": "It splits into individual branch currents",
+        "C": "It is always zero",
+        "D": "It becomes smaller than the smallest branch current",
+        "E": "It is always 1 A"
+      },
+      "correct_answer": "B",
+      "explanation": "The total current divides into the branch currents in a parallel circuit (current node rule)."
+    },
+    {
+      "id": 18,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallel Circuit",
+      "question": "Which formula applies to the total resistance of a parallel circuit?",
+      "answers": {
+        "A": "Rtotal = R1 + R2",
+        "B": "Rtotal = R1 · R2",
+        "C": "1/Rtotal = 1/R1 + 1/R2 + ...",
+        "D": "Rtotal = R1 − R2",
+        "E": "Rtotal = R1 / R2"
+      },
+      "correct_answer": "C",
+      "explanation": "For a parallel circuit: 1/Rtotal = 1/R1 + 1/R2 + ..."
+    },
+    {
+      "id": 19,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Kirchhoff's Laws",
+      "question": "What does the current law (KCL, 1st Kirchhoff's Law) state?",
+      "answers": {
+        "A": "The sum of all voltages in a loop is zero",
+        "B": "The sum of all incoming currents equals the sum of all outgoing currents",
+        "C": "The current is always constant",
+        "D": "The voltage is the same everywhere in the circuit",
+        "E": "All resistances are in series"
+      },
+      "correct_answer": "B",
+      "explanation": "KCL states: At any node, the sum of incoming currents equals the sum of outgoing currents (ΣI = 0)."
+    },
+    {
+      "id": 20,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Kirchhoff's Laws",
+      "question": "What does the voltage law (KVL, 2nd Kirchhoff's Law) state?",
+      "answers": {
+        "A": "The sum of all currents at a node is zero",
+        "B": "The voltage is the same everywhere in the circuit",
+        "C": "The algebraic sum of all voltages around a closed loop is zero",
+        "D": "The current is proportional to the voltage",
+        "E": "Resistances always add together"
+      },
+      "correct_answer": "C",
+      "explanation": "KVL states: The algebraic sum of all voltages around a closed loop is zero (ΣU = 0)."
+    },
+    {
+      "id": 21,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Kirchhoff's Laws",
+      "question": "What is a node (junction point) in a circuit?",
+      "answers": {
+        "A": "A resistor",
+        "B": "A connection point where three or more conductors meet",
+        "C": "A switch",
+        "D": "A voltage source",
+        "E": "A load"
+      },
+      "correct_answer": "B",
+      "explanation": "A node is a point in the circuit where three or more conductors meet."
+    },
+    {
+      "id": 22,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Kirchhoff's Laws",
+      "question": "What is a loop (mesh) in a circuit?",
+      "answers": {
+        "A": "A straight conductor",
+        "B": "A node",
+        "C": "A closed path through the network",
+        "D": "A resistor",
+        "E": "A current"
+      },
+      "correct_answer": "C",
+      "explanation": "A mesh (loop) is a closed path in a network. The sum of all voltages around it is zero."
+    },
+    {
+      "id": 23,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallel Circuit",
+      "question": "How does the total resistance of a parallel circuit compare with the smallest individual resistance?",
+      "answers": {
+        "A": "Larger",
+        "B": "Equal",
+        "C": "Smaller",
+        "D": "Twice as large",
+        "E": "Four times as large"
+      },
+      "correct_answer": "C",
+      "explanation": "The total resistance of a parallel circuit is always smaller than the smallest individual resistance."
+    },
+    {
+      "id": 24,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Parallel Circuit",
+      "question": "Two identical resistors R are connected in parallel. What is the total resistance?",
+      "answers": {
+        "A": "2R",
+        "B": "R",
+        "C": "R/2",
+        "D": "R/4",
+        "E": "4R"
+      },
+      "correct_answer": "C",
+      "explanation": "For two identical resistors R in parallel: Rtotal = R/2."
+    },
+    {
+      "id": 25,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Voltage Divider",
+      "question": "What is the purpose of a voltage divider?",
+      "answers": {
+        "A": "To double the current",
+        "B": "To obtain a specific partial voltage from the source voltage",
+        "C": "To increase the resistance",
+        "D": "To measure power",
+        "E": "To sum currents"
+      },
+      "correct_answer": "B",
+      "explanation": "A voltage divider (series resistors) is used to obtain a desired partial voltage from a total voltage."
+    },
+    {
+      "id": 26,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electrical Power",
+      "question": "Which formula describes electrical power using current and resistance?",
+      "answers": {
+        "A": "P = U · I",
+        "B": "P = U² / R",
+        "C": "P = R / I²",
+        "D": "P = I² · R",
+        "E": "P = I / R²"
+      },
+      "correct_answer": "D",
+      "explanation": "Using current and resistance: P = I² · R."
+    },
+    {
+      "id": 27,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electrical Power",
+      "question": "Which formula describes electrical power using voltage and resistance?",
+      "answers": {
+        "A": "P = I² · R",
+        "B": "P = U² / R",
+        "C": "P = U / R",
+        "D": "P = R / U²",
+        "E": "P = U · R"
+      },
+      "correct_answer": "B",
+      "explanation": "Using voltage and resistance: P = U² / R."
+    },
+    {
+      "id": 28,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Electrical Energy",
+      "question": "Which energy unit is most commonly used in everyday life?",
+      "answers": {
+        "A": "Joule (J)",
+        "B": "Newton (N)",
+        "C": "Watt (W)",
+        "D": "Kilowatt-hour (kWh)",
+        "E": "Coulomb (C)"
+      },
+      "correct_answer": "D",
+      "explanation": "In everyday life – e.g. on electricity bills – the kilowatt-hour (kWh) is used as the energy unit."
+    },
+    {
+      "id": 29,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Ohm's Law",
+      "question": "If the voltage remains constant and the resistance increases, what happens to the current?",
+      "answers": {
+        "A": "It increases",
+        "B": "It stays the same",
+        "C": "It decreases",
+        "D": "It becomes zero",
+        "E": "It doubles"
+      },
+      "correct_answer": "C",
+      "explanation": "From I = U/R: if U is constant and R increases, I decreases. Voltage and current are proportional at constant R; increasing R reduces I."
+    },
+    {
+      "id": 30,
+      "type": "wissen",
+      "difficulty": "leicht",
+      "category": "Efficiency",
+      "question": "What symbol is used for efficiency?",
+      "answers": {
+        "A": "W",
+        "B": "P",
+        "C": "η (Eta)",
+        "D": "Q",
+        "E": "α"
+      },
+      "correct_answer": "C",
+      "explanation": "Efficiency is represented by the Greek letter η (Eta)."
+    },
+    {
+      "id": 31,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Ohm's Law",
+      "question": "Ohm's Law is linear. What does that mean?",
+      "answers": {
+        "A": "Resistance is always constant and independent of temperature",
+        "B": "Voltage and current are proportional to each other at constant R",
+        "C": "Power and time are proportional",
+        "D": "Current and resistance are equal",
+        "E": "The U-I characteristic is a circle"
+      },
+      "correct_answer": "B",
+      "explanation": "A linear component follows U = R · I. The U-I characteristic is a straight line through the origin: voltage and current are proportional."
+    },
+    {
+      "id": 32,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Series Circuit",
+      "question": "In a series circuit, the resistor with the larger value receives ...",
+      "answers": {
+        "A": "less voltage",
+        "B": "the same voltage as all others",
+        "C": "more voltage",
+        "D": "no current",
+        "E": "more current"
+      },
+      "correct_answer": "C",
+      "explanation": "In a series circuit U = I · R. Since the current is the same everywhere, a larger resistor has a larger voltage drop across it."
+    },
+    {
+      "id": 33,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Series Circuit",
+      "question": "What happens to the total resistance when another resistor is added in series?",
+      "answers": {
+        "A": "It stays the same",
+        "B": "It decreases",
+        "C": "It increases",
+        "D": "It becomes zero",
+        "E": "It halves"
+      },
+      "correct_answer": "C",
+      "explanation": "In series circuits, resistances add: Rtotal = R1 + R2 + ... Every additional resistor increases the total resistance."
+    },
+    {
+      "id": 34,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallel Circuit",
+      "question": "What happens to the total resistance when another resistor is added in parallel?",
+      "answers": {
+        "A": "It increases",
+        "B": "It stays the same",
+        "C": "It decreases",
+        "D": "It becomes infinite",
+        "E": "It doubles"
+      },
+      "correct_answer": "C",
+      "explanation": "Each additional parallel branch provides another current path. The total resistance decreases because more branches mean less total opposition."
+    },
+    {
+      "id": 35,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Voltage Divider",
+      "question": "In an unloaded voltage divider (R1 in series with R2), U2 is calculated by ...",
+      "answers": {
+        "A": "U2 = Utotal · R1 / (R1 + R2)",
+        "B": "U2 = Utotal · R2 / (R1 + R2)",
+        "C": "U2 = Utotal · (R1 + R2) / R2",
+        "D": "U2 = Utotal / R2",
+        "E": "U2 = Utotal − R2"
+      },
+      "correct_answer": "B",
+      "explanation": "The partial voltage U2 follows the voltage divider formula: U2 = Utotal · R2 / (R1 + R2)."
+    },
+    {
+      "id": 36,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallel Circuit",
+      "question": "In a parallel circuit the largest current flows through the branch with ...",
+      "answers": {
+        "A": "the largest resistance",
+        "B": "the smallest voltage",
+        "C": "the smallest resistance",
+        "D": "the largest power",
+        "E": "the smallest current"
+      },
+      "correct_answer": "C",
+      "explanation": "In a parallel circuit I = U/R. Since U is the same in every branch, the smallest resistance carries the largest current."
+    },
+    {
+      "id": 37,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Series Circuit",
+      "question": "What happens to the whole circuit if one component in a series circuit is open-circuited?",
+      "answers": {
+        "A": "The current increases",
+        "B": "Only that component stops working",
+        "C": "Current stops flowing in the entire circuit",
+        "D": "The voltage doubles",
+        "E": "The remaining components receive more current"
+      },
+      "correct_answer": "C",
+      "explanation": "An open circuit in a series circuit breaks the only current path – the total current drops to zero."
+    },
+    {
+      "id": 38,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallel Circuit",
+      "question": "What happens when one branch of a parallel circuit is open-circuited?",
+      "answers": {
+        "A": "All current stops flowing",
+        "B": "The voltage rises significantly",
+        "C": "Only that branch stops working; the other branches continue",
+        "D": "The total resistance decreases",
+        "E": "Power in the other branches decreases"
+      },
+      "correct_answer": "C",
+      "explanation": "A parallel circuit has multiple current paths. If one branch opens, the others continue to operate unchanged."
+    },
+    {
+      "id": 39,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electrical Power",
+      "question": "In a series circuit more power is dissipated in the resistor that ...",
+      "answers": {
+        "A": "has the smallest value",
+        "B": "has the same value as all others",
+        "C": "has the largest value",
+        "D": "carries no current",
+        "E": "has no voltage"
+      },
+      "correct_answer": "C",
+      "explanation": "In a series circuit P = I² · R. Since I is the same everywhere, the resistor with the largest value dissipates the most power."
+    },
+    {
+      "id": 40,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electrical Power",
+      "question": "In a parallel circuit more power is dissipated in the resistor that ...",
+      "answers": {
+        "A": "has the largest value",
+        "B": "has the same value as all others",
+        "C": "has the smallest value",
+        "D": "carries no current",
+        "E": "has no voltage"
+      },
+      "correct_answer": "C",
+      "explanation": "In a parallel circuit P = U² / R. Since U is the same in every branch, the smallest resistor dissipates the most power."
+    },
+    {
+      "id": 41,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Kirchhoff's Laws",
+      "question": "Which statement correctly describes KVL (voltage law)?",
+      "answers": {
+        "A": "The sum of all currents in a loop is zero",
+        "B": "The algebraic sum of all voltages in a closed loop is zero",
+        "C": "Power is equal in every loop",
+        "D": "Current does not change in a loop",
+        "E": "Voltages multiply together"
+      },
+      "correct_answer": "B",
+      "explanation": "KVL: The algebraic sum of all voltages in a closed loop is zero. ΣU = 0."
+    },
+    {
+      "id": 42,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Kirchhoff's Laws",
+      "question": "Which statement correctly describes KCL (current law)?",
+      "answers": {
+        "A": "The sum of all voltages at a node is zero",
+        "B": "All currents at a node are equal",
+        "C": "The sum of incoming currents equals the sum of outgoing currents",
+        "D": "The node increases the current",
+        "E": "Power is zero at a node"
+      },
+      "correct_answer": "C",
+      "explanation": "KCL: At every node ΣI_in = ΣI_out, so incoming charge equals outgoing charge."
+    },
+    {
+      "id": 43,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Series Circuit",
+      "question": "n identical resistors R are connected in series. The total resistance is:",
+      "answers": {
+        "A": "R / n",
+        "B": "n · R",
+        "C": "n / R",
+        "D": "R + n",
+        "E": "R − n"
+      },
+      "correct_answer": "B",
+      "explanation": "For n identical resistors R in series: Rtotal = n · R."
+    },
+    {
+      "id": 44,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallel Circuit",
+      "question": "n identical resistors R are connected in parallel. The total resistance is:",
+      "answers": {
+        "A": "n · R",
+        "B": "R + n",
+        "C": "R / n",
+        "D": "n / R",
+        "E": "R − n"
+      },
+      "correct_answer": "C",
+      "explanation": "For n identical resistors R in parallel: Rtotal = R / n."
+    },
+    {
+      "id": 45,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electrical Power",
+      "question": "How many watts are equivalent to 3.5 kW?",
+      "answers": {
+        "A": "35 W",
+        "B": "350 W",
+        "C": "3500 W",
+        "D": "35000 W",
+        "E": "0.35 W"
+      },
+      "correct_answer": "C",
+      "explanation": "1 kW = 1000 W. Therefore: 3.5 kW = 3500 W."
+    },
+    {
+      "id": 46,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electrical Energy",
+      "question": "How many joules are equivalent to 1 kWh?",
+      "answers": {
+        "A": "1000 J",
+        "B": "3600 J",
+        "C": "3 600 000 J",
+        "D": "1 000 000 J",
+        "E": "60 J"
+      },
+      "correct_answer": "C",
+      "explanation": "1 kWh = 1000 W · 3600 s = 3 600 000 J = 3.6 MJ."
+    },
+    {
+      "id": 47,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Ohm's Law",
+      "question": "At constant resistance the voltage is doubled. What happens to the current?",
+      "answers": {
+        "A": "It halves",
+        "B": "It stays the same",
+        "C": "It doubles",
+        "D": "It quadruples",
+        "E": "It becomes zero"
+      },
+      "correct_answer": "C",
+      "explanation": "From I = U/R: if U doubles at constant R, I also doubles (linear proportionality)."
+    },
+    {
+      "id": 48,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electrical Power",
+      "question": "If both voltage and current are doubled, by what factor does power increase?",
+      "answers": {
+        "A": "Factor 2",
+        "B": "Factor 3",
+        "C": "Factor 4",
+        "D": "Factor 8",
+        "E": "Factor 1 (no change)"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U · I. If U and I are both doubled: Pnew = 2U · 2I = 4 · U · I = 4 · P. Factor 4."
+    },
+    {
+      "id": 49,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Mixed Circuit",
+      "question": "What is a mixed circuit?",
+      "answers": {
+        "A": "A circuit containing only voltage sources",
+        "B": "A combination of series and parallel connections",
+        "C": "A circuit with only identical resistors",
+        "D": "A circuit with no current",
+        "E": "A circuit with multiple voltage sources"
+      },
+      "correct_answer": "B",
+      "explanation": "A mixed circuit contains both series and parallel connections of components."
+    },
+    {
+      "id": 50,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Mixed Circuit",
+      "question": "How is a mixed circuit analysed?",
+      "answers": {
+        "A": "By applying Ohm's Law directly without any simplification",
+        "B": "By setting up differential equations",
+        "C": "By stepwise replacing series and parallel groups with equivalent resistances",
+        "D": "By measuring all currents simultaneously",
+        "E": "By subtracting all resistances"
+      },
+      "correct_answer": "C",
+      "explanation": "Mixed circuits are simplified step by step: replace parallel and series groups with equivalent resistors until one total resistance remains."
+    },
+    {
+      "id": 51,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Efficiency",
+      "question": "How is efficiency η calculated?",
+      "answers": {
+        "A": "η = Pin · Pout",
+        "B": "η = Pout / Pin",
+        "C": "η = Pin / Pout",
+        "D": "η = Pout − Pin",
+        "E": "η = Pin + Pout"
+      },
+      "correct_answer": "B",
+      "explanation": "Efficiency is the ratio of useful output power to input power: η = Pout / Pin."
+    },
+    {
+      "id": 52,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Efficiency",
+      "question": "What happens to efficiency if loss power increases while input power stays the same?",
+      "answers": {
+        "A": "It increases",
+        "B": "It stays the same",
+        "C": "It decreases",
+        "D": "It doubles",
+        "E": "It reaches 100 %"
+      },
+      "correct_answer": "C",
+      "explanation": "η = Pout / Pin = (Pin − Ploss) / Pin. If Ploss rises at constant Pin, Pout falls, so η decreases."
+    },
+    {
+      "id": 53,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Cable Losses",
+      "question": "How is the power loss in a connecting cable calculated?",
+      "answers": {
+        "A": "Ploss = U · R",
+        "B": "Ploss = U / R",
+        "C": "Ploss = I · R",
+        "D": "Ploss = I² · R",
+        "E": "Ploss = U² · R"
+      },
+      "correct_answer": "D",
+      "explanation": "Power loss in the cable resistance is: Ploss = I² · Rcable."
+    },
+    {
+      "id": 54,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Voltage Divider",
+      "question": "What happens to the output voltage of a voltage divider when a load resistor is connected?",
+      "answers": {
+        "A": "It rises",
+        "B": "It stays the same",
+        "C": "It falls",
+        "D": "It becomes zero",
+        "E": "It doubles"
+      },
+      "correct_answer": "C",
+      "explanation": "The load resistor is in parallel with R2 and reduces the effective resistance of that branch – so the output voltage falls."
+    },
+    {
+      "id": 55,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Sources and Internal Resistance",
+      "question": "Why is the terminal voltage of a real voltage source under load lower than the open-circuit voltage Uoc?",
+      "answers": {
+        "A": "Because the current decreases",
+        "B": "Because a voltage drops across the internal resistance Ri",
+        "C": "Because the temperature drops",
+        "D": "Because the source energy is exhausted",
+        "E": "Because the external resistance is too small"
+      },
+      "correct_answer": "B",
+      "explanation": "A real source has internal resistance Ri. Under load, current flows and Uterminal = Uoc − I · Ri."
+    },
+    {
+      "id": 56,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Power Balance",
+      "question": "What does the power balance of a circuit state?",
+      "answers": {
+        "A": "Load power is always greater than source power",
+        "B": "Generated power equals the sum of all dissipated powers",
+        "C": "Loss power is always zero",
+        "D": "Voltage always equals power",
+        "E": "Current is always less than power"
+      },
+      "correct_answer": "B",
+      "explanation": "Power balance: the power generated by the source equals the sum of all powers consumed (useful + losses) in the circuit."
+    },
+    {
+      "id": 57,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Efficiency",
+      "question": "A motor has an efficiency of 90 % and draws 2000 W. What useful power does it deliver?",
+      "answers": {
+        "A": "200 W",
+        "B": "900 W",
+        "C": "1800 W",
+        "D": "2200 W",
+        "E": "2000 W"
+      },
+      "correct_answer": "C",
+      "explanation": "Pout = η · Pin = 0.90 · 2000 W = 1800 W."
+    },
+    {
+      "id": 58,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Electrical Energy",
+      "question": "A device consumes 500 W and runs for 4 hours. What is the energy in Wh?",
+      "answers": {
+        "A": "125 Wh",
+        "B": "504 Wh",
+        "C": "500 Wh",
+        "D": "2000 Wh",
+        "E": "2500 Wh"
+      },
+      "correct_answer": "D",
+      "explanation": "W = P · t = 500 W · 4 h = 2000 Wh."
+    },
+    {
+      "id": 59,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallel Circuit",
+      "question": "Why are household appliances normally connected in parallel to the mains?",
+      "answers": {
+        "A": "Because the voltages then add up",
+        "B": "So that each appliance receives the same mains voltage and can operate independently",
+        "C": "Because the power would otherwise be too large",
+        "D": "Because current does not split in a parallel circuit",
+        "E": "Because series circuits cannot supply appliances"
+      },
+      "correct_answer": "B",
+      "explanation": "In a parallel circuit every appliance receives the full mains voltage and can be switched independently."
+    },
+    {
+      "id": 60,
+      "type": "wissen",
+      "difficulty": "mittel",
+      "category": "Parallel Circuit",
+      "question": "What happens when one branch of a parallel circuit is short-circuited?",
+      "answers": {
+        "A": "All other branches receive more voltage",
+        "B": "The voltage across all branches collapses to nearly zero",
+        "C": "Current in the other branches rises sharply",
+        "D": "The total resistance increases",
+        "E": "Power drops to zero"
+      },
+      "correct_answer": "B",
+      "explanation": "A short circuit in one parallel branch has (nearly) 0 Ω resistance. The voltage across all branches collapses to (nearly) zero."
+    },
+    {
+      "id": 61,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoff's Laws",
+      "question": "KVL is applied to a loop with source voltage Uq and two voltage drops UR1 and UR2. Which equation is correct?",
+      "answers": {
+        "A": "Uq + UR1 + UR2 = 0",
+        "B": "Uq − UR1 − UR2 = 0",
+        "C": "UR1 + UR2 = 2 · Uq",
+        "D": "Uq = UR1 · UR2",
+        "E": "UR1 = UR2 = Uq"
+      },
+      "correct_answer": "B",
+      "explanation": "KVL: ΣU = 0. With source voltage positive and voltage drops negative: Uq − UR1 − UR2 = 0, i.e. Uq = UR1 + UR2."
+    },
+    {
+      "id": 62,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Parallel Circuit",
+      "question": "Three resistors R1 = 6 Ω, R2 = 3 Ω, R3 = 2 Ω are connected in parallel. What is the total resistance?",
+      "answers": {
+        "A": "11 Ω",
+        "B": "2 Ω",
+        "C": "1 Ω",
+        "D": "0.5 Ω",
+        "E": "6 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "1/Rtotal = 1/6 + 1/3 + 1/2 = 1/6 + 2/6 + 3/6 = 6/6 = 1. Therefore Rtotal = 1 Ω."
+    },
+    {
+      "id": 63,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Electrical Power",
+      "question": "An ohmic conductor heats up, increasing its resistance. At constant voltage, how does power change?",
+      "answers": {
+        "A": "It increases",
+        "B": "It stays the same",
+        "C": "It decreases",
+        "D": "It doubles",
+        "E": "It becomes negative"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U² / R. At constant U, rising R causes P to decrease. Higher resistance = less power at constant voltage."
+    },
+    {
+      "id": 64,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Mixed Circuit",
+      "question": "R1 = 10 Ω is in series with the parallel combination of R2 = R3 = 20 Ω. What is the total resistance?",
+      "answers": {
+        "A": "50 Ω",
+        "B": "30 Ω",
+        "C": "20 Ω",
+        "D": "10 Ω",
+        "E": "5 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = R/2 = 20/2 = 10 Ω (two equal resistors in parallel). Rtotal = R1 + R23 = 10 + 10 = 20 Ω."
+    },
+    {
+      "id": 65,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Voltage Divider",
+      "question": "An unloaded voltage divider has R1 = R2 = 100 Ω and Utotal = 24 V. What voltage appears across R2?",
+      "answers": {
+        "A": "24 V",
+        "B": "6 V",
+        "C": "8 V",
+        "D": "12 V",
+        "E": "16 V"
+      },
+      "correct_answer": "D",
+      "explanation": "U2 = Utotal · R2 / (R1 + R2) = 24 · 100 / (100 + 100) = 24 / 2 = 12 V."
+    },
+    {
+      "id": 66,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Efficiency",
+      "question": "A generator produces 10 kW. Cable losses amount to 500 W. What is the efficiency?",
+      "answers": {
+        "A": "5 %",
+        "B": "50 %",
+        "C": "90 %",
+        "D": "95 %",
+        "E": "99 %"
+      },
+      "correct_answer": "D",
+      "explanation": "η = Pout / Pin = (10 000 − 500) / 10 000 = 9500 / 10 000 = 0.95 = 95 %."
+    },
+    {
+      "id": 67,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Power Balance",
+      "question": "Does the power addition Ptotal = P1 + P2 + ... hold for both series and parallel circuits?",
+      "answers": {
+        "A": "Only for series circuits",
+        "B": "Only for parallel circuits",
+        "C": "Yes, for both",
+        "D": "No, for neither",
+        "E": "Only for mixed circuits"
+      },
+      "correct_answer": "C",
+      "explanation": "The power balance (conservation of energy) always holds: Ptotal = P1 + P2 + ..., regardless of circuit topology."
+    },
+    {
+      "id": 68,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoff's Laws",
+      "question": "Four currents meet at a node. Known: I1 = 5 A (in), I2 = 2 A (in), I3 = 4 A (out). How large is I4 (out)?",
+      "answers": {
+        "A": "1 A",
+        "B": "2 A",
+        "C": "3 A",
+        "D": "4 A",
+        "E": "11 A"
+      },
+      "correct_answer": "C",
+      "explanation": "KCL: ΣI_in = ΣI_out. 5 + 2 = 4 + I4. Therefore I4 = 7 − 4 = 3 A."
+    },
+    {
+      "id": 69,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Electrical Power",
+      "question": "Why does power P decrease when resistance R increases at constant voltage U? Which formula explains this?",
+      "answers": {
+        "A": "P = I² · R",
+        "B": "P = U · I",
+        "C": "P = U² / R",
+        "D": "P = U + R",
+        "E": "P = R / U"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U² / R shows: at constant U, increasing R directly reduces P (inversely proportional to R)."
+    },
+    {
+      "id": 70,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoff's Laws",
+      "question": "Which law states that the sum of partial voltages in a series circuit equals the source voltage?",
+      "answers": {
+        "A": "Current law (KCL)",
+        "B": "Ohm's Law",
+        "C": "Voltage law (KVL)",
+        "D": "Lenz's Law",
+        "E": "Faraday's Law"
+      },
+      "correct_answer": "C",
+      "explanation": "KVL (Kirchhoff's Voltage Law) states that the sum of all partial voltages equals the source voltage."
+    },
+    {
+      "id": 71,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoff's Laws",
+      "question": "Which law states that the sum of branch currents equals the total current in a parallel circuit?",
+      "answers": {
+        "A": "Voltage law (KVL)",
+        "B": "Ohm's Law",
+        "C": "Current law (KCL)",
+        "D": "Lenz's Law",
+        "E": "Faraday's Law"
+      },
+      "correct_answer": "C",
+      "explanation": "KCL states: Itotal = I1 + I2 + ... — the branch currents add up to the total current."
+    },
+    {
+      "id": 72,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Mixed Circuit",
+      "question": "What is the first step when analysing a mixed circuit?",
+      "answers": {
+        "A": "Measure all currents",
+        "B": "Determine the total resistance by stepwise simplification of groups",
+        "C": "Measure the voltage across each component",
+        "D": "Apply Kirchhoff's laws directly to the entire network",
+        "E": "Subtract all resistances"
+      },
+      "correct_answer": "B",
+      "explanation": "A mixed circuit is simplified step by step: replace series and parallel groups with equivalent resistors until Rtotal is known."
+    },
+    {
+      "id": 73,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Electrical Energy",
+      "question": "A 2 kW heater runs 5 hours per day for 30 days. How much total energy is consumed (in kWh)?",
+      "answers": {
+        "A": "30 kWh",
+        "B": "100 kWh",
+        "C": "150 kWh",
+        "D": "300 kWh",
+        "E": "600 kWh"
+      },
+      "correct_answer": "D",
+      "explanation": "W = P · t = 2 kW · 5 h/day · 30 days = 300 kWh."
+    },
+    {
+      "id": 74,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Efficiency",
+      "question": "How can efficiency also be expressed using loss power Ploss?",
+      "answers": {
+        "A": "η = Ploss / Pin",
+        "B": "η = Pin / Ploss",
+        "C": "η = 1 − Ploss / Pin",
+        "D": "η = 1 + Ploss / Pin",
+        "E": "η = Pin · Ploss"
+      },
+      "correct_answer": "C",
+      "explanation": "η = Pout / Pin = (Pin − Ploss) / Pin = 1 − Ploss / Pin."
+    },
+    {
+      "id": 75,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Voltage Divider",
+      "question": "Why does a loaded voltage divider deliver a lower output voltage than the unloaded one?",
+      "answers": {
+        "A": "Because current through R1 increases",
+        "B": "Because the load resistor is in parallel with R2 and reduces the equivalent resistance of that branch",
+        "C": "Because the source loses energy",
+        "D": "Because current through R1 decreases",
+        "E": "Because the internal resistance increases"
+      },
+      "correct_answer": "B",
+      "explanation": "Load resistor RL is in parallel with R2. The equivalent R2||RL < R2, so U2 decreases according to the voltage divider formula."
+    },
+    {
+      "id": 76,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Series Circuit",
+      "question": "A series circuit has Utotal = 120 V, three identical resistors, and I = 2 A. What is each individual resistance?",
+      "answers": {
+        "A": "10 Ω",
+        "B": "15 Ω",
+        "C": "20 Ω",
+        "D": "40 Ω",
+        "E": "60 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "Rtotal = U / I = 120 / 2 = 60 Ω. With three identical resistors: R = Rtotal / 3 = 60 / 3 = 20 Ω."
+    },
+    {
+      "id": 77,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Parallel Circuit",
+      "question": "For n identical resistors R in parallel, the total resistance is:",
+      "answers": {
+        "A": "Rtotal = n · R",
+        "B": "Rtotal = R + n",
+        "C": "Rtotal = R / n",
+        "D": "Rtotal = R · n²",
+        "E": "Rtotal = n / R"
+      },
+      "correct_answer": "C",
+      "explanation": "For n identical resistors R in parallel: 1/Rtotal = n · (1/R), so Rtotal = R / n."
+    },
+    {
+      "id": 78,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Efficiency",
+      "question": "A motor with η = 0.85 must deliver 3.4 kW of mechanical power. How much input power is required?",
+      "answers": {
+        "A": "2.89 kW",
+        "B": "3.4 kW",
+        "C": "3.57 kW",
+        "D": "4 kW",
+        "E": "4.25 kW"
+      },
+      "correct_answer": "D",
+      "explanation": "Pin = Pout / η = 3.4 kW / 0.85 = 4 kW."
+    },
+    {
+      "id": 79,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Ohm's Law",
+      "question": "Does Ohm's Law apply to all electrical components?",
+      "answers": {
+        "A": "Yes, to all components without exception",
+        "B": "Only to capacitors",
+        "C": "No, only to ohmic (linear) resistors",
+        "D": "Only to inductors",
+        "E": "Only to diodes"
+      },
+      "correct_answer": "C",
+      "explanation": "Ohm's Law applies only to linear (ohmic) resistors. Non-linear components such as diodes, transistors, or incandescent lamps do not follow U = R · I (const.)."
+    },
+    {
+      "id": 80,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Kirchhoff's Laws",
+      "question": "For which types of current do Kirchhoff's Laws apply?",
+      "answers": {
+        "A": "Only DC",
+        "B": "Only AC",
+        "C": "Both DC and AC",
+        "D": "Only mixed current",
+        "E": "Only at very low frequencies"
+      },
+      "correct_answer": "C",
+      "explanation": "Kirchhoff's Laws (KCL and KVL) are universally valid and apply equally to DC and AC circuits."
+    },
+    {
+      "id": 81,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Electrical Power",
+      "question": "Why does the branch with the smaller resistance dissipate more power in a parallel circuit?",
+      "answers": {
+        "A": "Because P = I² · R and I is smaller in the smaller R",
+        "B": "Because P = U² / R and U is the same in both – smaller R gives larger P",
+        "C": "Because smaller resistors always consume less power",
+        "D": "Because voltage is smaller across the smaller R",
+        "E": "Because current is smaller in the smaller R"
+      },
+      "correct_answer": "B",
+      "explanation": "P = U² / R. In a parallel circuit U is the same. Smaller R → larger P. Halving R doubles power."
+    },
+    {
+      "id": 82,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Cable Losses",
+      "question": "What causes power loss in connecting cables?",
+      "answers": {
+        "A": "The source voltage alone",
+        "B": "Cable resistance and the flowing current: Ploss = I² · Rcable",
+        "C": "The cable insulation",
+        "D": "Magnetic fields in the cable",
+        "E": "Capacitive effects"
+      },
+      "correct_answer": "B",
+      "explanation": "Power loss in a conductor arises from current flow: Ploss = I² · Rcable. The larger the current and cable resistance, the greater the losses."
+    },
+    {
+      "id": 83,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Cable Losses",
+      "question": "How can cable losses be reduced when transmitting a given power?",
+      "answers": {
+        "A": "By increasing the cable resistance",
+        "B": "By decreasing the transmission voltage",
+        "C": "By increasing the transmission voltage (same power, lower current)",
+        "D": "By connecting additional cables in parallel",
+        "E": "By lengthening the cable"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U · I. At constant power with higher voltage, current decreases. Since Ploss = I² · R, losses fall quadratically with current. This is why electrical energy is transmitted at high voltage."
+    },
+    {
+      "id": 84,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Mixed Circuit",
+      "question": "In a mixed circuit the total current I is known. How do you find the voltage across the parallel group with Rparallel?",
+      "answers": {
+        "A": "Uparallel = Utotal / Rparallel",
+        "B": "Uparallel = I · Rparallel",
+        "C": "Uparallel = I + Rparallel",
+        "D": "Uparallel = Utotal − I",
+        "E": "Uparallel = Rparallel / I"
+      },
+      "correct_answer": "B",
+      "explanation": "The same total current I flows through the entire mixed circuit. The voltage across the parallel group is Uparallel = I · Rparallel (Ohm's Law)."
+    },
+    {
+      "id": 85,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Cable Losses",
+      "question": "Which transmission voltage is more energy-efficient for 1 kW through a 1-Ω cable: 10 V or 1000 V?",
+      "answers": {
+        "A": "10 V, because current is smaller",
+        "B": "Both are equally efficient",
+        "C": "1000 V, because current is smaller and losses I²·R are much lower",
+        "D": "10 V, because voltage is smaller",
+        "E": "Voltage has no effect on losses"
+      },
+      "correct_answer": "C",
+      "explanation": "At 10 V: I = 100 A → Ploss = 100² · 1 = 10 000 W. At 1000 V: I = 1 A → Ploss = 1² · 1 = 1 W. Higher voltage means far lower losses."
+    },
+    {
+      "id": 86,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Series Circuit",
+      "question": "A lamp and a heater element are in series across 230 V. The lamp has 60 V across it. What voltage is across the heater?",
+      "answers": {
+        "A": "230 V",
+        "B": "60 V",
+        "C": "170 V",
+        "D": "290 V",
+        "E": "115 V"
+      },
+      "correct_answer": "C",
+      "explanation": "KVL: Utotal = Ulamp + Uheater. 230 V = 60 V + Uheater. Therefore Uheater = 170 V."
+    },
+    {
+      "id": 87,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Parallel Circuit",
+      "question": "An additional branch is connected in parallel to an existing circuit. What happens to the total current from the source?",
+      "answers": {
+        "A": "It decreases",
+        "B": "It stays the same",
+        "C": "It increases",
+        "D": "It becomes zero",
+        "E": "It halves"
+      },
+      "correct_answer": "C",
+      "explanation": "Each additional parallel branch reduces the total resistance. By I = U / Rtotal, the total current therefore increases."
+    },
+    {
+      "id": 88,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Power Balance",
+      "question": "What does the power balance of an electric circuit state?",
+      "answers": {
+        "A": "Source power is always less than the sum of load powers",
+        "B": "The power generated by the source equals the sum of all powers consumed in the circuit",
+        "C": "Loss power is always greater than useful power",
+        "D": "Power cannot be measured",
+        "E": "Power is not a conserved quantity"
+      },
+      "correct_answer": "B",
+      "explanation": "Power balance: Psource = ΣPloads (useful power + losses). Energy is a conserved quantity."
+    },
+    {
+      "id": 89,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Circuit Identification",
+      "question": "How can you tell that two resistors are connected in series?",
+      "answers": {
+        "A": "They have the same voltage",
+        "B": "The same current flows through them because they share the same current path",
+        "C": "They have the same resistance value",
+        "D": "They are connected at the same node",
+        "E": "Different currents flow through them"
+      },
+      "correct_answer": "B",
+      "explanation": "Two resistors are in series if they lie in the same current path (branch) and are therefore traversed by the same current."
+    },
+    {
+      "id": 90,
+      "type": "wissen",
+      "difficulty": "schwer",
+      "category": "Circuit Identification",
+      "question": "How can you tell that two resistors are connected in parallel?",
+      "answers": {
+        "A": "The same current flows through both",
+        "B": "They are in different meshes with no common node",
+        "C": "Both terminals of each resistor connect to the same two nodes, so the same voltage appears across both",
+        "D": "They have the same resistance value",
+        "E": "Different voltages appear across them"
+      },
+      "correct_answer": "C",
+      "explanation": "Two resistors are in parallel if both ends of each are connected to the same pair of nodes. Exactly the same voltage therefore appears across both resistors."
+    },
+    {
+      "id": 91,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Ohm's Law",
+      "question": "A voltage of U = 12 V is applied across a resistor with a current of I = 2 A. What is the resistance R?",
+      "given": { "U": "12 V", "I": "2 A" },
+      "searched": "R in Ω",
+      "formula_hint": "R = U / I",
+      "answers": {
+        "A": "R = 0.17 Ω",
+        "B": "R = 6 Ω",
+        "C": "R = 10 Ω",
+        "D": "R = 24 Ω",
+        "E": "R = 14 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "R = U / I = 12 V / 2 A = 6 Ω."
+    },
+    {
+      "id": 92,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Ohm's Law",
+      "question": "A resistor of R = 46 Ω has a voltage of U = 230 V across it. What is the current I?",
+      "given": { "U": "230 V", "R": "46 Ω" },
+      "searched": "I in A",
+      "formula_hint": "I = U / R",
+      "answers": {
+        "A": "I = 0.2 A",
+        "B": "I = 2 A",
+        "C": "I = 5 A",
+        "D": "I = 10 A",
+        "E": "I = 50 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I = U / R = 230 V / 46 Ω = 5 A."
+    },
+    {
+      "id": 93,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Ohm's Law",
+      "question": "A current of I = 3 A flows through a resistor R = 8 Ω. What is the voltage U?",
+      "given": { "I": "3 A", "R": "8 Ω" },
+      "searched": "U in V",
+      "formula_hint": "U = I · R",
+      "answers": {
+        "A": "U = 2.67 V",
+        "B": "U = 11 V",
+        "C": "U = 24 V",
+        "D": "U = 48 V",
+        "E": "U = 96 V"
+      },
+      "correct_answer": "C",
+      "explanation": "U = I · R = 3 A · 8 Ω = 24 V."
+    },
+    {
+      "id": 94,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Electrical Power",
+      "question": "A load has U = 24 V across it and a current of I = 2 A flows through it. What is the power P?",
+      "given": { "U": "24 V", "I": "2 A" },
+      "searched": "P in W",
+      "formula_hint": "P = U · I",
+      "answers": {
+        "A": "P = 12 W",
+        "B": "P = 26 W",
+        "C": "P = 48 W",
+        "D": "P = 96 W",
+        "E": "P = 144 W"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U · I = 24 V · 2 A = 48 W."
+    },
+    {
+      "id": 95,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Electrical Power",
+      "question": "A current of I = 5 A flows through a resistor R = 4 Ω. What is the power P?",
+      "given": { "I": "5 A", "R": "4 Ω" },
+      "searched": "P in W",
+      "formula_hint": "P = I² · R",
+      "answers": {
+        "A": "P = 20 W",
+        "B": "P = 40 W",
+        "C": "P = 80 W",
+        "D": "P = 100 W",
+        "E": "P = 500 W"
+      },
+      "correct_answer": "D",
+      "explanation": "P = I² · R = 5² · 4 = 25 · 4 = 100 W."
+    },
+    {
+      "id": 96,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Electrical Power",
+      "question": "A voltage of U = 10 V is applied across a resistor R = 25 Ω. What is the power P?",
+      "given": { "U": "10 V", "R": "25 Ω" },
+      "searched": "P in W",
+      "formula_hint": "P = U² / R",
+      "answers": {
+        "A": "P = 0.4 W",
+        "B": "P = 2.5 W",
+        "C": "P = 4 W",
+        "D": "P = 10 W",
+        "E": "P = 250 W"
+      },
+      "correct_answer": "C",
+      "explanation": "P = U² / R = 10² / 25 = 100 / 25 = 4 W."
+    },
+    {
+      "id": 97,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Electrical Energy",
+      "question": "A heater has a power of P = 2 kW and runs for t = 3 h. What is the energy consumed W in kWh?",
+      "given": { "P": "2 kW", "t": "3 h" },
+      "searched": "W in kWh",
+      "formula_hint": "W = P · t",
+      "answers": {
+        "A": "W = 0.67 kWh",
+        "B": "W = 1.5 kWh",
+        "C": "W = 5 kWh",
+        "D": "W = 6 kWh",
+        "E": "W = 24 kWh"
+      },
+      "correct_answer": "D",
+      "explanation": "W = P · t = 2 kW · 3 h = 6 kWh."
+    },
+    {
+      "id": 98,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Series Circuit",
+      "question": "Three resistors R1 = 10 Ω, R2 = 20 Ω, and R3 = 30 Ω are connected in series. What is the total resistance Rtotal?",
+      "given": { "R1": "10 Ω", "R2": "20 Ω", "R3": "30 Ω" },
+      "searched": "Rtotal in Ω",
+      "formula_hint": "Rtotal = R1 + R2 + R3",
+      "image": "./assets/images/efk02_reihe.svg",
+      "answers": {
+        "A": "Rtotal = 10 Ω",
+        "B": "Rtotal = 30 Ω",
+        "C": "Rtotal = 55 Ω",
+        "D": "Rtotal = 60 Ω",
+        "E": "Rtotal = 6000 Ω"
+      },
+      "correct_answer": "D",
+      "explanation": "Rtotal = R1 + R2 + R3 = 10 + 20 + 30 = 60 Ω."
+    },
+    {
+      "id": 99,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Parallel Circuit",
+      "question": "Two identical resistors R1 = R2 = 12 Ω are connected in parallel. What is the total resistance Rtotal?",
+      "given": { "R1": "12 Ω", "R2": "12 Ω" },
+      "searched": "Rtotal in Ω",
+      "formula_hint": "Rtotal = R / 2 (for two equal resistors)",
+      "image": "./assets/images/efk02_parallel.svg",
+      "answers": {
+        "A": "Rtotal = 24 Ω",
+        "B": "Rtotal = 12 Ω",
+        "C": "Rtotal = 6 Ω",
+        "D": "Rtotal = 4 Ω",
+        "E": "Rtotal = 3 Ω"
+      },
+      "correct_answer": "C",
+      "explanation": "For two equal resistors in parallel: Rtotal = R/2 = 12/2 = 6 Ω."
+    },
+    {
+      "id": 100,
+      "type": "rechnung",
+      "difficulty": "leicht",
+      "category": "Series Circuit",
+      "question": "R1 = 8 Ω and R2 = 16 Ω are connected in series across Utotal = 24 V. What is the current I?",
+      "given": { "R1": "8 Ω", "R2": "16 Ω", "Utotal": "24 V" },
+      "searched": "I in A",
+      "formula_hint": "Step 1: Rtotal = R1 + R2; Step 2: I = Utotal / Rtotal",
+      "image": "./assets/images/efk02_reihe.svg",
+      "answers": {
+        "A": "I = 0.5 A",
+        "B": "I = 1 A",
+        "C": "I = 1.5 A",
+        "D": "I = 3 A",
+        "E": "I = 8 A"
+      },
+      "correct_answer": "B",
+      "explanation": "Rtotal = 8 + 16 = 24 Ω. I = Utotal / Rtotal = 24 V / 24 Ω = 1 A."
+    },
+    {
+      "id": 101,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Series Circuit",
+      "question": "R1 = 20 Ω, R2 = 40 Ω, and R3 = 60 Ω are connected in series across Utotal = 120 V. What is the voltage U2 across R2?",
+      "given": { "R1": "20 Ω", "R2": "40 Ω", "R3": "60 Ω", "Utotal": "120 V" },
+      "searched": "U2 in V",
+      "formula_hint": "Step 1: Rtotal = R1+R2+R3; Step 2: I = Utotal/Rtotal; Step 3: U2 = I · R2",
+      "answers": {
+        "A": "U2 = 10 V",
+        "B": "U2 = 20 V",
+        "C": "U2 = 40 V",
+        "D": "U2 = 60 V",
+        "E": "U2 = 80 V"
+      },
+      "correct_answer": "C",
+      "explanation": "Rtotal = 20+40+60 = 120 Ω. I = 120/120 = 1 A. U2 = 1 A · 40 Ω = 40 V."
+    },
+    {
+      "id": 102,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Parallel Circuit",
+      "question": "R1 = 12 Ω and R2 = 24 Ω are connected in parallel across U = 48 V. What is the total current Itotal?",
+      "given": { "R1": "12 Ω", "R2": "24 Ω", "U": "48 V" },
+      "searched": "Itotal in A",
+      "formula_hint": "Step 1: I1 = U/R1; Step 2: I2 = U/R2; Step 3: Itotal = I1 + I2",
+      "image": "./assets/images/efk02_parallel.svg",
+      "answers": {
+        "A": "Itotal = 2 A",
+        "B": "Itotal = 4 A",
+        "C": "Itotal = 6 A",
+        "D": "Itotal = 8 A",
+        "E": "Itotal = 12 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I1 = 48/12 = 4 A. I2 = 48/24 = 2 A. Itotal = 4 + 2 = 6 A."
+    },
+    {
+      "id": 103,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Electrical Power",
+      "question": "R1 = 10 Ω and R2 = 20 Ω are connected in series across Utotal = 60 V. What is the power P2 dissipated in R2?",
+      "given": { "R1": "10 Ω", "R2": "20 Ω", "Utotal": "60 V" },
+      "searched": "P2 in W",
+      "formula_hint": "Step 1: Rtotal = R1+R2; Step 2: I = Utotal/Rtotal; Step 3: P2 = I² · R2",
+      "answers": {
+        "A": "P2 = 40 W",
+        "B": "P2 = 60 W",
+        "C": "P2 = 80 W",
+        "D": "P2 = 120 W",
+        "E": "P2 = 160 W"
+      },
+      "correct_answer": "C",
+      "explanation": "Rtotal = 30 Ω. I = 60/30 = 2 A. P2 = 2² · 20 = 4 · 20 = 80 W."
+    },
+    {
+      "id": 104,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Voltage Divider",
+      "question": "An unloaded voltage divider: R1 = 10 kΩ, R2 = 20 kΩ in series across Utotal = 30 V. What is the output voltage U2?",
+      "given": { "R1": "10 kΩ", "R2": "20 kΩ", "Utotal": "30 V" },
+      "searched": "U2 in V",
+      "formula_hint": "U2 = Utotal · R2 / (R1 + R2)",
+      "image": "./assets/images/efk02_spannungsteiler.svg",
+      "answers": {
+        "A": "U2 = 5 V",
+        "B": "U2 = 10 V",
+        "C": "U2 = 15 V",
+        "D": "U2 = 20 V",
+        "E": "U2 = 30 V"
+      },
+      "correct_answer": "D",
+      "explanation": "U2 = 30 V · 20 / (10 + 20) = 30 · 20/30 = 20 V."
+    },
+    {
+      "id": 105,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Parallel Circuit",
+      "question": "R1 = 6 Ω and R2 = 12 Ω are connected in parallel. What is the equivalent resistance Rtotal?",
+      "given": { "R1": "6 Ω", "R2": "12 Ω" },
+      "searched": "Rtotal in Ω",
+      "formula_hint": "Rtotal = (R1 · R2) / (R1 + R2)",
+      "answers": {
+        "A": "Rtotal = 2 Ω",
+        "B": "Rtotal = 4 Ω",
+        "C": "Rtotal = 6 Ω",
+        "D": "Rtotal = 9 Ω",
+        "E": "Rtotal = 18 Ω"
+      },
+      "correct_answer": "B",
+      "explanation": "Rtotal = (6 · 12) / (6 + 12) = 72 / 18 = 4 Ω."
+    },
+    {
+      "id": 106,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Mixed Circuit",
+      "question": "R1 = 5 Ω is in series with the parallel combination of R2 = 10 Ω and R3 = 10 Ω. Utotal = 30 V. What is the total current I?",
+      "given": { "R1": "5 Ω", "R2": "10 Ω", "R3": "10 Ω", "Utotal": "30 V" },
+      "searched": "I in A",
+      "formula_hint": "Step 1: R23 = R2·R3/(R2+R3); Step 2: Rtotal = R1+R23; Step 3: I = Utotal/Rtotal",
+      "image": "./assets/images/efk02_gemischt.svg",
+      "answers": {
+        "A": "I = 1 A",
+        "B": "I = 2 A",
+        "C": "I = 3 A",
+        "D": "I = 4 A",
+        "E": "I = 6 A"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = 10·10/(10+10) = 5 Ω. Rtotal = 5+5 = 10 Ω. I = 30/10 = 3 A."
+    },
+    {
+      "id": 107,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Efficiency",
+      "question": "A machine draws Pin = 4000 W and delivers Pout = 3200 W. What is the efficiency η in %?",
+      "given": { "Pin": "4000 W", "Pout": "3200 W" },
+      "searched": "η in %",
+      "formula_hint": "η = Pout / Pin",
+      "answers": {
+        "A": "η = 60 %",
+        "B": "η = 70 %",
+        "C": "η = 75 %",
+        "D": "η = 80 %",
+        "E": "η = 90 %"
+      },
+      "correct_answer": "D",
+      "explanation": "η = Pout / Pin = 3200 / 4000 = 0.8 = 80 %."
+    },
+    {
+      "id": 108,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Cable Losses",
+      "question": "A connecting cable with Rcable = 0.5 Ω carries a current of I = 10 A. What is the power loss Ploss?",
+      "given": { "Rcable": "0.5 Ω", "I": "10 A" },
+      "searched": "Ploss in W",
+      "formula_hint": "Ploss = I² · Rcable",
+      "answers": {
+        "A": "Ploss = 5 W",
+        "B": "Ploss = 25 W",
+        "C": "Ploss = 50 W",
+        "D": "Ploss = 100 W",
+        "E": "Ploss = 500 W"
+      },
+      "correct_answer": "C",
+      "explanation": "Ploss = I² · R = 10² · 0.5 = 100 · 0.5 = 50 W."
+    },
+    {
+      "id": 109,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Electrical Energy",
+      "question": "A system has a power of P = 1500 W and runs for t = 8 h. What is the energy W in kWh?",
+      "given": { "P": "1500 W = 1.5 kW", "t": "8 h" },
+      "searched": "W in kWh",
+      "formula_hint": "W = P · t",
+      "answers": {
+        "A": "W = 0.188 kWh",
+        "B": "W = 8 kWh",
+        "C": "W = 10 kWh",
+        "D": "W = 12 kWh",
+        "E": "W = 16 kWh"
+      },
+      "correct_answer": "D",
+      "explanation": "W = 1.5 kW · 8 h = 12 kWh."
+    },
+    {
+      "id": 110,
+      "type": "rechnung",
+      "difficulty": "mittel",
+      "category": "Kirchhoff's Laws",
+      "question": "At a node, I1 = 8 A and I2 = 3 A flow in, and I3 = 5 A flows out. How large is the outgoing current I4?",
+      "given": { "I1": "8 A (in)", "I2": "3 A (in)", "I3": "5 A (out)" },
+      "searched": "I4 in A (out)",
+      "formula_hint": "KCL: ΣI_in = ΣI_out → I1 + I2 = I3 + I4",
+      "answers": {
+        "A": "I4 = 0 A",
+        "B": "I4 = 3 A",
+        "C": "I4 = 6 A",
+        "D": "I4 = 11 A",
+        "E": "I4 = 16 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I1 + I2 = I3 + I4. 8 + 3 = 5 + I4. I4 = 11 − 5 = 6 A."
+    },
+    {
+      "id": 111,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Mixed Circuit",
+      "question": "R1 = 5 Ω and R4 = 5 Ω are in series, with the parallel group R2 = 10 Ω and R3 = 10 Ω between them. Utotal = 60 V. What is the voltage U23 across the parallel group?",
+      "given": { "R1": "5 Ω", "R2": "10 Ω", "R3": "10 Ω", "R4": "5 Ω", "Utotal": "60 V" },
+      "searched": "U23 in V",
+      "formula_hint": "Step 1: R23 = R2||R3; Step 2: Rtotal = R1+R23+R4; Step 3: I = Utotal/Rtotal; Step 4: U23 = I · R23",
+      "image": "./assets/images/efk02_gemischt.svg",
+      "answers": {
+        "A": "U23 = 10 V",
+        "B": "U23 = 15 V",
+        "C": "U23 = 20 V",
+        "D": "U23 = 30 V",
+        "E": "U23 = 40 V"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = 10||10 = 5 Ω. Rtotal = 5+5+5 = 15 Ω. I = 60/15 = 4 A. U23 = 4 · 5 = 20 V."
+    },
+    {
+      "id": 112,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Series Circuit",
+      "question": "A series circuit has: Uq = 24 V, R1 = 4 Ω, R2 = 8 Ω. What is the total power Ptotal?",
+      "given": { "Uq": "24 V", "R1": "4 Ω", "R2": "8 Ω" },
+      "searched": "Ptotal in W",
+      "formula_hint": "Step 1: Rtotal = R1+R2; Step 2: I = Uq/Rtotal; Step 3: Ptotal = Uq · I",
+      "answers": {
+        "A": "Ptotal = 12 W",
+        "B": "Ptotal = 24 W",
+        "C": "Ptotal = 36 W",
+        "D": "Ptotal = 48 W",
+        "E": "Ptotal = 96 W"
+      },
+      "correct_answer": "D",
+      "explanation": "Rtotal = 4+8 = 12 Ω. I = 24/12 = 2 A. Ptotal = Uq · I = 24 · 2 = 48 W."
+    },
+    {
+      "id": 113,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Kirchhoff's Laws",
+      "question": "A loop contains: Uq = 36 V, R1 = 6 Ω, R2 = 12 Ω, R3 = 18 Ω – all in series. What is the voltage U2 across R2?",
+      "given": { "Uq": "36 V", "R1": "6 Ω", "R2": "12 Ω", "R3": "18 Ω" },
+      "searched": "U2 in V",
+      "formula_hint": "Step 1: Rtotal = R1+R2+R3; Step 2: I = Uq/Rtotal; Step 3: U2 = I · R2",
+      "answers": {
+        "A": "U2 = 6 V",
+        "B": "U2 = 12 V",
+        "C": "U2 = 18 V",
+        "D": "U2 = 24 V",
+        "E": "U2 = 36 V"
+      },
+      "correct_answer": "B",
+      "explanation": "Rtotal = 6+12+18 = 36 Ω. I = 36/36 = 1 A. U2 = 1 · 12 = 12 V."
+    },
+    {
+      "id": 114,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Sources and Internal Resistance",
+      "question": "A real source has Uoc = 24 V and Ri = 2 Ω. A load resistance RL = 10 Ω is connected. What is the terminal voltage UL?",
+      "given": { "Uoc": "24 V", "Ri": "2 Ω", "RL": "10 Ω" },
+      "searched": "UL in V",
+      "formula_hint": "Step 1: Rtotal = Ri + RL; Step 2: I = Uoc/Rtotal; Step 3: UL = I · RL",
+      "image": "./assets/images/efk02_ri.svg",
+      "answers": {
+        "A": "UL = 12 V",
+        "B": "UL = 16 V",
+        "C": "UL = 20 V",
+        "D": "UL = 22 V",
+        "E": "UL = 24 V"
+      },
+      "correct_answer": "C",
+      "explanation": "Rtotal = 2+10 = 12 Ω. I = 24/12 = 2 A. UL = 2 · 10 = 20 V."
+    },
+    {
+      "id": 115,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Parallel Circuit",
+      "question": "R1 = 6 Ω, R2 = 4 Ω, and R3 = 3 Ω are connected in parallel across U = 12 V. What is the total current Itotal?",
+      "given": { "R1": "6 Ω", "R2": "4 Ω", "R3": "3 Ω", "U": "12 V" },
+      "searched": "Itotal in A",
+      "formula_hint": "Step 1: Itotal = I1 + I2 + I3 = U/R1 + U/R2 + U/R3",
+      "answers": {
+        "A": "Itotal = 5 A",
+        "B": "Itotal = 7 A",
+        "C": "Itotal = 9 A",
+        "D": "Itotal = 12 A",
+        "E": "Itotal = 36 A"
+      },
+      "correct_answer": "C",
+      "explanation": "I1 = 12/6 = 2 A; I2 = 12/4 = 3 A; I3 = 12/3 = 4 A. Itotal = 2+3+4 = 9 A."
+    },
+    {
+      "id": 116,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Mixed Circuit",
+      "question": "R1 = 5 Ω is in series with the parallel combination R2 = R3 = 20 Ω. Utotal = 60 V. What is the power P23 dissipated in the parallel group?",
+      "given": { "R1": "5 Ω", "R2": "20 Ω", "R3": "20 Ω", "Utotal": "60 V" },
+      "searched": "P23 in W",
+      "formula_hint": "Step 1: R23 = R2||R3; Step 2: Rtotal = R1+R23; Step 3: I = Utotal/Rtotal; Step 4: U23 = I·R23; Step 5: P23 = U23·I",
+      "answers": {
+        "A": "P23 = 80 W",
+        "B": "P23 = 120 W",
+        "C": "P23 = 160 W",
+        "D": "P23 = 200 W",
+        "E": "P23 = 240 W"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = 10 Ω. Rtotal = 15 Ω. I = 60/15 = 4 A. U23 = 4·10 = 40 V. P23 = U23·I = 40·4 = 160 W."
+    },
+    {
+      "id": 117,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Cable Sizing",
+      "question": "A copper cable (ρ = 0.0178 Ω·mm²/m) has a total length of l = 20 m (outward and return path combined) and carries I = 16 A. The maximum permissible voltage drop is ΔUmax = 3.2 V. What minimum cross-section A is required?",
+      "given": { "ρ": "0.0178 Ω·mm²/m", "l": "20 m", "I": "16 A", "ΔUmax": "3.2 V" },
+      "searched": "A in mm²",
+      "formula_hint": "Step 1: Rmax = ΔUmax / I; Step 2: A = ρ · l / Rmax",
+      "answers": {
+        "A": "A = 0.89 mm²",
+        "B": "A = 1.78 mm²",
+        "C": "A = 2.50 mm²",
+        "D": "A = 3.56 mm²",
+        "E": "A = 5.00 mm²"
+      },
+      "correct_answer": "B",
+      "explanation": "Rmax = 3.2 / 16 = 0.2 Ω. A = ρ · l / Rmax = 0.0178 · 20 / 0.2 = 0.356 / 0.2 = 1.78 mm²."
+    },
+    {
+      "id": 118,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Efficiency",
+      "question": "A system with η1 = 0.80 feeds a second system with η2 = 0.90. The input power is Pin = 5 kW. What is the useful output power Pout after both stages?",
+      "given": { "Pin": "5 kW", "η1": "0.80", "η2": "0.90" },
+      "searched": "Pout in kW",
+      "formula_hint": "Step 1: P1out = Pin · η1; Step 2: Pout = P1out · η2",
+      "answers": {
+        "A": "Pout = 2.0 kW",
+        "B": "Pout = 3.2 kW",
+        "C": "Pout = 3.6 kW",
+        "D": "Pout = 4.0 kW",
+        "E": "Pout = 4.5 kW"
+      },
+      "correct_answer": "C",
+      "explanation": "P1out = 5 · 0.80 = 4 kW. Pout = 4 · 0.90 = 3.6 kW."
+    },
+    {
+      "id": 119,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Mixed Circuit",
+      "question": "A circuit has R1 = 10 Ω in series with the parallel combination R2 = R3 = 20 Ω. Utotal = 100 V. What is the power P2 dissipated in R2?",
+      "given": { "R1": "10 Ω", "R2": "20 Ω", "R3": "20 Ω", "Utotal": "100 V" },
+      "searched": "P2 in W",
+      "formula_hint": "Step 1: R23 = R2||R3; Step 2: Rtotal = R1+R23; Step 3: I = Utotal/Rtotal; Step 4: U23 = I·R23; Step 5: I2 = U23/R2; Step 6: P2 = I2²·R2",
+      "answers": {
+        "A": "P2 = 62.5 W",
+        "B": "P2 = 100 W",
+        "C": "P2 = 125 W",
+        "D": "P2 = 150 W",
+        "E": "P2 = 250 W"
+      },
+      "correct_answer": "C",
+      "explanation": "R23 = 10 Ω. Rtotal = 20 Ω. I = 5 A. U23 = 5·10 = 50 V. I2 = 50/20 = 2.5 A. P2 = 2.5²·20 = 6.25·20 = 125 W."
+    },
+    {
+      "id": 120,
+      "type": "rechnung",
+      "difficulty": "schwer",
+      "category": "Sources and Internal Resistance",
+      "question": "A real source: Uoc = 12 V, Ri = 1 Ω, cable resistance Rcable = 0.5 Ω, load RL = 8.5 Ω. What is the efficiency η of energy transfer to the load?",
+      "given": { "Uoc": "12 V", "Ri": "1 Ω", "Rcable": "0.5 Ω", "RL": "8.5 Ω" },
+      "searched": "η in %",
+      "formula_hint": "Step 1: Rtotal = Ri+Rcable+RL; Step 2: I = Uoc/Rtotal; Step 3: PL = I²·RL; Step 4: Ptotal = Uoc·I; Step 5: η = PL/Ptotal",
+      "image": "./assets/images/efk02_ri.svg",
+      "answers": {
+        "A": "η = 70 %",
+        "B": "η = 75 %",
+        "C": "η = 80 %",
+        "D": "η = 85 %",
+        "E": "η = 90 %"
+      },
+      "correct_answer": "D",
+      "explanation": "Rtotal = 1+0.5+8.5 = 10 Ω. I = 12/10 = 1.2 A. PL = 1.44·8.5 = 12.24 W. Ptotal = 12·1.2 = 14.4 W. η = 12.24/14.4 = 0.85 = 85 %."
+    }
+  ]
+}

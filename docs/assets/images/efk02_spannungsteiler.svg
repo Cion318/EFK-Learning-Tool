@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" width="340" height="220">
+  <style>
+    .wire { stroke:#1a1a1a; stroke-width:2.5; fill:none; stroke-linecap:round; }
+    .box  { stroke:#1a1a1a; stroke-width:2; fill:#f5f5f5; }
+    .lbl  { font-family:sans-serif; font-size:14px; fill:#1a1a1a; text-anchor:middle; dominant-baseline:middle; }
+    .sub  { font-family:sans-serif; font-size:11px; fill:#555; text-anchor:middle; }
+    .out  { stroke:#0057b8; stroke-width:1.5; stroke-dasharray:5,3; fill:none; }
+  </style>
+  <!-- Source (left) -->
+  <line class="wire" x1="50" y1="25" x2="50" y2="175"/>
+  <line x1="35" y1="85" x2="65" y2="85" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="39" y1="97" x2="61" y2="97" stroke="#1a1a1a" stroke-width="2"/>
+  <text class="sub" x="50" y="68">+</text>
+  <text class="sub" x="50" y="130">−</text>
+  <text class="sub" x="73" y="91">U</text>
+  <!-- Top wire → R1 -->
+  <line class="wire" x1="50" y1="25" x2="140" y2="25"/>
+  <!-- R1 -->
+  <rect class="box" x="140" y="13" width="70" height="24" rx="2"/>
+  <text class="lbl" x="175" y="25">R₁</text>
+  <!-- R1 → midpoint → R2 top -->
+  <line class="wire" x1="210" y1="25" x2="250" y2="25"/>
+  <circle cx="250" cy="25" r="4" fill="#1a1a1a"/>
+  <line class="wire" x1="250" y1="25" x2="250" y2="50"/>
+  <!-- R2 -->
+  <rect class="box" x="215" y="50" width="70" height="75" rx="2"/>
+  <text class="lbl" x="250" y="87">R₂</text>
+  <!-- R2 bottom → bottom bus -->
+  <line class="wire" x1="250" y1="125" x2="250" y2="175"/>
+  <!-- Top bus continuation to right -->
+  <line class="wire" x1="250" y1="25" x2="290" y2="25"/>
+  <line class="wire" x1="290" y1="25" x2="290" y2="175"/>
+  <!-- Bottom bus -->
+  <line class="wire" x1="50" y1="175" x2="290" y2="175"/>
+  <!-- Output voltage tap (dashed arrow) -->
+  <line class="out" x1="250" y1="25" x2="320" y2="25"/>
+  <line class="out" x1="250" y1="125" x2="320" y2="125"/>
+  <line x1="316" y1="25" x2="320" y2="25" stroke="#0057b8" stroke-width="1.5"/>
+  <line x1="316" y1="125" x2="320" y2="125" stroke="#0057b8" stroke-width="1.5"/>
+  <text x="323" y="78" font-family="sans-serif" font-size="12" fill="#0057b8" text-anchor="start">U₂</text>
+  <!-- Label -->
+  <text class="sub" x="170" y="205">Spannungsteiler / Voltage Divider</text>
+</svg>
