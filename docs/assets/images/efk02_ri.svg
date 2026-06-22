@@ -16,12 +16,12 @@
   <line x1="39" y1="72" x2="61" y2="72" stroke="#1a1a1a" stroke-width="2"/>
   <text class="sub" x="50" y="42">+</text>
   <text class="sub" x="50" y="100">−</text>
-  <text class="sub" x="75" y="66">Uq</text>
+  <text class="sub" x="75" y="66">U<tspan dy="3" font-size="8">q</tspan></text>
   <!-- Top wire: EMF → Ri -->
   <line class="wire" x1="50" y1="25" x2="110" y2="25"/>
   <!-- Ri (internal resistance) -->
   <rect class="box" x="110" y="13" width="75" height="24" rx="2"/>
-  <text class="lbl" x="147" y="25">Rᵢ</text>
+  <text class="lbl" x="147" y="25">R<tspan dy="5" font-size="10">i</tspan></text>
   <!-- Ri → terminal A -->
   <line class="wire" x1="185" y1="25" x2="245" y2="25"/>
   <circle cx="245" cy="25" r="4" fill="#1a1a1a"/>
@@ -30,7 +30,7 @@
   <line class="wire" x1="245" y1="25" x2="350" y2="25"/>
   <!-- RL (load) -->
   <rect class="box" x="350" y="13" width="75" height="24" rx="2"/>
-  <text class="lbl" x="387" y="25">R_L</text>
+  <text class="lbl" x="387" y="25">R<tspan dy="5" font-size="10">L</tspan></text>
   <!-- RL → right corner -->
   <line class="wire" x1="425" y1="25" x2="440" y2="25"/>
   <line class="wire" x1="440" y1="25" x2="440" y2="115"/>
@@ -39,7 +39,7 @@
   <circle cx="245" cy="115" r="4" fill="#1a1a1a"/>
   <text class="sub" x="245" y="128">B</text>
   <!-- Terminal voltage arrow -->
-  <text x="255" y="72" font-family="sans-serif" font-size="12" fill="#0057b8" text-anchor="start">U_Klemme</text>
+  <text x="255" y="72" font-family="sans-serif" font-size="12" fill="#0057b8" text-anchor="start">U<tspan dy="4" font-size="9">Kl.</tspan></text>
   <line x1="245" y1="25" x2="245" y2="115" stroke="#0057b8" stroke-width="1.5" stroke-dasharray="5,3"/>
   <polygon points="245,25 241,35 249,35" fill="#0057b8"/>
 </svg>

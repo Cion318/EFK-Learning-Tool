@@ -18,7 +18,7 @@
   <line class="wire" x1="45" y1="25" x2="82" y2="25"/>
   <!-- R1 (series resistor) -->
   <rect class="box" x="82" y="13" width="85" height="24" rx="2"/>
-  <text class="lbl" x="125" y="25">R₁</text>
+  <text class="lbl" x="125" y="25">R<tspan dy="5" font-size="10">1</tspan></text>
   <!-- R1 out → top rail of parallel group -->
   <line class="wire" x1="167" y1="25" x2="365" y2="25"/>
 
@@ -28,13 +28,13 @@
   <!-- R2 branch (left parallel branch) -->
   <line class="wire" x1="280" y1="25" x2="280" y2="65"/>
   <rect class="box" x="248" y="65" width="64" height="40" rx="2"/>
-  <text class="lbl" x="280" y="85">R₂</text>
+  <text class="lbl" x="280" y="85">R<tspan dy="5" font-size="10">2</tspan></text>
   <line class="wire" x1="280" y1="105" x2="280" y2="165"/>
 
   <!-- R3 branch (right parallel branch) -->
   <line class="wire" x1="365" y1="25" x2="365" y2="65"/>
   <rect class="box" x="333" y="65" width="64" height="40" rx="2"/>
-  <text class="lbl" x="365" y="85">R₃</text>
+  <text class="lbl" x="365" y="85">R<tspan dy="5" font-size="10">3</tspan></text>
   <line class="wire" x1="365" y1="105" x2="365" y2="165"/>
 
   <!-- Bottom bus: source(−) → R2 bottom → R3 bottom -->
@@ -44,5 +44,5 @@
   <circle cx="280" cy="165" r="4" fill="#1a1a1a"/>
 
   <!-- Label -->
-  <text class="sub" x="215" y="183">Gemischte Schaltung / Mixed Circuit  (R₁ in Reihe mit R₂ ‖ R₃)</text>
+  <text class="sub" x="215" y="183">Gemischte Schaltung / Mixed Circuit  (R<tspan dy="3" font-size="8">1</tspan><tspan dy="-3"> in Reihe mit R</tspan><tspan dy="3" font-size="8">2</tspan><tspan dy="-3"> ‖ R</tspan><tspan dy="3" font-size="8">3</tspan><tspan dy="-3">)</tspan></text>
 </svg>

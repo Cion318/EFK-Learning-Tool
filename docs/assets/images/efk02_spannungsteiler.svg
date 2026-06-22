@@ -17,14 +17,14 @@
   <line class="wire" x1="50" y1="25" x2="140" y2="25"/>
   <!-- R1 -->
   <rect class="box" x="140" y="13" width="70" height="24" rx="2"/>
-  <text class="lbl" x="175" y="25">R₁</text>
+  <text class="lbl" x="175" y="25">R<tspan dy="5" font-size="10">1</tspan></text>
   <!-- R1 → midpoint → R2 top -->
   <line class="wire" x1="210" y1="25" x2="250" y2="25"/>
   <circle cx="250" cy="25" r="4" fill="#1a1a1a"/>
   <line class="wire" x1="250" y1="25" x2="250" y2="50"/>
   <!-- R2 -->
   <rect class="box" x="215" y="50" width="70" height="75" rx="2"/>
-  <text class="lbl" x="250" y="87">R₂</text>
+  <text class="lbl" x="250" y="87">R<tspan dy="5" font-size="10">2</tspan></text>
   <!-- R2 bottom → bottom bus -->
   <line class="wire" x1="250" y1="125" x2="250" y2="175"/>
   <!-- Top bus continuation to right -->
@@ -37,7 +37,7 @@
   <line class="out" x1="250" y1="125" x2="320" y2="125"/>
   <line x1="316" y1="25" x2="320" y2="25" stroke="#0057b8" stroke-width="1.5"/>
   <line x1="316" y1="125" x2="320" y2="125" stroke="#0057b8" stroke-width="1.5"/>
-  <text x="323" y="78" font-family="sans-serif" font-size="12" fill="#0057b8" text-anchor="start">U₂</text>
+  <text x="323" y="78" font-family="sans-serif" font-size="12" fill="#0057b8" text-anchor="start">U<tspan dy="4" font-size="9">2</tspan></text>
   <!-- Label -->
   <text class="sub" x="170" y="205">Spannungsteiler / Voltage Divider</text>
 </svg>
