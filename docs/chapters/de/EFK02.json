@@ -1835,7 +1835,6 @@
       "given": { "R1": "5 Ω", "R2": "10 Ω", "R3": "10 Ω", "R4": "5 Ω", "Uges": "60 V" },
       "searched": "U23 in V",
       "formula_hint": "Schritt 1: R23 = R2||R3; Schritt 2: Rges = R1+R23+R4; Schritt 3: I = Uges/Rges; Schritt 4: U23 = I · R23",
-      "image": "./assets/images/efk02_gemischt.svg",
       "answers": {
         "A": "U23 = 10 V",
         "B": "U23 = 15 V",
