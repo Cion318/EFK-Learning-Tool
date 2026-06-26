@@ -1,0 +1,119 @@
+{
+  "_comment": "Equation tool formula catalog. Each entry is one (expr, solveFor, difficulty) exercise. exprs are physically-correct EFK relationships. The CAS derives the Ideal Solution at runtime by solving expr for solveFor; no hand-authored steps. Variable display names are bilingual (de/en); symbols use subscript-friendly forms (R1, Rges, U2) that the app's fmtTxt() renders (R1 -> R-subscript-1). Intended runtime path: docs/equations/formulas.json",
+  "variables": {
+    "U":    { "name": { "de": "Spannung",             "en": "Voltage" },        "unit": "V" },
+    "U2":   { "name": { "de": "Teilspannung",         "en": "Partial voltage" }, "unit": "V" },
+    "I":    { "name": { "de": "Strom",                "en": "Current" },        "unit": "A" },
+    "R":    { "name": { "de": "Widerstand",           "en": "Resistance" },     "unit": "Ω" },
+    "R1":   { "name": { "de": "Widerstand 1",         "en": "Resistance 1" },   "unit": "Ω" },
+    "R2":   { "name": { "de": "Widerstand 2",         "en": "Resistance 2" },   "unit": "Ω" },
+    "Rges": { "name": { "de": "Gesamtwiderstand",     "en": "Total resistance" }, "unit": "Ω" },
+    "P":    { "name": { "de": "Leistung",             "en": "Power" },          "unit": "W" },
+    "Pab":  { "name": { "de": "Nutzleistung (abgegeben)", "en": "Output power" }, "unit": "W" },
+    "Pzu":  { "name": { "de": "aufgenommene Leistung","en": "Input power" },     "unit": "W" },
+    "W":    { "name": { "de": "Energie",              "en": "Energy" },         "unit": "J" },
+    "t":    { "name": { "de": "Zeit",                 "en": "Time" },           "unit": "s" },
+    "Q":    { "name": { "de": "Ladung",               "en": "Charge" },         "unit": "C" },
+    "eta":  { "name": { "de": "Wirkungsgrad",         "en": "Efficiency" },     "unit": "" }
+  },
+  "formulas": [
+    {
+      "id": "ohm-solve-i",
+      "name": { "de": "Ohmsches Gesetz", "en": "Ohm's Law" },
+      "expr": "U = R * I",
+      "solveFor": "I",
+      "difficulty": "leicht"
+    },
+    {
+      "id": "ohm-solve-r",
+      "name": { "de": "Ohmsches Gesetz", "en": "Ohm's Law" },
+      "expr": "U = R * I",
+      "solveFor": "R",
+      "difficulty": "leicht"
+    },
+    {
+      "id": "power-ui-solve-i",
+      "name": { "de": "Elektrische Leistung", "en": "Electrical Power" },
+      "expr": "P = U * I",
+      "solveFor": "I",
+      "difficulty": "leicht"
+    },
+    {
+      "id": "energy-solve-t",
+      "name": { "de": "Elektrische Energie", "en": "Electrical Energy" },
+      "expr": "W = P * t",
+      "solveFor": "t",
+      "difficulty": "leicht"
+    },
+    {
+      "id": "charge-solve-i",
+      "name": { "de": "Ladung", "en": "Electric Charge" },
+      "expr": "Q = I * t",
+      "solveFor": "I",
+      "difficulty": "leicht"
+    },
+    {
+      "id": "series-solve-r1",
+      "name": { "de": "Reihenschaltung", "en": "Series Resistance" },
+      "expr": "Rges = R1 + R2",
+      "solveFor": "R1",
+      "difficulty": "mittel"
+    },
+    {
+      "id": "power-ir-solve-r",
+      "name": { "de": "Leistung (Strom, Widerstand)", "en": "Power (current, resistance)" },
+      "expr": "P = I^2 * R",
+      "solveFor": "R",
+      "difficulty": "mittel"
+    },
+    {
+      "id": "power-ur-solve-r",
+      "name": { "de": "Leistung (Spannung, Widerstand)", "en": "Power (voltage, resistance)" },
+      "expr": "P = U^2 / R",
+      "solveFor": "R",
+      "difficulty": "mittel"
+    },
+    {
+      "id": "efficiency-solve-pzu",
+      "name": { "de": "Wirkungsgrad", "en": "Efficiency" },
+      "expr": "eta = Pab / Pzu",
+      "solveFor": "Pzu",
+      "difficulty": "mittel"
+    },
+    {
+      "id": "vdivider-solve-u",
+      "name": { "de": "Spannungsteiler", "en": "Voltage Divider" },
+      "expr": "U2 = U * R2 / (R1 + R2)",
+      "solveFor": "U",
+      "difficulty": "mittel"
+    },
+    {
+      "id": "power-ur-solve-u",
+      "name": { "de": "Leistung (Spannung, Widerstand)", "en": "Power (voltage, resistance)" },
+      "expr": "P = U^2 / R",
+      "solveFor": "U",
+      "difficulty": "schwer"
+    },
+    {
+      "id": "power-ir-solve-i",
+      "name": { "de": "Leistung (Strom, Widerstand)", "en": "Power (current, resistance)" },
+      "expr": "P = I^2 * R",
+      "solveFor": "I",
+      "difficulty": "schwer"
+    },
+    {
+      "id": "vdivider-solve-r2",
+      "name": { "de": "Spannungsteiler", "en": "Voltage Divider" },
+      "expr": "U2 = U * R2 / (R1 + R2)",
+      "solveFor": "R2",
+      "difficulty": "schwer"
+    },
+    {
+      "id": "parallel-solve-r2",
+      "name": { "de": "Parallelschaltung (zwei Widerstände)", "en": "Parallel Resistance (two resistors)" },
+      "expr": "Rges = R1 * R2 / (R1 + R2)",
+      "solveFor": "R2",
+      "difficulty": "schwer"
+    }
+  ]
+}
